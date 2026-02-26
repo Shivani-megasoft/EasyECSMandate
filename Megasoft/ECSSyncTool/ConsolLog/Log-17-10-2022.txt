@@ -1,0 +1,60 @@
+17-10-2022 16:01:17  Thread Id 0 fetching_thread_proc Start Do_Work
+17-10-2022 16:01:17  Thread Id 1 Started At 17-10-2022 16:01:17
+17-10-2022 16:01:17  Files Found For Upload...! 
+17-10-2022 16:01:22 D:\Pritam\MandateInwardCheck\Inbox\MMS-CREATE-DCTX-DCTXH2HUSER1-15092022-000027-INP-ACK.zip file found for upload ...!
+17-10-2022 16:01:23  file processing D:\Pritam\MandateInwardCheck\Inbox\MMS-CREATE-DCTX-DCTXH2HUSER1-15092022-000027-INP-ACK.zip...!
+17-10-2022 16:03:00  Thread Id 0 fetching_thread_proc Start Do_Work
+17-10-2022 16:03:00  Thread Id 1 Started At 17-10-2022 16:03:00
+17-10-2022 16:03:00  Files Found For Upload...! 
+17-10-2022 16:03:01 D:\Pritam\MandateInwardCheck\Inbox\MMS-CREATE-DCTX-DCTXH2HUSER1-15092022-000028-INP-ACK.zip file found for upload ...!
+17-10-2022 16:03:01  file processing D:\Pritam\MandateInwardCheck\Inbox\MMS-CREATE-DCTX-DCTXH2HUSER1-15092022-000028-INP-ACK.zip...!
+17-10-2022 16:05:52 Error connecting :D:\Pritam\MandateInwardCheck\Inbox\MMS-CREATE-DCTX-DCTXH2HUSER1-15092022-000028-INP-ACK.zip   Could not find file 'D:\Pritam\MandateInwardCheck\Inbox\MMS-CREATE-DCTX-DCTXH2HUSER1-15092022-000028-INP-ACK.zip'.
+17-10-2022 16:05:52 D:\Pritam\MandateInwardCheck\Inbox\MMS-CREATE-DCTX-DCTXH2HUSER1-19092022-000029-INP-ACK.zip file found for upload ...!
+17-10-2022 16:05:52  file processing D:\Pritam\MandateInwardCheck\Inbox\MMS-CREATE-DCTX-DCTXH2HUSER1-19092022-000029-INP-ACK.zip...!
+17-10-2022 16:08:00  Thread Id 0 fetching_thread_proc Start Do_Work
+17-10-2022 16:08:00  Thread Id 1 Started At 17-10-2022 16:08:00
+17-10-2022 16:08:00  Files Found For Upload...! 
+17-10-2022 16:08:02 1 ReadFiles() Could not find a part of the path 'D:\Pritam\MandateInwardCheck\Verify'.
+17-10-2022 16:08:04  Thread Id 1 Stopped At  4379.2686 MSec or 4.3792686 Sec
+17-10-2022 16:08:34  Thread Id 2 Started At 17-10-2022 16:08:34
+17-10-2022 16:08:34  Files Found For Upload...! 
+17-10-2022 16:08:37 2 ReadFiles() Could not find a part of the path 'D:\Pritam\MandateInwardCheck\Verify'.
+17-10-2022 16:08:39  Thread Id 2 Stopped At  4765.7292 MSec or 4.7657292 Sec
+17-10-2022 16:08:45  Thread Id 2 Check at watchdog_thread_proc D-tool State STOPPED
+17-10-2022 16:09:09  Thread Id 3 Check At do_work Ln 149 D-tool State STOPPED
+17-10-2022 16:10:07  Thread Id 4 Started At 17-10-2022 16:10:07
+17-10-2022 16:10:07  Files Found For Upload...! 
+17-10-2022 16:10:09 D:\Pritam\MandateInwardCheck\Inbox\MMS-CREATE-DCTX-DCTXH2HUSER1-15092022-000026-INP-ACK.zip file found for upload ...!
+17-10-2022 16:10:09  file processing D:\Pritam\MandateInwardCheck\Inbox\MMS-CREATE-DCTX-DCTXH2HUSER1-15092022-000026-INP-ACK.zip...!
+17-10-2022 17:38:20  Thread Id 0 fetching_thread_proc Start Do_Work
+17-10-2022 17:38:20  Thread Id 1 Started At 17-10-2022 17:38:20
+17-10-2022 17:38:20  Files Found For Upload...! 
+17-10-2022 17:38:28 D:\Pritam\MandateInwardCheck\Inbox\MMS-CREATE-DCTX-DCTXH2HUSER1-15092022-000027-INP-ACK.zip file found for upload ...!
+17-10-2022 17:38:28  file processing D:\Pritam\MandateInwardCheck\Inbox\MMS-CREATE-DCTX-DCTXH2HUSER1-15092022-000027-INP-ACK.zip...!
+17-10-2022 17:58:13  Thread Id 0 fetching_thread_proc Start Do_Work
+17-10-2022 17:58:13  Thread Id 1 Started At 17-10-2022 17:58:13
+17-10-2022 17:58:15  Files Found For Upload...! 
+17-10-2022 17:58:15 D:\Pritam\MandateInwardCheck\Inbox\MMS-CREATE-DCTX-DCTXH2HUSER1-15092022-000028-INP-ACK.zip file found for upload ...!
+17-10-2022 17:58:15  file processing D:\Pritam\MandateInwardCheck\Inbox\MMS-CREATE-DCTX-DCTXH2HUSER1-15092022-000028-INP-ACK.zip...!
+17-10-2022 17:58:55 Error connecting :D:\Pritam\MandateInwardCheck\Inbox\MMS-CREATE-DCTX-DCTXH2HUSER1-15092022-000028-INP-ACK.zip   Could not find file 'D:\Pritam\MandateInwardCheck\Inbox\MMS-CREATE-DCTX-DCTXH2HUSER1-15092022-000028-INP-ACK.zip'.
+17-10-2022 17:58:55 D:\Pritam\MandateInwardCheck\Inbox\MMS-CREATE-DCTX-DCTXH2HUSER1-19092022-000029-INP-ACK.zip file found for upload ...!
+17-10-2022 17:58:55  file processing D:\Pritam\MandateInwardCheck\Inbox\MMS-CREATE-DCTX-DCTXH2HUSER1-19092022-000029-INP-ACK.zip...!
+17-10-2022 18:01:31 Error connecting :D:\Pritam\MandateInwardCheck\Inbox\MMS-CREATE-DCTX-DCTXH2HUSER1-19092022-000029-INP-ACK.zip   Could not find file 'D:\Pritam\MandateInwardCheck\Inbox\MMS-CREATE-DCTX-DCTXH2HUSER1-19092022-000029-INP-ACK.zip'.
+17-10-2022 18:01:31 1 ReadFiles() Could not find a part of the path 'D:\Pritam\MandateInwardCheck\Verify'.
+17-10-2022 18:01:33  Thread Id 1 Stopped At  199862.5145 MSec or 199.8625145 Sec
+17-10-2022 18:01:44  Thread Id 1 Check at watchdog_thread_proc D-tool State STOPPED
+17-10-2022 18:22:49  Thread Id 0 fetching_thread_proc Start Do_Work
+17-10-2022 18:22:49  Thread Id 1 Started At 17-10-2022 18:22:49
+17-10-2022 18:22:51  Files Found For Upload...! 
+17-10-2022 18:22:51 1 ReadFiles() Could not find a part of the path 'D:\Pritam\MandateInwardCheck\Verify'.
+17-10-2022 18:22:53  Thread Id 1 Stopped At  4813.2697 MSec or 4.8132697 Sec
+17-10-2022 18:23:23  Thread Id 2 Started At 17-10-2022 18:23:23
+17-10-2022 18:23:26  Files Found For Upload...! 
+17-10-2022 18:23:26 2 ReadFiles() Could not find a part of the path 'D:\Pritam\MandateInwardCheck\Verify'.
+17-10-2022 18:23:28  Thread Id 2 Stopped At  5140.7034 MSec or 5.1407034 Sec
+17-10-2022 18:23:59  Thread Id 3 Started At 17-10-2022 18:23:59
+17-10-2022 18:24:16  Files Found For Upload...! 
+17-10-2022 18:24:16 D:\Pritam\MandateInwardCheck\Inbox\MMS-CREATE-DCTX-DCTXH2HUSER1-15092022-000026-INP-ACK.zip file found for upload ...!
+17-10-2022 18:24:16  file processing D:\Pritam\MandateInwardCheck\Inbox\MMS-CREATE-DCTX-DCTXH2HUSER1-15092022-000026-INP-ACK.zip...!
+17-10-2022 18:29:40  Thread Id 0 fetching_thread_proc Start Do_Work
+17-10-2022 18:29:40  Thread Id 1 Started At 17-10-2022 18:29:40

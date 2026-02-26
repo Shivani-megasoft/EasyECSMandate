@@ -1,0 +1,93 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<form action="~/MandateAcknowledge/GetExcelByDate" method="post" id="frmGenerateExcel">
+    <div class="well">
+        <h3 style="margin-top: -1%; font-weight: bold; font-size: 30px;"> ECS Acknowledge</h3>
+        @*<div class="row">
+            <div class="col-md-2">
+                <b>Request Type: &nbsp;</b>@Html.DropDownList("Type", new SelectList(ViewBag.TypeList, "Id", "Name", "--Select--"), new { @class = "input-sm", @id = "Type" })
+            </div>
+            <div class="col-md-2">
+                <b>Mandate Status:&nbsp;</b>@Html.DropDownList("status", new SelectList(ViewBag.StatusList, "Id", "Name", "--Select--"), new { @class = "input-sm", @id = "status", @style = "margin-left:-3px;" })
+            </div>
+            <div class="col-md-2"style="margin-left: 1%; margin-top: 1%;">
+            <b>Branch:&nbsp;</b>@Html.DropDownList("Branch", new SelectList(ViewBag.BranchList, "Id", "Name", "--Select--"), new { @class = "input-sm", @id = "Branch", @style = "margin-left:-66px; margin-bottom: 17%;margin-left: 46%;" })
+        </div>
+        </div>*@
+
+        <div class="row">
+            <div class="col-md-2">
+                <b>Request Type: &nbsp;</b>@Html.DropDownList("Type", new SelectList(ViewBag.TypeList, "Id", "Name", "--Select--"), new { @class = "input-sm", @id = "Type" })
+            </div>
+            <div class="col-md-2">
+                <b>Mandate Status:&nbsp;</b>@Html.DropDownList("status", new SelectList(ViewBag.StatusList, "Id", "Name", "--Select--"), new { @class = "input-sm", @id = "status", @style = "margin-left:-3px;" })
+            </div>
+            <div class="col-md-3">
+                <b>Branch:&nbsp;</b>@Html.DropDownList("Branch", new SelectList(ViewBag.BranchList, "Id", "Name", "--Select--"), new { @class = "input-sm", @id = "Branch", @style = "margin-left:-3px;margin-bottom: 20%;" })
+            </div>
+            @*<div class="col-md-2">
+                <b>Branch:&nbsp;</b>@Html.DropDownList("Branch", new SelectList(ViewBag.BranchList, "Id", "Name", "--Select--"), new { @class = "input-sm", @id = "Branch", @style = "margin-left:-66px; margin-bottom: 17%; margin-left: 26%;" })
+            </div>*@
+        </div>
+        <div class="row">
+            <div class="col-md-2" @*style = "margin-left:44px;"*@>
+                <b>From Date:</b>&nbsp;@Html.TextBox("FrmDate", "", new { @class = "input-sm date", @Value = ViewBag.FrmDate, @style = "margin-right:-63px;" })
+            </div>
+            <div class="col-md-2" style="margin-left:34px;">
+                <b> To Date:</b>&nbsp; @Html.TextBox("ToDate", "", new { @class = "input-sm date", @Value = ViewBag.ToDate, @style = "margin-right:-90px;" })
+            </div>
+            <div class="col-md-2" style="margin-left: 14%;">
+                <input class="btn btn-success btn-sm" type="button" value="Get List" id="btnGet" />
+                <input class="btn btn-success btn-sm" type="submit" value="Export Excel" id="btnExcel" />
+            </div>
+        </div>
+    </div>
+
+    <div id="dvMandtList"></div>
+</form>
+
+<script type="text/javascript">
+    $dvMandtList = $("#dvMandtList");
+
+    $("#btnGet").click(function () {
+        GetListByStatus($("#Type").val() + $("#FrmDate").val() + $("#ToDate").val());
+    });
+
+   
+    $("#Type").change(function () {
+        var selectedType = $(this).val();
+        if (selectedType === "Inward" || selectedType === "All") {
+            $("#Branch").prop("disabled", true);
+        } else {
+            $("#Branch").prop("disabled", false);
+        }
+    });
+
+    function GetListByStatus(Type, FrmDate, ToDate) {
+        $.ajax({
+            url: "/MandateAcknowledge/GetECSAckByDate",
+            type: "GET",
+            data: "FrmDate=" + $("#FrmDate").val() + "&ToDate=" + $("#ToDate").val() + "&Type=" + $("#Type").val() + "&status=" + $("#status").val() + "&Branch=" + $("#Branch").val(),
+            dataType: 'json',
+            contentType: 'application/json',
+            success: function (result) {
+                //$("#FrmDate").val("");
+                //$("#ToDate").val("");
+                //$("#Type").val("");
+                $dvMandtList.html(result.partialView);
+            }
+        });
+    }
+    $('#startdate').datepicker({
+        dateFormat: 'dd.mm.yy',
+        prevText: '<i class="fa fa-chevron-left"></i>',
+        nextText: '<i class="fa fa-chevron-right"></i>',
+        onSelect: function (selectedDate) {
+            $('#finishdate').datepicker('option', 'minDate', selectedDate);
+        }
+    });
+</script>
+
+
+

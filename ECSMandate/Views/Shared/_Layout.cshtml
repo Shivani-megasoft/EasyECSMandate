@@ -1,0 +1,514 @@
+﻿<!DOCTYPE html>
+@using System.Web.Mvc;
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <!-- Basic Styles -->
+    @*<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>*@
+    <link href="@Url.Content("~/Content/Bootstrap/css/bootstrap.min.css")" rel="stylesheet" type="text/css" media="screen" />
+    <link href="@Url.Content("~/Content/Bootstrap/css/smartadmin-skins.css")" rel="stylesheet" type="text/css" media="screen" />
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" media="screen" />
+    <link href="@Url.Content("~/Content/Bootstrap/css/demo.css")" rel="stylesheet" type="text/css" media="screen" />
+    <link href="@Url.Content("~/Content/Bootstrap/css/font-awesome.min.css")" rel="stylesheet" type="text/css" media="screen" />
+    <link href="@Url.Content("~/Content/Bootstrap/css/smartadmin-production.css")" rel="stylesheet" type="text/css" media="screen" />
+    <link href="@Url.Content("~/Content/Bootstrap/modals.less")" rel="Stylesheet" type="text /css" media="screen" />
+    <link href="@Url.Content("~/Content/Bootstrap/normalize.less")" rel="Stylesheet" type="text /css" media="screen" />
+    <link href="@Url.Content("~/Content/Bootstrap/scaffolding.less")" rel="Stylesheet" type="text /css" media="screen" />
+    <!-- GOOGLE FONT -->
+    @*<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,300,400,700" />*@
+    <script src="@Url.Content("~/Scripts/jquery-1.8.0.min.js")" type="text/javascript"></script>
+    @*<script src="@Url.Content("~/Scripts/jquery-3.7.1.min.js")" type="text/javascript"></script>*@
+    <script src="@Url.Content("~/Scripts/jquery-ui.min.js")" type="text/javascript"></script>
+    @*<script src="@Url.Content("~/Scripts/jquery-1.11.0.min.js")" type="text/javascript"></script>*@
+    @*<script src="@Url.Content("~/Scripts/jquery-3.7.1.min.js")" type="text/javascript"></script>*@
+    <script src="@Url.Content("~/Scripts/jquery.autocomplete.js")" type="text/javascript"></script>
+    @*<script src="@Url.Content("~/Scripts/jquery-ui-1.10.4.custom.min.js")" type="text/javascript"></script>*@
+    @*<script src="@Url.Content("~/Scripts/jquery-ui-3.7.1.custom.min.js")" type="text/javascript"></script>*@
+    <script src="@Url.Content("~/Scripts/jquery-migrate-1.2.1.js  ")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/BootstrapScripts/notification/SmartNotification.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/BootstrapScripts/smartwidgets/jarvis.widget.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/BootstrapScripts/plugin/sparkline/jquery.sparkline.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.validate.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.unobtrusive-ajax.min.js")" type="text/javascript"></script>
+    <script src="../../Scripts/PromptJs/alert.min.js" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/BootstrapScripts/plugin/bootstrap-wizard/jquery.bootstrap.wizard.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/BootstrapScripts/plugin/fuelux/wizard/wizard.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/BootstrapScripts/plugin/morris/raphael.2.1.0.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/BootstrapScripts/plugin/morris/morris.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/BootstrapScripts/plugin/easy-pie-chart/jquery.easy-pie-chart.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/BootstrapScripts/plugin/flot/jquery.flot.cust.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/BootstrapScripts/plugin/flot/jquery.flot.resize.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/BootstrapScripts/plugin/flot/jquery.flot.fillbetween.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/BootstrapScripts/plugin/flot/jquery.flot.orderBar.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/BootstrapScripts/plugin/flot/jquery.flot.pie.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/BootstrapScripts/plugin/flot/jquery.flot.tooltip.js")" type="text/javascript"></script>
+
+    <script src="@Url.Content("~/Scripts/BootstrapScripts/plugin/datatables/jquery.dataTables-cust.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/BootstrapScripts/plugin/datatables/ColReorder.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/BootstrapScripts/plugin/datatables/FixedColumns.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/BootstrapScripts/plugin/datatables/ColVis.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/BootstrapScripts/plugin/datatables/ZeroClipboard.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/BootstrapScripts/plugin/datatables/media/js/TableTools.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/BootstrapScripts/plugin/datatables/DT_bootstrap.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/BootstrapScripts/plugin/jquery-form/jquery-form.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/EasyMandateCommon.js")" type="text/javascript"></script>
+    <style>
+        .linkcolor {
+            color: Yellowgreen;
+        }
+    </style>
+    <style type="text/css">
+
+            /*Ajax css for loding Image*/
+
+        /* Start by setting display:none to make this hidden.
+   Then we position it in relation to the viewport window
+   with position:fixed. Width, height, top and left speak
+   speak for themselves. Background we set to 80% white with
+   our animation centered, and no-repeating */
+        .modal
+        {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: rgba( 255, 255, 255, .8 ) url('@Url.Content("~/Content/Bootstrap/img/ajax-loader.gif")') 50% 50% no-repeat;
+        }
+        <img src="" />
+        /* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+        body.loading
+        {
+            overflow: hidden;
+        }
+
+        /* Anytime the body has the loading class, our
+   modal element will be visible */
+        body.loading .modal
+        {
+            display: block;
+        }
+
+        /*End*/
+    </style>
+    <style>
+
+        .footer {
+            /*position: fixed;*/
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            /*background-color: #1D1560;*/
+            color: white;
+            text-align: center;
+            min-height: 25px;
+            position: fixed; /*absolute !important;*/
+            background-image: linear-gradient(to bottom, #345fa1, #3057b0);
+        }
+    </style>
+</head>
+<body class="desktop-detected pace-done smart-style-3">
+    <!------ Include the above in your HEAD tag ---------->
+
+    <div class="pace  pace-inactive">
+        <div class="pace-progress" data-progress-text="100%" data-progress="99" style="width: 100%;">
+            <div class="pace-progress-inner">
+            </div>
+        </div>
+        <div class="pace-activity">
+        </div>
+    </div>
+
+
+    <header id="header" style="background-image:linear-gradient(to bottom, #345fa1, #3057b0) ">
+        <div id="logo-group">
+            <!-- PLACE YOUR LOGO HERE -->
+
+            <span id="logo"><h3 style="color:white; font-weight:inherit;margin: 7px 0;"> <img src="~/img/cheque-191-612716.png" style="padding-bottom:10px;width:30px" /> <b>Easy<font style="color: #20e6d7; font-family: Britannic Bold">MMS </font></b> </h3> </span>
+            <!-- END LOGO PLACEHOLDER -->
+        </div>
+        <div style="margin-left:18px"><h3><font style="color: white; font-family: Britannic Bold"> @Session["BnkName"] </font></h3></div>
+        <div class="pull-right">
+            @if (ViewBag.PageId != "Account")
+            {
+                <ul class="nav navbar-nav navbar-right navbar-user">
+                    <li class="dropdown user-dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color:white">
+                            <b style=" font-size: medium;">Welcome :</b> <i class="fa fa-user">
+                                <span id="user_info" style="color:White">
+                                    @Session["UserName"]&nbsp;[@Session["LoginId"]]
+                                </span>
+                            </i><b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            @*<li>
+                                    <a href="~/Account/ChangePassword">
+                                        <i class="fa fa-key"></i>&nbsp;
+                                        Change Password
+                                    </a>
+                                </li>*@
+                            <li>
+                                <a href="~/Account/Logout">
+                                    <i class="fa fa-power-off"></i>&nbsp;
+                                    Sign Out
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            }
+        </div>
+
+    </header>
+    <aside id="left-panel"style="width:fit-content">
+        <nav id="menubar">
+            <ul>
+                <li>
+                    <a href="~/Home/Index" title="Home">
+                        <i class="fa fa-lg fa-fw fa-home"></i><span class="menu-item-parent">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><i class="glyphicon glyphicon-import"></i> <span class="menu-item-parent">Inward Mandate</span></a>
+                    <ul>
+                        <li>
+                            <a href="~/UploadData/Index" title="Home">
+                                <i class="glyphicon glyphicon-download-alt "></i><span class="menu-item-parent">Import Data</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="~/MandateCheckData/Index" title="Home">
+                                <i class="fa fa-check-square"></i><span class="menu-item-parent">Check Mandate</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="~/VerifyMandate/Index" title="Home">
+                                <i class="fa fa-check-square"></i><span class="menu-item-parent">Verify Mandate</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="~/RejectMandate/Index" title="Home">
+                                <i class="fa fa-check-square"></i><span class="menu-item-parent">Reject Mandate Regenerate</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="~/UploadCancelMandate/Index" title="Home">
+                                <i class="glyphicon glyphicon-download-alt "></i><span class="menu-item-parent">Import Cancel Mandate</span>
+                            </a>
+                        </li>
+                        @*<li>
+            <a href="~/CheckReturnMandate/Index" title="Home">
+                <i class="fa fa-check-square"></i><span class="menu-item-parent">Returned Mandate</span>
+            </a>
+        </li>*@
+                    </ul>
+                </li>
+                <li>
+
+                    <a href="#"><i class="glyphicon glyphicon-open"></i> <span class="menu-item-parent">Outward Mandate</span></a>
+                    <ul>
+                        <li>
+                            <a href="~/ScanMandate/Index" title="Home">
+                                <i class="glyphicon glyphicon-print"></i><span class="menu-item-parent">Scan Mandate</span>
+                            </a>
+                        </li>
+                        @*<li>
+                                <a href="~/ScanMandate/UploadScanMandate" title="Home">
+                                    <i class="fa fa-cloud-upload"></i><span class="menu-item-parent">Upload Mandate</span>
+                                </a>
+                            </li>*@
+                        <li>
+                            <a href="~/GenerateMandate/Index" title="Home">
+                                <i class="fa fa-edit"></i><span class="menu-item-parent">Input Data</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="~/CancelMandate/Index" title="Home">
+                                <i class="glyphicon glyphicon-remove-sign"></i><span class="menu-item-parent">Cancel Mandate</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="~/AmendMandate/Index" title="Home">
+                                <i class="fa fa-wrench"></i><span class="menu-item-parent">Amend Mandate</span>
+                            </a>
+                        </li>
+                        @*<li>
+                            <a href="~/ACHFilePosting/Index" title="Home">
+                                <i class="fa fa-wrench"></i><span class="menu-item-parent">ECS Posting</span>
+                            </a>
+                        </li>*@
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="~/FileSummary/Index" title="Summary">
+                        <i class="fa fa-lg fa-list-alt"></i> <span class="menu-item-parent">ECS Summary</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="~/MandateAcknowledge/Index" title="Summary">
+                        <i class="fa fa-lg fa-list-alt"></i> <span class="menu-item-parent">ECS Acknowledge</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="~/MandateResponse/Index" title="Summary">
+                        <i class="fa fa-lg fa-list-alt"></i> <span class="menu-item-parent">ECS Response</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="~/ACHInputFile/Index" title="Summary">
+                        <i class="fa fa-lg fa-list-alt"></i> <span class="menu-item-parent">ACH Input File</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <span class="minifyme"> <i class="fa fa-arrow-circle-left hit"></i> </span>
+    </aside>
+    <div id="main" role="main">
+        <!-- RIBBON -->
+        @*<div id="ribbon">
+                <span class="ribbon-button-alignment">
+                    <span id="refresh" class="btn btn-ribbon" data-title="refresh"
+                          rel="tooltip" data-placement="bottom" data-original-title="
+                        <i class='text-warning fa fa-warning'></i> Warning! This will reset all your widget settings."
+                        data-html="true"><i class="fa fa-refresh"></i>
+                    </span>
+                </span>
+                <ol class="breadcrumb">
+                    <li>@ViewBag.main</li>
+                    <li>@ViewBag.submain </li>
+                </ol>
+            </div>*@
+        <!-- END RIBBON -->
+        <!-- MAIN CONTENT -->
+        <div id="content">
+            @RenderBody()
+        </div>
+    </div>
+
+    <!-- poup -->
+    <!-- This is middle grey back ground -->
+    <div class="middleLayer" style="display: none">
+    </div>
+    <!-- This is actual popup-->
+    <div class="newpopup" style="display: none; top: 139.517px;">
+        <div id="ShorcutKeys">
+            @* @Html.Partial("_KeyHint")*@
+        </div>
+    </div>
+    <!-- poup -->
+    <div class="modal">
+        <!-- Place at bottom of page -->
+    </div>
+    <footer>
+        <div class="footer">
+            <div id="status">
+                <code style="float:right; background-color:#e0b6c2">EasyMMS: @ViewBag.EBVersion</code>
+            </div>
+            <div class="note" style="float:left;padding-left:200px; color:#6bfae6;font-size:10px;line-height:19px">
+                &copy; MEGASOFT INFORMATION SYSTEMS PVT. LTD.
+            </div>
+        </div>
+    </footer>
+
+    @*<footer class="footer fixed-bottom footer-dark navbar-border">
+            <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2"><span class="float-md-left d-block d-md-inline-block">Copyright  &copy; 2018 <a class="text-bold-800 grey darken-2" href="https://1.envato.market/pixinvent_portfolio" target="_blank">PIXINVENT </a>, All rights reserved. </span><span class="float-md-right d-block d-md-inline-blockd-none d-lg-block">Hand-crafted & Made with <i class="ft-heart pink"></i></span></p>
+        </footer>*@
+</body>
+</html>
+
+<script type="text/javascript">
+    var $Uindex = $("#Uindex");
+    var $MINdex = $("#MINdex");
+    var $Menu = $("nav ul li");
+
+    $(function () {
+        $(".Fadeout").fadeOut(4000);
+        $(".error").fadeOut(8000);
+
+    });
+
+
+    var $ShorcutKeys = $("#ShorcutKeys");
+
+    function createCookie(name, value, days) {
+        var expires = "";
+        var cookieName = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires =" + date.toGMTString();
+            cookieName = name + "=" + value + expires + ";path = /";
+            document.cookie = cookieName;
+        }
+        else {
+            expires = "";
+            document.cookie = name + "=" + value + expires + ";path = /";
+        }
+    }
+
+    $(function () {
+        applyDatepicker();
+    });
+
+    function applyDatepicker() {
+        $('.date').datepicker({
+            changeMonth: true,
+            changeYear: true,
+            dateFormat: 'dd/mm/yy',
+            prevText: '<i class="fa fa-chevron-left"></i>',
+            nextText: '<i class="fa fa-chevron-right"></i>'
+        }).attr("readonly", false);
+
+
+        // Replace the builtin US date validation with UK date validation
+        $.validator.addMethod(
+            "date",
+            function (value, element) {
+                var bits = value.match(/([0-9]+)/gi), str;
+                if (!bits)
+                    return this.optional(element) || false;
+                str = bits[1] + '/' + bits[0] + '/' + bits[2];
+                return this.optional(element) || !/Invalid|NaN/.test(new Date(str));
+            },
+            ""
+        );
+    }
+
+    // To show error message in popup
+    function PopupError(content) {
+        alert(content);
+        //$.bigBox({
+        //    title: "Error Message:",
+        //    content: content,
+        //    color: "#C46A69",
+        //    icon: "fa fa-warning shake animated",
+        //    //number: "1",
+        //    timeout: 8000
+        //});
+    }
+
+    //To show success message in popup
+    function PopupSuccess(content, isSave) {
+        alert(content);
+        //$.bigBox({
+
+        //    title: "Success Message:",
+        //    content: content,
+        //    color: "#739E73",
+        //    icon: "fa fa-check",
+        //    //number: "4",
+        //    timeout: isSave
+        //});
+    }
+
+
+    //for key press Enter
+    $(function () {
+        EnterKey();
+    });
+
+    function EnterKey() {
+        $("input,select,textarea").keydown(function (event) {
+            if (event.keyCode == 13) {
+                textboxes = $("input,select,textarea");
+                currentBoxNumber = textboxes.index(this);
+                if (textboxes[currentBoxNumber + 1] != null) {
+
+                    if (textboxes[currentBoxNumber + 1].disabled) {
+                        nextBox = textboxes[currentBoxNumber + 3];
+                    }
+                    else {
+                        nextBox = textboxes[currentBoxNumber + 1];
+                    }
+                    // nextBox = textboxes[currentBoxNumber + 1];
+                    nextBox.focus();
+                    nextBox.select();
+                    // event.preventDefault();
+                    return true;
+                }
+                event.preventDefault();
+                return false;
+            }
+        });
+    }
+
+
+
+    //Function to Pad
+    function stringPad(i, l, s) {
+        var o = i.toString();
+        while (o.length < l) {
+            o = s + o;
+        }
+        return o;
+    }
+
+    //for Loading ico
+    $body = $("body");
+
+    $(document).on({
+        ajaxStart: function () { $body.addClass("loading"); },
+        ajaxStop: function () { $body.removeClass("loading"); },
+        beforeSend: function () { $body.addClass("loading"); },
+        complete: function () { $body.removeClass("loading"); }
+    });
+
+    $Menu.on('click', function () {
+        //$body.addClass("loading");
+    });
+
+    //To reset all form controls
+    function Reset(form) {
+        $(form).trigger('reset');
+    }
+
+    //for selection all focus text box
+    $(document).ready(function () {
+        $("input:text").focus(function () { $(this).select(); });
+    });
+
+
+
+
+    jQuery.fn.panno = function () {
+        $(this).mask("aaaaa9999a", { placeholder: "" });
+    }
+
+    jQuery.fn.ifsccode = function () {
+        //$(this).mask("aaaa99", { placeholder: "" });
+    }
+
+    jQuery.fn.numeric = function () {
+        $(this).autoNumeric({ aPad: false, wEmpty: 'zero', aSep: '', mDec: '0' });
+    }
+
+    jQuery.fn.mobileno = function () {
+        $(this).autoNumeric({ aPad: false, wEmpty: 'empty', aSep: '', vMax: '9999999999' });
+    }
+
+    jQuery.fn.adharcardno = function () {
+        $(this).autoNumeric({ aPad: false, wEmpty: 'empty', aSep: '', vMax: '999999999999' });
+    }
+
+
+</script>
+<script type="text/javascript" src="~/Scripts/autoNumeric-1.7.4.js"></script>
+<script src="@Url.Content("~/Scripts/BootstrapScripts/bootstrap/bootstrap.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/BootstrapScripts/demo.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/BootstrapScripts/plugin/masked-input/jquery.maskedinput.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/BootstrapScripts/plugin/select2/select2.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/BootstrapScripts/plugin/bootstrap-slider/bootstrap-slider.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/BootstrapScripts/plugin/msie-fix/jquery.mb.browser.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/BootstrapScripts/plugin/fastclick/fastclick.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/BootstrapScripts/app.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/BootstrapScripts/plugin/ckeditor/ckeditor.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/BootstrapScripts/plugin/jquery-form/jquery-form.min.js")" type="text/javascript"></script>

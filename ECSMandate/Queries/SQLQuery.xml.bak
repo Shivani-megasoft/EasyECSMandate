@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Queries>
+  <Query Id="InsertDeptMaster">    
+    <CommandText>uspInsertDeptMaster</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>
+  <Query Id="GetUserByLoginId">
+    <CommandText>SELECT * from etUserMaster where LoginId=@Id and deleted=0</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetInwardFileById">
+    <CommandText>SELECT * from etinwardfile where Id = @Criteria1 and deleted=0</CommandText>
+    <CommandType>Text</CommandType>
+  </Query> 
+  <Query Id="GetNoteById">
+    <CommandText>SELECT * from  etNoteMaster where id=@Criteria1 and Deleted=0</CommandText>
+    <CommandType>Text</CommandType>
+  </Query> 
+  <Query Id="PopulateDepartment">
+    <CommandText>SELECT * from  etDepartmentMaster where Id=@Criteria1 and Deleted='N' </CommandText>
+    <CommandType>Text</CommandType>
+  </Query> 
+  <Query Id="PopulateDesignation">
+    <CommandText>SELECT * from etdesignationmaster where Id=@Criteria1 and deleted=0</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="PopulateDocType">
+    <CommandText>SELECT * from etDocTypeMaster where Id=@Criteria1 and Deleted=0</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="PopulateOfficer">
+    <CommandText>SELECT * from etOfficerMaster where Id =  @Criteria1 and deleted = 0</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="PopulatePriority">
+    <CommandText>SELECT * from etPrioritymaster where Id = @Criteria1 and deleted = 0 </CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="PopulateStatusById">
+    <CommandText>SELECT * from etStatusMaster where id=@Criteria1 and Deleted= 0</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="PopulateSubOffice">
+    <CommandText>SELECT * from  etSubOfficeMaster where id=@Criteria1 and Deleted= 0 </CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetAll">
+    <CommandText>SELECT * from etFileFlowMaster where deleted = 0</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetAllDepartmentList">
+    <CommandText> SELECT * from etDepartmentMaster where Deleted='N'</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetAllDesignationList">
+    <CommandText>SELECT * from etdesignationmaster where deleted =0</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetAllDocTypeList">
+    <CommandText>SELECT * from etDocTypeMaster where Deleted=0</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetAllInward">
+    <CommandText>SELECT * from etinwardfile where deleted = 0</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetAllInwardByFileTyp">
+    <CommandText>SELECT * from etinwardfile where FileType = @Criteria1 and deleted = 0</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetAllInwardByPriority">
+    <CommandText>SELECT * from etinwardfile where priority  = @Criteria1 and deleted = 0</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetAllInwardByUser">
+    <CommandText>SELECT * from etinwardfile where FileToUser = @Criteria1 and deleted = 0</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetAllNote">
+    <CommandText>SELECT * from etNoteMaster where Deleted= 0</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetAllOfficerList">
+    <CommandText>SELECT * from etOfficerMaster where deleted=0</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetAllPriorityList">
+    <CommandText>SELECT * from etPrioritymaster where deleted =0</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetAllStatusList">
+    <CommandText>SELECT * from  etStatusMaster where Deleted= 0</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetAllSubOfficeList">
+    <CommandText>SELECT * from  etSubOfficeMaster where Deleted= 0</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetDepartment">
+    <CommandText>SELECT * from etDepartmentMaster where Name=@Criteria1 and Deleted='N'</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetDesignation">
+    <CommandText>SELECT * from etdesignationmaster where Name = @Criteria1 and deleted = 0</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetDocType">
+    <CommandText>SELECT * from etDocTypeMaster where Name=@Criteria1 and Deleted=0</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetFileFlow">
+    <CommandText>SELECT * from etFileFlowMaster where FileType = @Criteria1 and deleted = 0</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetInwardByNo">
+    <CommandText>SELECT * from etinwardfile where InwardNo = @Criteria1 and deleted = 0  </CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+
+  <Query Id="GetInwardFileById">
+    <CommandText>SELECT * from etinwardfile where Id = @Criteria1 and deleted = 0  </CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetNote">
+    <CommandText>SELECT * from etNoteMaster where id=@Criteria1 and Deleted= 0</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetNoteById">
+    <CommandText> SELECT * from etNoteMaster where id=@Criteria1 and Deleted= 0  </CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetOfficer">
+    <CommandText>SELECT * from etOfficerMaster where Name = @Criteria1 and deleted = 0  </CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetPriority">
+    <CommandText>SELECT * from etPrioritymaster where Name = @Criteria1 and deleted = 0</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>  
+  <Query Id="GetStatus">
+    <CommandText>SELECT * from etStatusMaster where Name=@Criteria1 and Deleted = 0</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetSubOffice">
+    <CommandText>SELECT * from etSubOfficeMaster where Name=@Criteria1 and Deleted= 0  </CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetPriority">
+    <CommandText>SELECT * from etPrioritymaster where Name = @Criteria1 and deleted = 0</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+
+  <Query Id="DeleteByDepartmentId">
+    <CommandText>UPDATE etDepartmentMaster SET Deleted = 'Y' where Id=@Criteria1 and Deleted ='N'</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="DeleteByDesignationId">
+    <CommandText>UPDATE etdesignationmaster set deleted = 1 where Id =  @Criteria1 and deleted = 0  </CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="DeleteByDocTypeId">
+    <CommandText>UPDATE etDocTypeMaster SET Deleted = 1 where Id=@Criteria1 and Deleted =0</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="DeleteByNoteId">
+    <CommandText>update etNoteMaster set deleted = 1  where id=@Criteria1 and Deleted= 0  </CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+
+  <Query Id="DeleteByOfficerId">
+    <CommandText>UPDATE etOfficerMaster set deleted = 1 where Id =  @Criteria1 and deleted = 0</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="DeleteByPriorityId">
+    <CommandText>UPDATE etPrioritymaster et deleted = 1 where Id =  @Criteria1 and deleted = 0  </CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="DeleteByStatusId">
+    <CommandText>UPDATE etStatusMaster set Deleted= 1 where id=@Criteria1 and Deleted= 0  </CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="DeleteBySubOfficeId ">
+    <CommandText>UPDATE etSubOfficeMaster set deleted =1  where id=@Criteria1 and Deleted= 0 </CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+</Queries>

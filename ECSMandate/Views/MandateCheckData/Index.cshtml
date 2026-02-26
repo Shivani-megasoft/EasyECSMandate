@@ -1,0 +1,128 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("Upload", "MandateCheckData", FormMethod.Post, new { @class = "form-horizontal", @id = "frmMandateForm", role = "login" }))
+{
+
+
+    @*<div class="container-fluid">*@
+        <!-- Page Heading -->
+<div class="well">
+    <h3 style="margin-top: -1%; font-weight: bold; font-size: 30px;"> Check Mandate</h3>
+    <div class="row">
+        <div class="col-lg-12">
+            <!-- Circle Buttons -->
+            <div class="row">
+                <div class="col-md-1">
+                    <label>Batch Size</label>
+                </div>
+                <div class="col-md-1">
+                    <input type="text" class="form-control" value="10" id="batchSize" />
+                </div>
+                <div class="col-md-2">
+                    <button type="button" class="btn btn-success" id="btnReserve">Reserve Batch</button>
+                </div>
+                <div class="col-md-6" style="text-align:right">
+                    <button type="button" class="btn bg-color-greenLight txt-color-white" id="btnShowReserve">Show Reserve Batch</button>
+                </div>
+                <div class="col-md-2">
+                    <button type="button" class="btn btn-warning" id="btnUpdateBatch">Update Batch</button>
+                </div>
+            </div>
+            <div id="divReserveList">
+
+            </div>
+
+        </div>
+
+        @*</div>*@
+    </div>
+</div>
+    @*<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Modal Heading</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        Modal body..
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>*@
+}
+
+
+<script type="text/javascript">
+
+    $divReserveList = $("#divReserveList");
+
+    $("#btnReserve").click(function () {
+        console.log("sdsdf");
+        $.ajax({
+            url: "/MandateCheckData/ReserveECS",
+            type: "GET",
+            data: { BatchSize: $("#batchSize").val() },
+            dataType: 'json',
+            contentType: 'application/json',
+            success: function (result) {
+                $divReserveList.html(result.partialView);
+            }
+        });
+
+    });   
+
+    $("#btnShowReserve").click(function () {
+        $.ajax({
+            url: "/MandateCheckData/ShowReserveECS",
+            type: "GET",
+            data: { BatchSize: $("#batchSize").val() },
+            dataType: 'json',
+            contentType: 'application/json',
+            success: function (result) {
+                $divReserveList.html(result.partialView);
+            }
+        });
+
+    });   
+
+    $('#dialog_simple_daily').dialog({
+        autoOpen: false,
+        width: 1100,
+        resizable: false,
+        modal: true,
+        title: "Daily Position",
+        buttons: [{
+            html: "<i class='fa fa-times'></i>&nbsp; Close",
+            "class": "btn btn-default",
+            click: function () {
+                $(this).dialog("close");
+            }
+        }]
+    });
+
+    $('#datatables').dataTable({
+        "bDestroy": true,
+        "bRetrieve": true,
+        "sPaginationType": "bootstrap",
+        "sDom": "R<'dt-top-row'Clf>r<'dt-wrapper't><'dt-row dt-bottom-row'<'row'<'col-sm-6'i><'col-sm-6 text-right'p>>",
+        "fnInitComplete": function (oSettings, json) {
+            $('.ColVis_Button').addClass('btn btn-default btn-sm').html('Columns <i class="icon-arrow-down"></i>');
+        }
+    });
+
+
+</script>

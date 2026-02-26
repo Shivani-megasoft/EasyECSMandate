@@ -1,0 +1,68 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("Upload", "UploadData", FormMethod.Post, new { @class = "form-horizontal", @id = "frmMandateForm", role = "login" }))
+{
+    
+    <br />
+    <br />
+    <div class="well">
+        <h3 style="margin-top: -1%; font-weight: bold; font-size: 30px;"> Import Data</h3>
+        <div class="row">
+            <div class=" col-lg-6">
+                <div class="editor-label">
+                    <label>
+                        Mandate File Path
+                    </label>
+                </div>
+                <div class="editor-field">
+                    <input type="text" readonly="readonly" class="form-control" value=@ViewBag.Path id="filePath" />
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="editor-label">
+                    <label>&nbsp;</label>
+                </div>
+                <div class="editor-field">
+                    <button type="button" id="btnUpload" class="btn btn-success">
+                        Upload
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="divMandateList">
+
+        </div>
+    </div>
+}
+
+<script type="text/javascript">
+
+    document.getElementById('filePath').value = 'xxxxxxxxxxx';
+    $divMandate = $("#divMandateList");
+
+    $("#btnUpload").click(function () {
+        console.log("upload");
+
+        $.ajax({
+            url: "/UploadData/UploadMandate",
+            type: "GET",
+            data: { FilePath: $("#filePath").val() },
+            dataType: 'json',
+            contentType: 'application/json',
+            success: function (result) {
+                if (result.Response.Status == 3) {
+                    PopupError(result.Response.Message);
+                    return;
+                }
+                else {
+                    $divMandate.html(result.partialView);
+                }
+            }
+        });
+
+    });
+</script>

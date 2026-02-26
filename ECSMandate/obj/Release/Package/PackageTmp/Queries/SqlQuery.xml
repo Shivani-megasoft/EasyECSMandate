@@ -1,0 +1,609 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Queries>
+	<Query Id="GetUserById">
+		<CommandText>uspGetUserById</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetUserByLoginId">
+		<CommandText>uspGetUserByLoginId</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="ReserveECSMandate">
+		<CommandText>uspReserveECSMandate</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetUserListByLoginId">
+		<CommandText>uspGetUserListByLoginId</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+
+	<Query Id="GetMandateById">
+		<CommandText>uspGetMandateById</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetReservedMandate">
+		<CommandText>uspGetReservedMandate</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="UpdateECSBatch">
+		<CommandText>uspUpdateECSMandateBatch</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetMandateForVerify">
+		<CommandText>uspGetMandateForVerify</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+
+	<Query Id="InsertInpHistory">
+		<CommandText>uspInsertMandateInpDetails</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="UpdateInpHistory">
+		<CommandText>uspUpdateMandateInpDetails</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+
+	<Query Id="GetAccountByNo">
+		<CommandText>uspGetAccountByNo</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetAllAcStatus">
+		<CommandText>uspGetAllAcStatus</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+
+	<Query Id="UpdateECSMandate">
+		<CommandText>uspUpdateECSMandate</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetCustomerByCustNo">
+		<CommandText>uspGetCustomerByCustNo</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetMainBalanceByAcNo">
+		<CommandText>uspGetMainBalanceByAcNo</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+
+	<Query Id="AuthReserveECSMandate">
+		<CommandText>USPAUTHRESERVEECSMANDATE</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="InserECSMandate">
+		<CommandText>uspINSERTECSMANDATE</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="UpdateECSMandate">
+		<CommandText>uspUpdateECSMandate</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetUnAuthMandate">
+		<CommandText>uspGetUnAuthMandate</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetAllReason">
+		<CommandText>uspGetAllReason</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+
+	<Query Id="GetH2HConfig">
+		<CommandText>select * from ehconfig where configkey in('BS_SHORTNAME','SS_USERNAME','MNDT_BNK_ACNO','SS_USERNUMBER','Utility_Code','IFSC_CD')</CommandText>
+		<CommandType>Text</CommandType>
+	</Query>
+
+	<Query Id="GetECSByFileName">
+		<CommandText>select * from ebECSMandate where MandateFile=:v_Code and deleted='N'</CommandText>
+		<CommandType>Text</CommandType>
+	</Query>
+	<Query Id="GetCategoryByCd">
+		<CommandText>select * from ebMandateCategoryMaster where CatCode=:v_Code and deleted='N'</CommandText>
+		<CommandType>Text</CommandType>
+	</Query>
+	<Query Id="GetByUmrn">
+		<CommandText>Select * from ebECSMandate where UMRNo=:v_criteria1 and deleted='N'</CommandText>
+		<CommandType>Text</CommandType>
+	</Query>
+	<Query Id="GetNextGlobalId">
+		<CommandText>uspGetNextGlobalId</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="InsertHistory">
+		<CommandText>uspInsertECSHistory</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetUnAuthEntityForBranchByEntityName">
+		<CommandText>uspGetUnAuthEntityForBranchByEntityName</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+
+	<Query Id="InsertUnAuthEntity">
+		<CommandText>uspInsertUnAuthEntity</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetAllECSByStatus">
+		<CommandText>uspGetAllECSByStatusAndByDt</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetAllMandateByNPCI">
+		<CommandText>Select * from ebecsmandate where NPCIFile=:v_Criteria</CommandText>
+		<CommandType>Text</CommandType>
+	</Query>
+	<Query Id="UpdateMandateStatusByNPCIFile">
+		<CommandText>Update ebecsmandate set TrnInd=:v_Criteria2 where NPCIFile=:v_Criteria1</CommandText>
+		<CommandType>Text</CommandType>
+	</Query>
+
+	<Query Id="GetAllCategory">
+		<CommandText>Select * from ebMandateCategoryMaster</CommandText>
+		<CommandType>Text</CommandType>
+	</Query>
+	<!--<Query Id="UpdateUser">
+		<CommandText>uspUpdateUser</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>-->
+
+	<Query Id="GetAllReqMandte">
+		<CommandText>uspGetAllReqMandte</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>	
+	<Query Id="GetEhConfigByField">
+		<CommandText>Select * from ehConfig where ConfigKey=:v_Criteria1</CommandText>
+		<CommandType>Text</CommandType>
+	</Query>
+	<Query Id="GetSysParameterByField">
+		<CommandText>uspGetSysParameterByField</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetAckMandte">
+		<CommandText>uspGetAckMandte</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetAckByMandateId">
+		<CommandText>uspGetAckByMandateId</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetMaxSysControl">
+		<CommandText>uspGetMaxSysControl</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetPrevSysControl">
+		<CommandText>uspGetPrevSysControl</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetSysControlByDt">
+		<CommandText>uspGetSysControlByDt</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+
+	<Query Id="GetAllECSByStartDay">
+		<CommandText>uspGetAllECSByStartDay</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetAllNewECSByStartDay">
+		<CommandText>uspGetAllNewECSByStartDay</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>	
+	<Query Id="GetMaxId">
+		<CommandText>uspGetMaxId</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetHolidayByDate">
+		<CommandText>uspGetHolidayByDate</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="UpdateIdGenerator">
+		<CommandText>uspUpdateIdGenerator</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+
+	<Query Id="GetAllMandateCount">
+		<CommandText>uspGetAllMandateCount</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetKYCStatusById">
+		<CommandText>uspGetKYCStatusById</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetAllKYCStatus">
+		<CommandText>uspGetAllKYCStatus</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetBranchById">
+		<CommandText>uspGetBranchById</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetBranchByCode">
+		<CommandText>uspGetBranchByCode</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetAllBranches">
+		<CommandText>uspGetAllBranches</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GETMANDATEBYSTATUS">
+		<CommandText>USPGETMANDATEBYSTATUS</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+
+	<!--//[CR385]: Day Open, Day Close in CBS Added by Achyut Start-->
+	<Query Id="GetAllSessionByStatus">
+		<CommandText>uspGetAllSessionByStatus</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="InsertSysDayControl">
+		<CommandText>uspInsertSysDayControl</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="UpdateSysDayControl">
+		<CommandText>uspUpdateSysDayControl</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetSysDayControlByDt">
+		<CommandText>uspGetSysDayControlByDt</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetMaxSysDayControl">
+		<CommandText>uspGetMaxSysDayControl</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<!--//[CR385]: Day Open, Day Close in CBS Added by Achyut End-->
+	<Query Id="GetMaxSysControlByBranch">
+		<CommandText>uspGetMaxSysControlByBranch</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+
+	<Query Id="InsertSysControl">
+		<CommandText>uspInsertSysControl</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="UpdateSysControl">
+		<CommandText>uspUpdateSysControl</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetMaxSysControl">
+		<CommandText>uspGetMaxSysControl</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetPrevSysControl">
+		<CommandText>uspGetPrevSysControl</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetSysControlByDt">
+		<CommandText>uspGetSysControlByDt</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetAllSysControlByPrd">
+		<CommandText>uspGetAllSysControlByPrd</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="InsertGSTTransaction">
+		<CommandText>uspInsertGSTTransaction</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="UpdateGSTTransaction">
+		<CommandText>uspUpdateGSTTransaction</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="InsertDailyTransaction">
+		<CommandText>uspInsertDailyTransaction</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="UpdateDailyTransaction">
+		<CommandText>uspUpdateDailyTransaction</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+
+	<Query Id="UpdateDailyTransaction">
+		<CommandText>uspUpdateDailyTransaction</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetIFSCByCode">
+		<CommandText>uspGetIFSCByCode</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetChargesById">
+		<CommandText>uspGetChargesById</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetChargesByChgId">
+		<CommandText>uspGetChargesByChgId</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetAllCharges">
+		<CommandText>uspGetAllCharges</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetAllChargesByChgId">
+		<CommandText>uspGetAllChargesByChgId</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query >
+	<Query Id="GetServiceTaxById">
+		<CommandText>uspGetServiceTaxById</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetServiceTaxByEffectDt">
+		<CommandText>uspGetServiceTaxByEffectDt</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetAllServiceTax">
+		<CommandText>uspGetAllServiceTax</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="InsertGSTTransaction">
+		<CommandText>uspInsertGSTTransaction</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="UpdateGSTTransaction">
+		<CommandText>uspUpdateGSTTransaction</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetAllCessByServTaxId">
+		<CommandText>uspGetAllCessByServTaxId</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetTrnNo">
+		<CommandText>mspGlobalGetTrnNo</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="UpdateMainBalance">
+		<CommandText>uspUpdateMainBalance</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetAllTransactionsBySetNo">
+		<CommandText>uspGetAllTransactionsBySetNo</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetACHFileNames">
+		<CommandText>uspGetACHFileNames</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="INSERTEBTCREDIT">
+		<CommandText>USPINSERTEBTCREDIT</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="UPDATEEBTCREDIT">
+		<CommandText>USPUPDATEEBTCREDIT</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="UpdateDailyTransactionBatch">
+		<CommandText>uspUpdateDailyTransactionBatch</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="UpdateMainBalanceBatch">
+		<CommandText>uspUpdateMainBalanceBatch</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="UpdateEBTCreditBatch">
+		<CommandText>uspUpdateEBTCreditBatch</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetAllUnAuthACHCredit">
+		<CommandText>uspGetAllUnAuthACHCredit</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="RESERVEACHCREDIT">
+		<CommandText>USPRESERVEACHCREDIT</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetACHItemSeqNo">
+		<CommandText>USPGETEBTCREDITITEMSEQNO</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetAccountById">
+		<CommandText>uspGetAccountById</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetAllACHCreditByType">
+		<CommandText>uspGetAllACHCreditByType</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetAllAccTrnByDt">
+		<CommandText>uspGetAllAccTrnByDt</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetACHByFileName">
+		<CommandText>Select * from  ebEBTCredit WHERE InputFileNo=:v_Criteria1</CommandText>
+		<CommandType>Text</CommandType>
+	</Query>
+	<Query Id="GetAllACHByByStatus">
+		<CommandText>Select * from  ebEBTCredit WHERE TrnCode in ('44','67') AND InputFileNo=:v_Criteria2 AND( Stat=:v_Criteria3 OR 'ALL' = :v_Criteria3) AND ProcessDt=:v_Criteria4</CommandText>
+		<CommandType>Text</CommandType>
+	</Query>
+	<Query Id="GetAllGLMasterByBSGrp">
+		<CommandText>uspGetAllGLMasterByBSGrp</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetAllLoanAppByGLCd">
+		<CommandText>uspGetAllLoanAppByGLCd</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetOverdueByGLCd">
+		<CommandText>uspGetOverdueByGLCd</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetGLSavingCurrentById">
+		<CommandText>uspGetGLSavingCurrentById</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetGLTermDepositById">
+		<CommandText>uspGetGLTermDepositById</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetGLLoanCCODById">
+		<CommandText>uspGetGLLoanCCODById</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetAllGLGroup">
+		<CommandText>uspGetAllGLGroup</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetGLGroupById">
+		<CommandText>uspGetGLGroupById</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetAllGLGroupByDBTyp">
+		<CommandText>uspGetAllGLGroupByDBTyp</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetAllGLType">
+		<CommandText>uspGetAllGLType</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetGLTypeById">
+		<CommandText>uspGetGLTypeById</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetAllReturnMandate">
+		<CommandText>SELECT * FROM ebECSMandate WHERE  mandatetyp = 'IW' AND TrnInd ='R' AND MANDATESTATUS = 'Return' AND DELETED = 'N'</CommandText>
+		<CommandType>Text</CommandType>
+	</Query>
+
+	<Query Id="GetAllReturnMandateHistory">
+		<CommandText> SELECT * FROM ebMandateFileHistory	WHERE MndtReqTyp = 'Create'</CommandText>
+		<CommandType>Text</CommandType>
+	</Query>
+
+	<Query Id="GetAllUnExecutedECS">
+		<CommandText>uspGetAllUnExecutedECS</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+
+	<Query Id="GetAchInputDataByMndtId">
+		<CommandText>Select * from ebmandateinstructions WHERE MNDTID=:v_Criteria1</CommandText>
+		<CommandType>Text</CommandType>
+	</Query>
+	<Query Id="InsertACHInputFile">
+		<CommandText>uspInsertACHInputFileDetails</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="UpdateACHInputFile">
+		<CommandText>uspUpdateACHInputFileDetails</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="GetReasonByReasonCode">
+		<CommandText>uspGetReasonByReasonCode</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+
+  
+  <Query Id="GetAllECSByFrmDtAndToDt">
+    <CommandText>uspGetAllECSByFrmDtAndToDt</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>
+
+	<Query Id="GetAllECSByINPFILENAME">
+		<CommandText>USPGETALLECSBYINPFILENAME</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+
+  <Query Id="GetInstructionByMndtIdandDmdDt">
+    <CommandText>Select * from ebmandateinstruction where MndtId=:v_Criteria1 and DmdDt=:v_Criteria2 </CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetMandateInstructionByRefNo">
+    <CommandText>Select * from ebmandateinstruction where RefNo=:v_Criteria1 </CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="InsertMandateInstruction">
+    <CommandText>uspInsertMandateInstruction</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>
+  <Query Id="UpdateMandateInstruction">
+    <CommandText>uspUpdateMandateInstruction</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>
+
+    <Query Id="GetAllMandteResponse">
+    <CommandType>StoredProcedure</CommandType>
+  </Query>
+  <Query Id="InsertECSMandateHistory">
+    <CommandText>uspInsertECSMandateHistory</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>
+  <Query Id="UpdateECSMandateHistory">
+    <CommandText>uspUpdateECSMandateHistory</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>
+  <Query Id="GetECSHistoryByTrnInd">
+    <CommandText>Select * from ebECSMandateHistory where TrnInd =:v_criteria1 and MandateTyp = :v_Criteria2 and deleted='N'</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetMandateHistoryById">
+    <CommandText>
+      Select * from ebECSMandateHistory where  Id = :v_Id and deleted='N'
+    </CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="InsertECSAuditLog">
+    <CommandText>uspInsertECSAuditLog</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>
+  <Query Id="UpdateECSAuditLog">
+    <CommandText>uspUpdateECSAuditLog</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>
+
+  <Query Id="GetMandateByMndtId">
+    <CommandText> Select * from ebECSMandate where  Id = :v_Id and deleted='N' </CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="InsertSms">
+    <CommandText>uspInsertSms_CBS</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>
+  <Query Id="GetAllSmsMessageTemplate">
+    <CommandText>uspGetAllSmsMessageTemplate</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>
+  <Query Id="GetAllAddressByCustId">
+    <CommandText>uspGetAllAddressByCustId</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>
+    <Query Id="GetAllReqMandtebystatus">
+    <CommandText>USPGETALLREQMANDTEBYSTATUS</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>
+
+	<Query Id="GetAllOpInstructions">
+		<CommandText>uspGetAllOpInstructions</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	
+	<Query Id="GetAllECSByStatusandDT">
+		<CommandText>USPGETALLMANDATESBYSTATUSANDBYDT</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+
+
+
+	<!-- Allow One Session Per User End -->
+	<Query Id="GetUserDetailsByUserId">
+		<CommandText>uspGetUserDetailsByUserId</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="InsertUserDetails">
+		<CommandText>uspInsertUserDetails</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="UpdateUserDetails">
+		<CommandText>uspUpdateUserDetails</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+
+	<Query Id="InsertUser">
+		<CommandText>uspInsertUserCBS</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	<Query Id="UpdateUser">
+		<CommandText>uspUpdateUserCBS</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+
+	<Query Id="GetLastLoginHistory">
+		<CommandText>uspGetLastLoginHistory</CommandText>
+		<CommandType>StoredProcedure</CommandType>
+	</Query>
+	
+	
+  
+</Queries>

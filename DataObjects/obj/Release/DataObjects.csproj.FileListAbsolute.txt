@@ -1,0 +1,507 @@
+C:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.dll
+C:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.pdb
+C:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\BusinessObject.dll
+C:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.dll
+C:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.dll
+C:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.dll
+C:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.dll
+C:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.dll
+C:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasySession.dll
+C:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.dll
+C:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+C:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\Microsoft.Practices.Unity.dll
+C:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.pdb
+C:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\BusinessObject.pdb
+C:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.pdb
+C:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.pdb
+C:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.pdb
+C:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.pdb
+C:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.pdb
+C:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasySession.pdb
+C:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\obj\Release\DataObjects.csprojResolveAssemblyReference.cache
+C:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.dll
+C:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.pdb
+D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.dll
+D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.pdb
+D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\BusinessObject.dll
+D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.dll
+D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.dll
+D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.dll
+D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.dll
+D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.dll
+D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasySession.dll
+D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.dll
+D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\Microsoft.Practices.Unity.dll
+D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.pdb
+D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\BusinessObject.pdb
+D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.pdb
+D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.pdb
+D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.pdb
+D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.pdb
+D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.pdb
+D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasySession.pdb
+D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\obj\Release\DataObjects.csprojResolveAssemblyReference.cache
+D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.dll
+D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.pdb
+C:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.dll
+C:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.pdb
+C:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\BusinessObject.dll
+C:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.dll
+C:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.dll
+C:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.dll
+C:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.dll
+C:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.dll
+C:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasySession.dll
+C:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.dll
+C:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+C:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\Microsoft.Practices.Unity.dll
+C:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.pdb
+C:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\BusinessObject.pdb
+C:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.pdb
+C:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.pdb
+C:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.pdb
+C:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.pdb
+C:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.pdb
+C:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasySession.pdb
+C:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\obj\Release\DataObjects.csprojResolveAssemblyReference.cache
+C:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.dll
+C:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.pdb
+C:\Ujala\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.dll
+C:\Ujala\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.pdb
+C:\Ujala\EasyBank-UPCBLatest\DataObjects\bin\Release\BusinessObject.dll
+C:\Ujala\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.dll
+C:\Ujala\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.dll
+C:\Ujala\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.dll
+C:\Ujala\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.dll
+C:\Ujala\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.dll
+C:\Ujala\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasySession.dll
+C:\Ujala\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.dll
+C:\Ujala\EasyBank-UPCBLatest\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Ujala\EasyBank-UPCBLatest\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Ujala\EasyBank-UPCBLatest\DataObjects\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+C:\Ujala\EasyBank-UPCBLatest\DataObjects\bin\Release\Microsoft.Practices.Unity.dll
+C:\Ujala\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.pdb
+C:\Ujala\EasyBank-UPCBLatest\DataObjects\bin\Release\BusinessObject.pdb
+C:\Ujala\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.pdb
+C:\Ujala\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.pdb
+C:\Ujala\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.pdb
+C:\Ujala\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.pdb
+C:\Ujala\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.pdb
+C:\Ujala\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasySession.pdb
+C:\Ujala\EasyBank-UPCBLatest\DataObjects\obj\Release\DataObjects.csprojResolveAssemblyReference.cache
+C:\Ujala\EasyBank-UPCBLatest\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.dll
+C:\Ujala\EasyBank-UPCBLatest\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.pdb
+D:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.dll
+D:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.pdb
+D:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\BusinessObject.dll
+D:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.dll
+D:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.dll
+D:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.dll
+D:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.dll
+D:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.dll
+D:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasySession.dll
+D:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.dll
+D:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\Microsoft.Practices.Unity.dll
+D:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.pdb
+D:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\BusinessObject.pdb
+D:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.pdb
+D:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.pdb
+D:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.pdb
+D:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.pdb
+D:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.pdb
+D:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\bin\Release\EasyBank.Framework.EasySession.pdb
+D:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\obj\Release\DataObjects.csprojResolveAssemblyReference.cache
+D:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.dll
+D:\Ujala\UPCB\EasyBank-UPCBLatest\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.pdb
+D:\Pritam\SourceCode\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.dll
+D:\Pritam\SourceCode\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.pdb
+D:\Pritam\SourceCode\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\BusinessObject.dll
+D:\Pritam\SourceCode\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.dll
+D:\Pritam\SourceCode\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.dll
+D:\Pritam\SourceCode\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.dll
+D:\Pritam\SourceCode\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.dll
+D:\Pritam\SourceCode\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.dll
+D:\Pritam\SourceCode\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasySession.dll
+D:\Pritam\SourceCode\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.dll
+D:\Pritam\SourceCode\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Oracle.DataAccess.dll
+D:\Pritam\SourceCode\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Pritam\SourceCode\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Pritam\SourceCode\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\Pritam\SourceCode\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.Unity.dll
+D:\Pritam\SourceCode\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.pdb
+D:\Pritam\SourceCode\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\BusinessObject.pdb
+D:\Pritam\SourceCode\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.pdb
+D:\Pritam\SourceCode\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.pdb
+D:\Pritam\SourceCode\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.pdb
+D:\Pritam\SourceCode\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.pdb
+D:\Pritam\SourceCode\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.pdb
+D:\Pritam\SourceCode\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasySession.pdb
+D:\Pritam\SourceCode\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csprojResolveAssemblyReference.cache
+D:\Pritam\SourceCode\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.dll
+D:\Pritam\SourceCode\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.pdb
+D:\Ujala\06082021\UPCB\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.dll
+D:\Ujala\06082021\UPCB\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.pdb
+D:\Ujala\06082021\UPCB\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\BusinessObject.dll
+D:\Ujala\06082021\UPCB\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.dll
+D:\Ujala\06082021\UPCB\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.dll
+D:\Ujala\06082021\UPCB\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.dll
+D:\Ujala\06082021\UPCB\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.dll
+D:\Ujala\06082021\UPCB\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.dll
+D:\Ujala\06082021\UPCB\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasySession.dll
+D:\Ujala\06082021\UPCB\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.dll
+D:\Ujala\06082021\UPCB\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Oracle.DataAccess.dll
+D:\Ujala\06082021\UPCB\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Ujala\06082021\UPCB\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Ujala\06082021\UPCB\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\Ujala\06082021\UPCB\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.Unity.dll
+D:\Ujala\06082021\UPCB\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.pdb
+D:\Ujala\06082021\UPCB\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\BusinessObject.pdb
+D:\Ujala\06082021\UPCB\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.pdb
+D:\Ujala\06082021\UPCB\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.pdb
+D:\Ujala\06082021\UPCB\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.pdb
+D:\Ujala\06082021\UPCB\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.pdb
+D:\Ujala\06082021\UPCB\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.pdb
+D:\Ujala\06082021\UPCB\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasySession.pdb
+D:\Ujala\06082021\UPCB\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csprojResolveAssemblyReference.cache
+D:\Ujala\06082021\UPCB\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.dll
+D:\Ujala\06082021\UPCB\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.pdb
+D:\Ujala\06082021\UK\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.dll
+D:\Ujala\06082021\UK\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.pdb
+D:\Ujala\06082021\UK\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\BusinessObject.dll
+D:\Ujala\06082021\UK\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.dll
+D:\Ujala\06082021\UK\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.dll
+D:\Ujala\06082021\UK\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.dll
+D:\Ujala\06082021\UK\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.dll
+D:\Ujala\06082021\UK\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.dll
+D:\Ujala\06082021\UK\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasySession.dll
+D:\Ujala\06082021\UK\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.dll
+D:\Ujala\06082021\UK\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Oracle.DataAccess.dll
+D:\Ujala\06082021\UK\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Ujala\06082021\UK\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Ujala\06082021\UK\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\Ujala\06082021\UK\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.Unity.dll
+D:\Ujala\06082021\UK\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.pdb
+D:\Ujala\06082021\UK\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\BusinessObject.pdb
+D:\Ujala\06082021\UK\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.pdb
+D:\Ujala\06082021\UK\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.pdb
+D:\Ujala\06082021\UK\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.pdb
+D:\Ujala\06082021\UK\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.pdb
+D:\Ujala\06082021\UK\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.pdb
+D:\Ujala\06082021\UK\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasySession.pdb
+D:\Ujala\06082021\UK\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csprojResolveAssemblyReference.cache
+D:\Ujala\06082021\UK\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.dll
+D:\Ujala\06082021\UK\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.pdb
+D:\Vishakha\UP latest code (11-11-2021)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.dll
+D:\Vishakha\UP latest code (11-11-2021)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.pdb
+D:\Vishakha\UP latest code (11-11-2021)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\BusinessObject.dll
+D:\Vishakha\UP latest code (11-11-2021)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.dll
+D:\Vishakha\UP latest code (11-11-2021)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.dll
+D:\Vishakha\UP latest code (11-11-2021)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.dll
+D:\Vishakha\UP latest code (11-11-2021)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.dll
+D:\Vishakha\UP latest code (11-11-2021)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.dll
+D:\Vishakha\UP latest code (11-11-2021)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasySession.dll
+D:\Vishakha\UP latest code (11-11-2021)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.dll
+D:\Vishakha\UP latest code (11-11-2021)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Oracle.DataAccess.dll
+D:\Vishakha\UP latest code (11-11-2021)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Vishakha\UP latest code (11-11-2021)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Vishakha\UP latest code (11-11-2021)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\Vishakha\UP latest code (11-11-2021)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.Unity.dll
+D:\Vishakha\UP latest code (11-11-2021)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.pdb
+D:\Vishakha\UP latest code (11-11-2021)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\BusinessObject.pdb
+D:\Vishakha\UP latest code (11-11-2021)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.pdb
+D:\Vishakha\UP latest code (11-11-2021)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.pdb
+D:\Vishakha\UP latest code (11-11-2021)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.pdb
+D:\Vishakha\UP latest code (11-11-2021)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.pdb
+D:\Vishakha\UP latest code (11-11-2021)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.pdb
+D:\Vishakha\UP latest code (11-11-2021)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasySession.pdb
+D:\Vishakha\UP latest code (11-11-2021)\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csprojResolveAssemblyReference.cache
+D:\Vishakha\UP latest code (11-11-2021)\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.dll
+D:\Vishakha\UP latest code (11-11-2021)\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.pdb
+D:\Vishakha\UP latest code (11-11-2021)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.dll
+D:\Vishakha\UP latest code (11-11-2021)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.pdb
+D:\Vishakha\UP latest code (11-11-2021)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\BusinessObject.dll
+D:\Vishakha\UP latest code (11-11-2021)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.dll
+D:\Vishakha\UP latest code (11-11-2021)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.dll
+D:\Vishakha\UP latest code (11-11-2021)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.dll
+D:\Vishakha\UP latest code (11-11-2021)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.dll
+D:\Vishakha\UP latest code (11-11-2021)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.dll
+D:\Vishakha\UP latest code (11-11-2021)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasySession.dll
+D:\Vishakha\UP latest code (11-11-2021)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.dll
+D:\Vishakha\UP latest code (11-11-2021)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Oracle.DataAccess.dll
+D:\Vishakha\UP latest code (11-11-2021)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Vishakha\UP latest code (11-11-2021)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Vishakha\UP latest code (11-11-2021)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\Vishakha\UP latest code (11-11-2021)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.Unity.dll
+D:\Vishakha\UP latest code (11-11-2021)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.pdb
+D:\Vishakha\UP latest code (11-11-2021)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\BusinessObject.pdb
+D:\Vishakha\UP latest code (11-11-2021)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.pdb
+D:\Vishakha\UP latest code (11-11-2021)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.pdb
+D:\Vishakha\UP latest code (11-11-2021)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.pdb
+D:\Vishakha\UP latest code (11-11-2021)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.pdb
+D:\Vishakha\UP latest code (11-11-2021)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.pdb
+D:\Vishakha\UP latest code (11-11-2021)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasySession.pdb
+D:\Vishakha\UP latest code (11-11-2021)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csprojResolveAssemblyReference.cache
+D:\Vishakha\UP latest code (11-11-2021)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.dll
+D:\Vishakha\UP latest code (11-11-2021)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.pdb
+D:\Vishakha\07-01-2021 (UP code)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.dll
+D:\Vishakha\07-01-2021 (UP code)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.pdb
+D:\Vishakha\07-01-2021 (UP code)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\BusinessObject.dll
+D:\Vishakha\07-01-2021 (UP code)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.dll
+D:\Vishakha\07-01-2021 (UP code)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.dll
+D:\Vishakha\07-01-2021 (UP code)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.dll
+D:\Vishakha\07-01-2021 (UP code)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.dll
+D:\Vishakha\07-01-2021 (UP code)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.dll
+D:\Vishakha\07-01-2021 (UP code)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasySession.dll
+D:\Vishakha\07-01-2021 (UP code)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.dll
+D:\Vishakha\07-01-2021 (UP code)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Oracle.DataAccess.dll
+D:\Vishakha\07-01-2021 (UP code)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Vishakha\07-01-2021 (UP code)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Vishakha\07-01-2021 (UP code)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\Vishakha\07-01-2021 (UP code)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.Unity.dll
+D:\Vishakha\07-01-2021 (UP code)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.pdb
+D:\Vishakha\07-01-2021 (UP code)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\BusinessObject.pdb
+D:\Vishakha\07-01-2021 (UP code)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.pdb
+D:\Vishakha\07-01-2021 (UP code)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.pdb
+D:\Vishakha\07-01-2021 (UP code)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.pdb
+D:\Vishakha\07-01-2021 (UP code)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.pdb
+D:\Vishakha\07-01-2021 (UP code)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.pdb
+D:\Vishakha\07-01-2021 (UP code)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasySession.pdb
+D:\Vishakha\07-01-2021 (UP code)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csproj.AssemblyReference.cache
+D:\Vishakha\07-01-2021 (UP code)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csproj.CoreCompileInputs.cache
+D:\Vishakha\07-01-2021 (UP code)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csproj.CopyComplete
+D:\Vishakha\07-01-2021 (UP code)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.dll
+D:\Vishakha\07-01-2021 (UP code)\Live working code\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.pdb
+D:\26022022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.dll
+D:\26022022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.pdb
+D:\26022022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\BusinessObject.dll
+D:\26022022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.dll
+D:\26022022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.dll
+D:\26022022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.dll
+D:\26022022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.dll
+D:\26022022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.dll
+D:\26022022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasySession.dll
+D:\26022022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.dll
+D:\26022022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Oracle.DataAccess.dll
+D:\26022022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\26022022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\26022022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\26022022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.Unity.dll
+D:\26022022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.pdb
+D:\26022022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\BusinessObject.pdb
+D:\26022022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.pdb
+D:\26022022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.pdb
+D:\26022022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.pdb
+D:\26022022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.pdb
+D:\26022022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.pdb
+D:\26022022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasySession.pdb
+D:\26022022\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csproj.AssemblyReference.cache
+D:\26022022\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csproj.CoreCompileInputs.cache
+D:\26022022\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csproj.CopyComplete
+D:\26022022\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.dll
+D:\26022022\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.pdb
+D:\Vishakha\UP code\22-03-2022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.dll
+D:\Vishakha\UP code\22-03-2022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.pdb
+D:\Vishakha\UP code\22-03-2022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\BusinessObject.dll
+D:\Vishakha\UP code\22-03-2022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.dll
+D:\Vishakha\UP code\22-03-2022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.dll
+D:\Vishakha\UP code\22-03-2022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.dll
+D:\Vishakha\UP code\22-03-2022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.dll
+D:\Vishakha\UP code\22-03-2022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.dll
+D:\Vishakha\UP code\22-03-2022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasySession.dll
+D:\Vishakha\UP code\22-03-2022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.dll
+D:\Vishakha\UP code\22-03-2022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Oracle.DataAccess.dll
+D:\Vishakha\UP code\22-03-2022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Vishakha\UP code\22-03-2022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Vishakha\UP code\22-03-2022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\Vishakha\UP code\22-03-2022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.Unity.dll
+D:\Vishakha\UP code\22-03-2022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.pdb
+D:\Vishakha\UP code\22-03-2022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\BusinessObject.pdb
+D:\Vishakha\UP code\22-03-2022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.pdb
+D:\Vishakha\UP code\22-03-2022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.pdb
+D:\Vishakha\UP code\22-03-2022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.pdb
+D:\Vishakha\UP code\22-03-2022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.pdb
+D:\Vishakha\UP code\22-03-2022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.pdb
+D:\Vishakha\UP code\22-03-2022\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasySession.pdb
+D:\Vishakha\UP code\22-03-2022\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csproj.AssemblyReference.cache
+D:\Vishakha\UP code\22-03-2022\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csproj.CoreCompileInputs.cache
+D:\Vishakha\UP code\22-03-2022\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csproj.CopyComplete
+D:\Vishakha\UP code\22-03-2022\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.dll
+D:\Vishakha\UP code\22-03-2022\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.pdb
+D:\Ujala\LatestCode\UPCB\Oracle\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.dll
+D:\Ujala\LatestCode\UPCB\Oracle\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.pdb
+D:\Ujala\LatestCode\UPCB\Oracle\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\BusinessObject.dll
+D:\Ujala\LatestCode\UPCB\Oracle\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.dll
+D:\Ujala\LatestCode\UPCB\Oracle\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.dll
+D:\Ujala\LatestCode\UPCB\Oracle\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.dll
+D:\Ujala\LatestCode\UPCB\Oracle\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.dll
+D:\Ujala\LatestCode\UPCB\Oracle\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.dll
+D:\Ujala\LatestCode\UPCB\Oracle\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasySession.dll
+D:\Ujala\LatestCode\UPCB\Oracle\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.dll
+D:\Ujala\LatestCode\UPCB\Oracle\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Oracle.DataAccess.dll
+D:\Ujala\LatestCode\UPCB\Oracle\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Ujala\LatestCode\UPCB\Oracle\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Ujala\LatestCode\UPCB\Oracle\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\Ujala\LatestCode\UPCB\Oracle\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.Unity.dll
+D:\Ujala\LatestCode\UPCB\Oracle\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.pdb
+D:\Ujala\LatestCode\UPCB\Oracle\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\BusinessObject.pdb
+D:\Ujala\LatestCode\UPCB\Oracle\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.pdb
+D:\Ujala\LatestCode\UPCB\Oracle\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.pdb
+D:\Ujala\LatestCode\UPCB\Oracle\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.pdb
+D:\Ujala\LatestCode\UPCB\Oracle\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.pdb
+D:\Ujala\LatestCode\UPCB\Oracle\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.pdb
+D:\Ujala\LatestCode\UPCB\Oracle\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasySession.pdb
+D:\Ujala\LatestCode\UPCB\Oracle\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csproj.AssemblyReference.cache
+D:\Ujala\LatestCode\UPCB\Oracle\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csproj.CoreCompileInputs.cache
+D:\Ujala\LatestCode\UPCB\Oracle\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csproj.CopyComplete
+D:\Ujala\LatestCode\UPCB\Oracle\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.dll
+D:\Ujala\LatestCode\UPCB\Oracle\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.pdb
+D:\AKASH\SOURCE_CODE\UPCB\ujala\2\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.dll
+D:\AKASH\SOURCE_CODE\UPCB\ujala\2\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.pdb
+D:\AKASH\SOURCE_CODE\UPCB\ujala\2\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\BusinessObject.dll
+D:\AKASH\SOURCE_CODE\UPCB\ujala\2\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.dll
+D:\AKASH\SOURCE_CODE\UPCB\ujala\2\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.dll
+D:\AKASH\SOURCE_CODE\UPCB\ujala\2\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.dll
+D:\AKASH\SOURCE_CODE\UPCB\ujala\2\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.dll
+D:\AKASH\SOURCE_CODE\UPCB\ujala\2\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.dll
+D:\AKASH\SOURCE_CODE\UPCB\ujala\2\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasySession.dll
+D:\AKASH\SOURCE_CODE\UPCB\ujala\2\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.dll
+D:\AKASH\SOURCE_CODE\UPCB\ujala\2\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Oracle.DataAccess.dll
+D:\AKASH\SOURCE_CODE\UPCB\ujala\2\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\AKASH\SOURCE_CODE\UPCB\ujala\2\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\AKASH\SOURCE_CODE\UPCB\ujala\2\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\AKASH\SOURCE_CODE\UPCB\ujala\2\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.Unity.dll
+D:\AKASH\SOURCE_CODE\UPCB\ujala\2\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.pdb
+D:\AKASH\SOURCE_CODE\UPCB\ujala\2\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\BusinessObject.pdb
+D:\AKASH\SOURCE_CODE\UPCB\ujala\2\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.pdb
+D:\AKASH\SOURCE_CODE\UPCB\ujala\2\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.pdb
+D:\AKASH\SOURCE_CODE\UPCB\ujala\2\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.pdb
+D:\AKASH\SOURCE_CODE\UPCB\ujala\2\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.pdb
+D:\AKASH\SOURCE_CODE\UPCB\ujala\2\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.pdb
+D:\AKASH\SOURCE_CODE\UPCB\ujala\2\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasySession.pdb
+D:\AKASH\SOURCE_CODE\UPCB\ujala\2\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csproj.AssemblyReference.cache
+D:\AKASH\SOURCE_CODE\UPCB\ujala\2\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csproj.CoreCompileInputs.cache
+D:\AKASH\SOURCE_CODE\UPCB\ujala\2\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csproj.CopyComplete
+D:\AKASH\SOURCE_CODE\UPCB\ujala\2\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.dll
+D:\AKASH\SOURCE_CODE\UPCB\ujala\2\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.pdb
+C:\Ujala\UPCB\New\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.dll
+C:\Ujala\UPCB\New\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.pdb
+C:\Ujala\UPCB\New\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\BusinessObject.dll
+C:\Ujala\UPCB\New\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.dll
+C:\Ujala\UPCB\New\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.dll
+C:\Ujala\UPCB\New\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.dll
+C:\Ujala\UPCB\New\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.dll
+C:\Ujala\UPCB\New\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.dll
+C:\Ujala\UPCB\New\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasySession.dll
+C:\Ujala\UPCB\New\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.dll
+C:\Ujala\UPCB\New\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Oracle.DataAccess.dll
+C:\Ujala\UPCB\New\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Ujala\UPCB\New\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Ujala\UPCB\New\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+C:\Ujala\UPCB\New\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.Unity.dll
+C:\Ujala\UPCB\New\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.pdb
+C:\Ujala\UPCB\New\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\BusinessObject.pdb
+C:\Ujala\UPCB\New\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.pdb
+C:\Ujala\UPCB\New\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.pdb
+C:\Ujala\UPCB\New\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.pdb
+C:\Ujala\UPCB\New\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.pdb
+C:\Ujala\UPCB\New\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.pdb
+C:\Ujala\UPCB\New\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasySession.pdb
+C:\Ujala\UPCB\New\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csproj.AssemblyReference.cache
+C:\Ujala\UPCB\New\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csproj.CoreCompileInputs.cache
+C:\Ujala\UPCB\New\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csproj.CopyComplete
+C:\Ujala\UPCB\New\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.dll
+C:\Ujala\UPCB\New\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.pdb
+D:\Ujala\Ujala\UPCB\UPCB\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.dll
+D:\Ujala\Ujala\UPCB\UPCB\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.pdb
+D:\Ujala\Ujala\UPCB\UPCB\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\BusinessObject.dll
+D:\Ujala\Ujala\UPCB\UPCB\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.dll
+D:\Ujala\Ujala\UPCB\UPCB\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.dll
+D:\Ujala\Ujala\UPCB\UPCB\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.dll
+D:\Ujala\Ujala\UPCB\UPCB\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.dll
+D:\Ujala\Ujala\UPCB\UPCB\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.dll
+D:\Ujala\Ujala\UPCB\UPCB\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasySession.dll
+D:\Ujala\Ujala\UPCB\UPCB\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.dll
+D:\Ujala\Ujala\UPCB\UPCB\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Oracle.DataAccess.dll
+D:\Ujala\Ujala\UPCB\UPCB\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Ujala\Ujala\UPCB\UPCB\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Ujala\Ujala\UPCB\UPCB\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\Ujala\Ujala\UPCB\UPCB\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.Unity.dll
+D:\Ujala\Ujala\UPCB\UPCB\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.pdb
+D:\Ujala\Ujala\UPCB\UPCB\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\BusinessObject.pdb
+D:\Ujala\Ujala\UPCB\UPCB\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.pdb
+D:\Ujala\Ujala\UPCB\UPCB\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.pdb
+D:\Ujala\Ujala\UPCB\UPCB\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.pdb
+D:\Ujala\Ujala\UPCB\UPCB\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.pdb
+D:\Ujala\Ujala\UPCB\UPCB\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.pdb
+D:\Ujala\Ujala\UPCB\UPCB\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasySession.pdb
+D:\Ujala\Ujala\UPCB\UPCB\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csproj.AssemblyReference.cache
+D:\Ujala\Ujala\UPCB\UPCB\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csproj.CoreCompileInputs.cache
+D:\Ujala\Ujala\UPCB\UPCB\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csproj.CopyComplete
+D:\Ujala\Ujala\UPCB\UPCB\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.dll
+D:\Ujala\Ujala\UPCB\UPCB\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE (1)\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.pdb
+C:\HSource\Akash-Source\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.dll
+C:\HSource\Akash-Source\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.pdb
+C:\HSource\Akash-Source\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\BusinessObject.dll
+C:\HSource\Akash-Source\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.dll
+C:\HSource\Akash-Source\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.dll
+C:\HSource\Akash-Source\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.dll
+C:\HSource\Akash-Source\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.dll
+C:\HSource\Akash-Source\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.dll
+C:\HSource\Akash-Source\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasySession.dll
+C:\HSource\Akash-Source\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.dll
+C:\HSource\Akash-Source\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Oracle.DataAccess.dll
+C:\HSource\Akash-Source\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\HSource\Akash-Source\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\HSource\Akash-Source\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+C:\HSource\Akash-Source\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.Unity.dll
+C:\HSource\Akash-Source\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.pdb
+C:\HSource\Akash-Source\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\BusinessObject.pdb
+C:\HSource\Akash-Source\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.pdb
+C:\HSource\Akash-Source\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.pdb
+C:\HSource\Akash-Source\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.pdb
+C:\HSource\Akash-Source\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.pdb
+C:\HSource\Akash-Source\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.pdb
+C:\HSource\Akash-Source\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasySession.pdb
+C:\HSource\Akash-Source\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csproj.AssemblyReference.cache
+C:\HSource\Akash-Source\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csproj.CoreCompileInputs.cache
+C:\HSource\Akash-Source\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csproj.CopyComplete
+C:\HSource\Akash-Source\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.dll
+C:\HSource\Akash-Source\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.pdb
+D:\AKASH\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.dll
+D:\AKASH\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.DataLayer.DataObjects.pdb
+D:\AKASH\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\BusinessObject.dll
+D:\AKASH\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.dll
+D:\AKASH\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.dll
+D:\AKASH\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.dll
+D:\AKASH\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.dll
+D:\AKASH\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.dll
+D:\AKASH\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasySession.dll
+D:\AKASH\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.dll
+D:\AKASH\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Oracle.DataAccess.dll
+D:\AKASH\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\AKASH\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\AKASH\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\AKASH\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\Microsoft.Practices.Unity.dll
+D:\AKASH\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Infrastructure.ApplicationSettings.pdb
+D:\AKASH\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\BusinessObject.pdb
+D:\AKASH\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyAttributes.pdb
+D:\AKASH\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyCaching.pdb
+D:\AKASH\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExceptions.pdb
+D:\AKASH\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyExtensions.pdb
+D:\AKASH\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasyLogging.pdb
+D:\AKASH\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\bin\Release\EasyBank.Framework.EasySession.pdb
+D:\AKASH\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csproj.AssemblyReference.cache
+D:\AKASH\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csproj.CoreCompileInputs.cache
+D:\AKASH\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\DataObjects.csproj.CopyComplete
+D:\AKASH\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.dll
+D:\AKASH\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\DataObjects\obj\Release\EasyBank.DataLayer.DataObjects.pdb

@@ -1,0 +1,58 @@
+﻿@using EasyBank.BusinessLayer.Common.Objects
+@model List<UnAuthEntity>
+@{
+    ViewBag.Title = "_UnAuthEntityList";
+}
+
+<style type="text/css">
+    .unAuthList {
+        width: 350px;
+        height: 450px;
+        overflow: auto;
+    }
+
+    .rowCursor {
+        cursor: pointer;
+    }
+</style>
+@using (Html.BeginForm("", "unAuthEntityList", FormMethod.Post, new { @id = "frmunAuthEntityList" }))
+{
+    <div class="form unAuthList">
+        <table id="tblUnAuthEntity" class="grid">
+            <thead>
+                <tr>
+                    <th>
+                        Sr. No
+                    </th>
+                    <th>
+                        Entity Details
+                    </th>
+                    <th>
+                        Operation
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @{int i = 0;
+                    foreach (UnAuthEntity unAuthEntity in Model)
+                    {
+                        i = i + 1;
+                        <tr id="@unAuthEntity.Id.ToString()" class="rowCursor">
+                            <td>
+                                @i.ToString()
+                        </td>
+                        <td>
+                            @unAuthEntity.EntityDetails
+                    </td>
+                    <td>
+                        @(unAuthEntity.IsNewEntity ? "New" : "Update")
+                </td>
+                @Html.Hidden("Entity", unAuthEntity.Entity)
+            </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+                    }
+

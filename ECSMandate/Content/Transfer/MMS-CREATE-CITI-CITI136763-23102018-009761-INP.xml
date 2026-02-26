@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.009.001.01">
+	<MndtInitnReq>
+		<GrpHdr>
+			<MsgId>8997329</MsgId>
+			<CreDtTm>2018-10-23T14:13:28</CreDtTm>
+			<InstgAgt>
+				<FinInstnId>
+					<ClrSysMmbId>
+						<MmbId>CITI000PIGW</MmbId>
+					</ClrSysMmbId>
+					<Nm>CITIBANK N A</Nm>
+				</FinInstnId>
+			</InstgAgt>
+			<InstdAgt>
+				<FinInstnId>
+					<ClrSysMmbId>
+						<MmbId>TDCB0000043</MmbId>
+					</ClrSysMmbId>
+					<Nm>THANE DISTRICT CENTRAL COOP BANK</Nm>
+				</FinInstnId>
+			</InstdAgt>
+		</GrpHdr>
+		<Mndt>
+			<MndtId>TDCB0000000000097487</MndtId>
+			<MndtReqId>8997329</MndtReqId>
+			<Tp>
+				<SvcLvl>
+					<Prtry>I001</Prtry>
+				</SvcLvl>
+				<LclInstrm>
+					<Prtry>DEBIT</Prtry>
+				</LclInstrm>
+			</Tp>
+			<Ocrncs>
+				<SeqTp>RCUR</SeqTp>
+				<Frqcy>ADHO</Frqcy>
+				<FrstColltnDt>2018-06-15</FrstColltnDt>
+			</Ocrncs>
+			<MaxAmt Ccy="INR">12541</MaxAmt>
+			<Cdtr>
+				<Nm>ICICI PRUDENTIAL LIFE INSURANCE CO LTD</Nm>
+			</Cdtr>
+			<CdtrAcct>
+				<Id>
+					<Othr>
+						<Id>CITI00002000000037</Id>
+					</Othr>
+				</Id>
+			</CdtrAcct>
+			<CdtrAgt>
+				<FinInstnId>
+					<ClrSysMmbId>
+						<MmbId>CITI000PIGW</MmbId>
+					</ClrSysMmbId>
+					<Nm>CITIBANK N A</Nm>
+				</FinInstnId>
+			</CdtrAgt>
+			<Dbtr>
+				<Nm>VIJAY DESHMUKH</Nm>
+				<Id>
+					<PrvtId>
+						<Othr>
+							<Id>23423040</Id>
+							<SchmeNm>
+								<Prtry>NA</Prtry>
+							</SchmeNm>
+						</Othr>
+					</PrvtId>
+				</Id>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>004300300027045</Id>
+					</Othr>
+				</Id>
+				<Tp>
+					<Prtry>SAVINGS</Prtry>
+				</Tp>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<ClrSysMmbId>
+						<MmbId>TDCB0000043</MmbId>
+					</ClrSysMmbId>
+					<Nm>THANE DISTRICT CENTRAL COOP BANK</Nm>
+				</FinInstnId>
+			</DbtrAgt>
+		</Mndt>
+	</MndtInitnReq>
+</Document>

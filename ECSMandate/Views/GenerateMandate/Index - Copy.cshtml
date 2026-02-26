@@ -1,0 +1,700 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<script>
+    //$(function () {
+    //    $(".date").datepicker({
+    //        autoclose: true,
+    //        todayHighlight: true
+    //    });
+    //});
+    !function ($) {
+
+        "use strict"; // jshint ;_;
+        /* MAGNIFY PUBLIC CLASS DEFINITION
+         * =============================== */
+
+        var Magnify = function (element, options) {
+            this.init('magnify', element, options)
+        }
+
+        Magnify.prototype = {
+
+            constructor: Magnify
+
+            , init: function (type, element, options) {
+                var event = 'mousemove'
+                    , eventOut = 'mouseleave';
+
+                this.type = type
+                this.$element = $(element)
+                this.options = this.getOptions(options)
+                this.nativeWidth = 0
+                this.nativeHeight = 0
+
+                this.$element.wrap('<div class="magnify" \>');
+                this.$element.parent('.magnify').append('<div class="magnify-large" \>');
+                this.$element.siblings(".magnify-large").css("background", "url('" + this.$element.attr("src") + "') no-repeat");
+
+                this.$element.parent('.magnify').on(event + '.' + this.type, $.proxy(this.check, this));
+                this.$element.parent('.magnify').on(eventOut + '.' + this.type, $.proxy(this.check, this));
+            }
+
+            , getOptions: function (options) {
+                options = $.extend({}, $.fn[this.type].defaults, options, this.$element.data())
+
+                if (options.delay && typeof options.delay == 'number') {
+                    options.delay = {
+                        show: options.delay
+                        , hide: options.delay
+                    }
+                }
+
+                return options
+            }
+
+            , check: function (e) {
+                var container = $(e.currentTarget);
+                var self = container.children('img');
+                var mag = container.children(".magnify-large");
+
+                // Get the native dimensions of the image
+                if (!this.nativeWidth && !this.nativeHeight) {
+                    var image = new Image();
+                    image.src = self.attr("src");
+
+                    this.nativeWidth = image.width;
+                    this.nativeHeight = image.height;
+
+                } else {
+
+                    var magnifyOffset = container.offset();
+                    var mx = e.pageX - magnifyOffset.left;
+                    var my = e.pageY - magnifyOffset.top;
+
+                    if (mx < container.width() && my < container.height() && mx > 0 && my > 0) {
+                        mag.fadeIn(100);
+                    } else {
+                        mag.fadeOut(100);
+                    }
+
+                    if (mag.is(":visible")) {
+                        var rx = Math.round(mx / container.width() * this.nativeWidth - mag.width() / 2) * -1;
+                        var ry = Math.round(my / container.height() * this.nativeHeight - mag.height() / 2) * -1;
+                        var bgp = rx + "px " + ry + "px";
+
+                        var px = mx - mag.width() / 2;
+                        var py = my - mag.height() / 2;
+
+                        mag.css({ left: px, top: py, backgroundPosition: bgp });
+                    }
+                }
+
+            }
+        }
+
+
+        /* MAGNIFY PLUGIN DEFINITION
+         * ========================= */
+
+        $.fn.magnify = function (option) {
+            return this.each(function () {
+                var $this = $(this)
+                    , data = $this.data('magnify')
+                    , options = typeof option == 'object' && option
+                if (!data) $this.data('tooltip', (data = new Magnify(this, options)))
+                if (typeof option == 'string') data[option]()
+            })
+        }
+
+        $.fn.magnify.Constructor = Magnify
+
+        $.fn.magnify.defaults = {
+            delay: 0
+        }
+
+
+        /* MAGNIFY DATA-API
+         * ================ */
+
+        $(window).on('load', function () {
+            $('[data-toggle="magnify"]').each(function () {
+                var $mag = $(this);
+                $mag.magnify()
+            })
+        })
+
+    }(window.jQuery);
+
+</script>
+
+<style>
+    .card-default {
+        color: #333;
+        background: linear-gradient(#fff,#ebebeb) repeat scroll 0 0 transparent;
+        font-weight: 600;
+        border-radius: 6px;
+    }
+
+    .mag {
+        width: 500px;
+        margin: 0 auto;
+        float: none;
+    }
+
+        .mag img {
+            max-width: 100%;
+        }
+
+    .magnify {
+        position: relative;
+        cursor: none;
+    }
+
+    .magnify-large {
+        position: absolute;
+        display: none;
+        width: 300px;
+        height: 300px;
+        -webkit-box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+        -moz-box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+        box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        border-radius: 100%;
+    }
+
+    .form-group {
+        margin-bottom: 0.5rem;
+    }
+
+    .control-label {
+        font-weight: normal;
+    }
+
+    .editor-label {
+        font-weight: bold;
+    }
+</style>
+
+@using (Html.BeginForm("Upload", "ScanMandate", FormMethod.Post, new { @class = "form-horizontal", @id = "frmGenerateMandate", role = "login" }))
+{
+    <input type="hidden" value="@ViewBag.GreyImg" id="ImageName" name="ImageName" />
+    <input type="hidden" id="SpnsrBnkCd" value="" />
+    <div class="row">
+
+        <div class="col-sm-6">
+            <input class="btn btn-default btn-sm" type="button" value="Edit" id="btnEdit" style="width:100px" />
+            <input class="btn btn-success btn-sm" type="button" value="Save" id="btnSave" style="width:100px" />
+            <input class="btn btn-danger  btn-sm" type="button" value="Delete Image" id="btnFetch" />
+
+        </div>
+        <div class="col-sm-6" style="text-align:right">
+            <input class="btn btn-warning btn-sm" type="button" value="Un-Authenticated" id="btnUnAuth" />
+            <input class="btn btn-success btn-sm" type="button" value="Authenticate" id="btnAuth" disabled="disabled" />
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-sm-2" style="margin-right:-11px;padding:2px">
+            <div class="well" style="padding:8px;height:335px">
+                @Html.ListBox("MandateList", new SelectList(ViewBag.MandateList, "Id", "MandateFile"), new { @style = "height:100%;width:100%" })
+            </div>
+        </div>
+        <div class="col-sm-8" id="magnify">
+            <div class="well" style="height:330px">
+                <div class="col-sm-12" style="text-align:center">
+                    <img data-toggle="magnify" id="scanImg" src="~/img/ScanMandate/@ViewBag.GreyImg" alt="my image" style="width:100%;height:300px;" />
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-2" id="magnify">
+            <div class="well" style="padding:8px;height:335px">
+                <div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="well">
+            <div class="row">
+                <div class="col-lg-7">
+
+                    <div class="editor-field">
+                        <table id="tblCrAcc" style="width:100%">
+                            <tr>
+                                <td style="width:122px">
+                                    <label> Customer A/c</label>
+                                </td>
+                                <td style="width:65px">
+                                    @Html.TextBox("CrBrnCd", "", new { @id = "CrBrnCd", @class = "form-control input-sm", @placeholder = "BrnCd", @maxlength = 4, })
+                                </td>
+                                <td style="width:75px;padding-left:10px">
+                                    @Html.TextBox("CrGlCd", "", new { @id = "CrGlCd", @class = "form-control input-sm", @placeholder = "GLCd", @maxlength = 4 })
+                                </td>
+                                <td style="width:150px;padding-left:10px">
+                                    @Html.TextBox("CrAcNo", "", new { @id = "CrAcNo", @class = "form-control input-sm", @placeholder = "Account No", @style = "width:150px", @maxlength = 7 })
+                                </td>
+                                <td style="padding-left:10px">
+                                    @Html.TextBox("CrName", "", new { @id = "CrName", @class = "form-control input-sm", @placeholder = "Name", @disabled = "disabled", @style = "background-color:#eef0a2;color:#416c32;font-weight:bold" })
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <table>
+                        <tr>
+                            <td style="width:90px">
+                                <label>Mobile No &nbsp; &nbsp; </label>
+                            </td>
+                            <td>
+                                <div class="editor-field">
+                                    @Html.TextBox("Mobile", "", new { @id = "Mobile", @style = "width:150px", @class = "form-control input-sm", @maxlength = 10, @minlength = 10 })
+                                </div>
+                            </td>
+                            <td style="width:90px;padding-left:10px">
+                                <label>EMail &nbsp; &nbsp; </label>
+                            </td>
+                            <td>
+                                <div class="editor-field">
+                                    @Html.TextBox("EMail", "", new { @id = "EMail", @style = "width:150px", @class = "form-control input-sm", @maxlength = 30 })
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-lg-12">
+                    <table>
+                        <tr>
+                            <td style="width:120px">
+                                <label>
+                                    Debitor A/c Typ
+                                </label>
+                            </td>
+                            <td class="editor-field">
+                                @Html.DropDownList("AcTyp", new SelectList(ViewBag.AcTypList, "Key", "Value"), new { @id = "AcTyp", @class = "form-control input-sm", @style = "width: 147px;" })<i></i>
+                            </td>
+                            <td style="padding-left:10px; width:163px">
+                                <label>
+                                    Debitor Bank A/c
+                                </label>
+                            </td>
+                            <td class="editor-field">
+                                @Html.TextBox("AcNo", "", new { @id = "AcNo", @class = "form-control input-sm", @style = "width: 150px;", @maxlength = 20 })
+                            </td>
+                            <td style="padding-left:10px; width:150px">
+                                <label>
+                                    Mandate Amount
+                                </label>
+                            </td>
+                            <td style="padding-left:10px;width : 90px">
+                                @Html.TextBox("Amt", "", new { @id = "Amt", @class = "form-control input-sm", @placeholder = "Amount", @style = "width:105px", @maxlength = 18 })
+                            </td>
+
+                            <td style="width:20px"></td>
+                            <td style="width:120px;padding-left:20px">
+                                @Html.TextBox("AmtWord", "", new { @id = "AmtWord", @class = "form-control input-sm", @disabled = "disabled", @style = "background-color:#eef0a2;color:#416c32;font-weight:bold;margin-left:-27px;width:390px" })
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-lg-12">
+                    <table>
+                        <tr>
+                            <td style="width:123px">
+                                <label>
+                                    UMR Date
+                                </label>
+                            </td>
+                            <td style="width:65px">
+                                @Html.TextBox("UMRDt", "", "{0:dd/MM/yyyy}", new { @id = "UMRDt", @class = "form-control input-sm date", @style = "width:142px" })
+                            </td>
+
+                            <td style="padding-left:10px; width:163px">
+                                <label>
+                                    Installment Date
+                                </label>
+                            </td>
+                            <td class="editor-field">
+                                @Html.TextBox("ExecDt", "", "{0:dd/MM/yyyy}", new { @id = "ExecDt", @class = "form-control input-sm date", @style = "width: 150px;" })
+                            </td>
+
+                            <td style="padding-left: 10px; width:150px">
+                                <label>
+                                    Debitor IFSC
+                                </label>
+                            </td>
+
+                            <td style="padding-left:10px">
+                                @Html.TextBox("BnkCd", "", new { @id = "BnkCd", @class = "form-control input-sm", @style = "width:110px;text-transform:uppercase", @maxlength = 11 })
+                            </td>
+                            <td colspan="2" style="padding-left:10px; width:305px">
+                                @Html.TextBox("BankName", "", new { @id = "BankName", @class = "form-control input-sm", @readonly = "readonly", @style = "width:390px;text-transform:uppercase", @maxlength = 30 })
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-lg-12">
+                    <table>
+                        <tr>
+                            <td style="width:120px">
+                                <label>
+                                    Frequency
+                                </label>
+                            </td>
+                            <td>
+                                <div class="editor-field">
+                                    @Html.DropDownList("Freq", new SelectList(ViewBag.FrqList, "Key", "Value"), new { @id = "Freq", @class = "form-control input-sm", @style = "width:145px" })<i></i>
+                                </div>
+                            </td>
+                            <td style="padding-left:10px; width:165px">
+                                <label>
+                                    Debitor Name
+                                </label>
+                            </td>
+                            <td>
+                                <div class="editor-field">
+                                    @Html.TextBox("DebtrName", "", new { @id = "DebtrName", @class = "form-control input-sm", @style = "width:150px;text-transform:uppercase" })
+                                </div>
+                            </td>
+                            <td style="padding-left:10px; width:155px">
+                                <label>
+                                    Sequence
+                                </label>
+                            </td>
+                            <td>
+                                <div class="editor-field">
+                                    @Html.DropDownList("Seq", new SelectList(ViewBag.seqList, "Key", "Value"), new { @id = "Seq", @class = "form-control input-sm", @style = "width:110px" })<i></i>
+                                </div>
+                            </td>
+                            <td style="padding-left: 10px; width: 80px">
+                                <label>
+                                    Debit Typ
+                                </label>
+                            </td>
+                            <td>
+                                <div class="editor-field">
+                                    @Html.DropDownList("DebitTyp", new SelectList(ViewBag.DrTypList, "Key", "Value"), new { @id = "DebitTyp", @class = "form-control input-sm", @style = "width:100px" })<i></i>
+                                </div>
+                            </td>
+                            <td style="padding-left:10px; width:80px">
+                                <label>
+                                    Category
+                                </label>
+                            </td>
+                            <td>
+                                <div class="editor-field">
+                                    @Html.DropDownList("Category", new SelectList(ViewBag.CategoryList, "CatCode", "Descrp"), new { @id = "Category", @class = "form-control input-sm", @style = "width:143px" })<i></i>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-lg-12">
+                    <table>
+                        <tr>
+                            <td style="width:120px">
+                                <label>
+                                    From Period
+                                </label>
+                            </td>
+                            <td>
+                                <div class="editor-field">
+                                    @Html.TextBox("FrmPrd", "", new { @id = "FrmPrd", @class = "form-control input-sm date", @style = "width:145px" })
+                                </div>
+                            </td>
+
+                            <td style="padding-left:10px; width:165px">
+                                <label>
+                                    To Period
+                                </label>
+                            </td>
+                            <td>
+                                <div class="editor-field">
+                                    @Html.TextBox("ToPrd", "", new { @id = "ToPrd", @class = "form-control input-sm date", @style = "width:150px" })
+                                </div>
+                            </td>
+                            <td style="padding-left:10px; width:10px"></td>
+                            <td>
+                                <div class="editor-field" style="width:85px">
+                                    <label class="control-label" style="text-align:left"> @Html.CheckBox("UntilCancel", false, new { @id = "UntilCancel", @readonly = "readonly" }) Until Cancel</label>
+                                </div>
+                            </td>
+                            <td style="padding-left:10px; width:60px"></td>
+                            <td>
+                                <div class="editor-field">
+                                    @Html.TextBox("RefNo1", "", new { @id = "RefNo1", @placeholder = "Reference 1", @class = "form-control input-sm", @style = "width:250px" })
+                                </div>
+                            </td>
+                            <td style="padding-left:10px; width:10px"></td>
+                            <td>
+                                <div class="editor-field">
+                                    @Html.TextBox("RefNo2", "", new { @id = "RefNo2", @placeholder = "Reference 2", @class = "form-control input-sm", @style = "width:250px" })
+                                </div>
+                            </td>
+                        </tr>
+                        <tr  style="display:none">
+                            <td style="padding-left:10px; width:10px"></td>
+                            <td>
+                                <div class="editor-field">
+                                    @Html.TextBox("IsNew", "", new { @id = "IsNew", @placeholder = "IsNew", @class = "form-control input-sm", @style = "width:250px" })
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+<script type="text/javascript">
+
+    $(function () {
+        $("#MandateList").attr("disabled", "disabled");
+        $("#UntilCancel").attr("readonly", true);
+        $("#UntilCancel").attr("readonly", "readonly");
+        console.log("sddsf" + $("#ImageName").val());
+
+        if ($("#ImageName").val() == "") {
+            $("#btnSave").attr("disabled", "disabled");
+           // $("#btnEdit").attr("disabled", "disabled");
+        }
+        $("#BankName").val('');
+        $("#BnkCd").ifsccode();
+        $("#Mobile").mobileno();
+        $("#Amt").numeric();
+    });
+
+    $("#Mobile").on("change", function () {
+        if ($("#Mobile").val().length != 10) $("#Mobile").val('');
+    });
+
+    $("#BnkCd").on("change", function () {
+
+        $.ajax({
+            url: "/GenerateMandate/ValidateIFSC",
+            type: "POST",
+            data: "IFSCCode=" + $("#BnkCd").val(),
+            dataType: 'json',
+            success: function (result) {
+
+                if (result.Status === 0) {
+                    $("#BankName").val(result.Item.BnkName);
+                }
+                else {
+                    $("#BankName").val('');
+                    PopupError(result.Message);
+                    return;
+                }
+            }
+        });
+    });
+
+    $("#CrBrnCd").on("change", function () {
+        $(this).val(pad($(this).val(), 4, '0'));
+    });
+    $("#CrGlCd").on("change", function () {
+        $(this).val(pad($(this).val(), 4, '0'));
+    });
+
+    $("#UntilCancel").on("change", function () {
+        if ($("#UntilCancel").is(':checked')) {
+            $("#UntilCancel").prop('checked', true);
+            $("#UntilCancel").val(true);
+            $("#ToPrd").val('');
+            $("#ToPrd").prop('disabled', true);
+
+        }
+        else {
+            if ($("#UntilCancel").not(':checked')) {
+
+                $("#UntilCancel").removeAttr('checked');
+                $("#UntilCancel").val(true);
+                /*$("#FrmPrd").val('');*/
+                $("#FrmPrd").prop('disabled', false);
+                $("#ToPrd").val('');
+                $("#ToPrd").prop('disabled', false);
+            }
+        }
+    });
+
+    $("#CrAcNo").on("change", function () {
+        $(this).val(pad($(this).val(), 7, '0'));
+        $.ajax({
+            url: "/GenerateMandate/ValidateCrAccount",
+            type: "POST",
+            data: "BrnCd=" + $("#CrBrnCd").val() + "&GlCd=" + $("#CrGlCd").val() + "&AcNo=" + $("#CrAcNo").val(),
+            dataType: 'json',
+            success: function (result) {
+                console.log(result);
+                $("#CrName").val("");
+                $("#SpnsrBnkCd").val("");
+                if (result.Status == 2) {
+
+                    PopupError(result.Message);
+                    return;
+                }
+                else {
+                    $("#CrName").val(result.Item.Name);
+                    $("#SpnsrBnkCd").val(result.Item.IFSCCode);
+                }
+            }
+        });
+    });
+    function pad(number, length, char) {
+
+        var str = '' + number;
+        while (str.length < length) {
+            str = char + str;
+        }
+        return str;
+    }
+    $("#btnUnAuth").on("click", function () {
+        if ($("#btnUnAuth").val() !== "Cancel") {
+            $("#MandateList").removeAttr("disabled");
+            $("#btnSave").attr("disabled", "disabled");
+            $("#btnEdit").attr("enable", "enable");
+            $("#btnFetch").attr("disabled", "disabled");
+        }
+        else {
+            $("#btnUnAuth").val('Un-Authenticated');
+            $("#MandateList").attr("disabled", "disabled");
+        }
+    });
+
+
+    $("#MandateList").on("click", function () {
+
+        if ($(this).val() === null)
+            return;
+
+        $.ajax({
+            url: "/GenerateMandate/GetMandateById",
+            type: "POST",
+            data: "Id=" + $(this).val(),
+            dataType: 'json',
+
+            success: function (result) {
+
+                $("#scanImg").val("");
+                $("#scanImg").attr("src", "");
+                console.log("sdfdsf" + result.Item.ImgSrc);
+                $("#scanImg").attr("src", result.Item.ImgSrc);
+                $("#magnify-large").attr("src", result.Item.ImgSrc);
+                bindFormData("#frmGenerateMandate", result.Item.Mandate);
+                $("#btnAuth").removeAttr("disabled");
+                $("#CrName").val(result.Item.Name);
+                $("#AmtWord").val(result.Item.AmtInWord);
+                $("#scanImg").magnify();
+                $('input[type="select"]').prop("readonly", "readonly");
+                $('input[type="dropdown"]').prop("readonly", "readonly");
+                $('input[type="text"]').prop("readonly", "readonly");
+                $("#btnUnAuth").val('Cancel');
+            }
+        });
+    });
+
+    $("#btnFetch").on("click", function () {
+        $.ajax({
+            url: "/GenerateMandate/FetchNextMandate",
+            type: "POST",
+            data: "Id=" + $("#ImageName").val(),
+            dataType: 'json',
+            //contentType: 'application/json',
+            success: function (result) {
+                //$divReserveList.html(result.partialView);
+                PopupSuccess("Image Deleted Successfully!.");
+                //$("#scanImg").attr("src", result.Item.GreyImg);
+                $("#scanImg").magnify();
+            }
+        });
+        setTimeout(function () { window.location.href = '@Url.Action("Index", "GenerateMandate")'; }, 3000)
+
+    });
+    $("#btnSave").on("click", function () {
+
+        var formData = $("#frmGenerateMandate").serialize();
+        $.ajax({
+            url: "/GenerateMandate/Submit",
+            type: "POST",
+            data: formData,
+            dataType: 'json',
+
+            success: function (result) {
+                if (result.Status === 0) {
+
+                    PopupSuccess(result.Message);
+                }
+                else if (result.Status == 2) {
+                    $('input[type="text"]').val('');
+                    $("#scanImg").attr("src", "");
+                    PopupError(result.Message);
+                }
+
+                setTimeout(function () {
+                    window.location.href = '@Url.Action("Index", "GenerateMandate")';
+                }, 5000)
+            }
+        });
+    });
+
+    $("#btnAuth").on("click", function () {
+        $("#btnEdit").attr("disable", "disable");
+        $.ajax({
+            url: "/GenerateMandate/Authenticate",
+            type: "POST",
+            data: "Id=" + $("#MandateList").val(),
+            dataType: 'json',
+
+            success: function (result) {
+                if (result.Status == 0) {
+                    PopupSuccess(result.Message);
+                    $('input[type="text"]').val('');
+                    $("#scanImg").attr("src", "");
+                }
+                else {
+                    PopupError(result.Message);
+                }
+            }
+        });
+    });
+
+    $("#Amt").on("change", function () {
+        var amt = parseFloat($(this).val());
+        $(this).val(amt.toFixed(2));
+
+        $.ajax({
+            url: "/GenerateMandate/ValidateAmt",
+            type: "POST",
+            data: "amount=" + $(this).val(),
+            dataType: 'json',
+
+            success: function (result) {
+                $("#AmtWord").val("Rs." + result.Item);
+            }
+        });
+    });
+
+    $("#btnEdit").on("click", function () {
+
+        ($("#IsNew").val() == "False")
+        $('input[type="text"]').prop("readonly", false);
+        $('input[type="select"]').prop("readonly", false);
+        $('input[type="dropdown"]').prop("readonly", false);
+        $("#btnSave").attr("disabled", false);
+    });
+</script>

@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Queries>
+  <Query Id="GetUserById">
+    <CommandText>uspGetUserById</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>
+  <Query Id="GetUserByLoginId">
+    <CommandText>uspGetUserByLoginId</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>
+  <Query Id="ReserveECSMandate">
+    <CommandText>uspReserveECSMandate</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>
+  
+  <Query Id="GetMandateById">
+    <CommandText>uspGetMandateById</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>  
+  <Query Id="GetReservedMandate">
+    <CommandText>uspGetReservedMandate</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>  
+  <Query Id="UpdateECSBatch">
+    <CommandText>uspUpdateECSBatch</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>  
+  <Query Id="GetMandateForVerify">
+    <CommandText>uspGetMandateForVerify</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>
+  
+  <Query Id="GetAccountByNo">
+    <CommandText>uspGetAccountByNo</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>
+  <Query Id="GetAllAcStatus">
+    <CommandText>uspGetAllAcStatus</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>
+  
+  <Query Id="UpdateECSMandate">
+    <CommandText>uspUpdateECSMandate</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>
+  <Query Id="GetCustomerByCustNo">
+    <CommandText>uspGetCustomerByCustNo</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>
+  <Query Id="GetMainBalanceByAcNo">
+    <CommandText>uspGetMainBalanceByAcNo</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>
+  
+  <Query Id="AuthReserveECSMandate">
+    <CommandText>USPAUTHRESERVEECSMANDATE</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>
+ <Query Id="InserECSMandate">
+    <CommandText>uspINSERTECSMANDATE</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>  
+  <Query Id="UpdateECSMandate">
+    <CommandText>uspUpdateECSMandate</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>  
+  <Query Id="GetUnAuthMandate">
+  <CommandText>uspGetUnAuthMandate</CommandText>
+  <CommandType>StoredProcedure</CommandType>
+</Query>
+ <Query Id="GetAllReason">
+  <CommandText>uspGetAllReason</CommandText>
+  <CommandType>StoredProcedure</CommandType>
+</Query>
+  
+  <Query Id="GetH2HConfig">
+    <CommandText>select * from ehconfig where configkey in('BS_ShortName','SS_USERName')</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  
+  <Query Id="GetECSByFileName">
+    <CommandText>select * from ebECSMandate where MandateFile=:v_Code and deleted='N'</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>  
+  <Query Id="GetCategoryByCd">
+    <CommandText>select * from ebMandateCategoryMaster where CatCode=:v_Code and deleted='N'</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetByUmrn">
+    <CommandText>Select * from ebECSMandate where UMRNo=:v_Code and deleted='N'</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+ <Query Id="GetNextGlobalId">
+    <CommandText>uspGetNextGlobalId</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>
+
+<Query Id="InsertHistory">
+    <CommandText>uspInsertECSHistory</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>
+  <Query Id="GetUnAuthEntityForBranchByEntityName">
+    <CommandText>uspGetUnAuthEntityForBranchByEntityName</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>
+  
+  <Query Id="InsertUnAuthEntity">
+    <CommandText>uspInsertUnAuthEntity</CommandText>
+    <CommandType>StoredProcedure</CommandType>
+  </Query>  
+  <Query Id="GetAllECSByStatus">
+    <CommandText>Select * from ebecsmandate where MandateStatus=:v_Criteria</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetAllMandateByNPCI">
+    <CommandText>Select * from ebecsmandate where NPCIFile=:v_Criteria</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>  
+  <Query Id="UpdateMandateStatusByNPCIFile">
+    <CommandText>Update ebecsmandate set TrnInd=:v_Criteria2 where NPCIFile=:v_Criteria1</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  
+  <Query Id="GetAllCategory">
+    <CommandText>Select * from ebMandateCategoryMaster</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+  <Query Id="GetMandateByMsgId">
+    <CommandText>Select * from ebECSMandate where MsgId=:v_Criteria1</CommandText>
+    <CommandType>Text</CommandType>
+  </Query>
+</Queries>

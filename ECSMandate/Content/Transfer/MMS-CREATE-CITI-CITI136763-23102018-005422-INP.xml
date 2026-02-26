@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.009.001.01">
+	<MndtInitnReq>
+		<GrpHdr>
+			<MsgId>8986611</MsgId>
+			<CreDtTm>2018-10-23T10:28:11</CreDtTm>
+			<InstgAgt>
+				<FinInstnId>
+					<ClrSysMmbId>
+						<MmbId>CITI000PIGW</MmbId>
+					</ClrSysMmbId>
+					<Nm>CITIBANK N A</Nm>
+				</FinInstnId>
+			</InstgAgt>
+			<InstdAgt>
+				<FinInstnId>
+					<ClrSysMmbId>
+						<MmbId>TDCB0000001</MmbId>
+					</ClrSysMmbId>
+					<Nm>THE THANE DIST CENTRAL COOP BANK LT</Nm>
+				</FinInstnId>
+			</InstdAgt>
+		</GrpHdr>
+		<Mndt>
+			<MndtId>TDCB0000000000097478</MndtId>
+			<MndtReqId>8986611</MndtReqId>
+			<Tp>
+				<SvcLvl>
+					<Prtry>L001</Prtry>
+				</SvcLvl>
+				<LclInstrm>
+					<Prtry>DEBIT</Prtry>
+				</LclInstrm>
+			</Tp>
+			<Ocrncs>
+				<SeqTp>RCUR</SeqTp>
+				<Frqcy>MNTH</Frqcy>
+				<FrstColltnDt>2018-06-07</FrstColltnDt>
+				<FnlColltnDt>2021-05-07</FnlColltnDt>
+			</Ocrncs>
+			<MaxAmt Ccy="INR">6411</MaxAmt>
+			<Cdtr>
+				<Nm>Bajaj Finance Limited</Nm>
+			</Cdtr>
+			<CdtrAcct>
+				<Id>
+					<Othr>
+						<Id>CITI00002000000037</Id>
+					</Othr>
+				</Id>
+			</CdtrAcct>
+			<CdtrAgt>
+				<FinInstnId>
+					<ClrSysMmbId>
+						<MmbId>CITI000PIGW</MmbId>
+					</ClrSysMmbId>
+					<Nm>CITIBANK N A</Nm>
+				</FinInstnId>
+			</CdtrAgt>
+			<Dbtr>
+				<Nm>ADHIKARI MANISH YASHWANT</Nm>
+				<Id>
+					<PrvtId>
+						<Othr>
+							<Id>L3WMUM05875035</Id>
+							<SchmeNm>
+								<Prtry>NA</Prtry>
+							</SchmeNm>
+						</Othr>
+					</PrvtId>
+				</Id>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>005500300043714</Id>
+					</Othr>
+				</Id>
+				<Tp>
+					<Prtry>SAVINGS</Prtry>
+				</Tp>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<ClrSysMmbId>
+						<MmbId>TDCB0000001</MmbId>
+					</ClrSysMmbId>
+					<Nm>THE THANE DIST CENTRAL COOP BANK LT</Nm>
+				</FinInstnId>
+			</DbtrAgt>
+		</Mndt>
+	</MndtInitnReq>
+</Document>

@@ -1,0 +1,194 @@
+﻿
+@{
+    ViewBag.Title = "_MandateForm";
+}
+<div class="well smart-form">
+
+    <div class="row">
+        <div class="col col-2">
+
+            <label class="label">UMRN</label>
+            <label class="input">
+
+                @Html.TextBox("UMRNo", "", new { @class = "input-sm" })
+            </label>
+        </div>
+
+        <div class="col col-2">
+            <label class="label">Date</label>
+            <label class="input">
+
+                @Html.TextBox("UMRDt", "", new { @class = "input-sm date" })
+            </label>
+        </div>
+        <div class="col col-2">
+            <label class="label">Sponser IFSC</label>
+            <label class="input">
+
+                @Html.TextBox("SpnsrBnkCd", "", new { @class = "input-sm" })
+            </label>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col col-2">
+
+            <label class="label">Utility Code</label>
+            <label class="input">
+
+                @Html.TextBox("UtilityCd", "", new { @class = "input-sm" })
+            </label>
+        </div>
+
+        <div class="col col-2">
+            <label class="label">Corporate Name</label>
+            <label class="input">
+
+                @Html.TextBox("UtilityName", "", new { @class = "input-sm" })
+            </label>
+        </div>
+
+        <div class="col col-2">
+            <label class="label">Debitor A/c Type</label>
+            <label class="select">
+
+                @Html.DropDownList("AcTyp", new SelectList(ViewBag.AcTypList, "Key", "Value"), new { @class = "input-sm" })<i></i>
+            </label>
+        </div>
+        <div class="col col-2">
+            <label class="label">Debitor Bank A/c</label>
+            <label class="input">
+
+                @Html.TextBox("AcNo", "", new { @class = "input-sm" })
+            </label>
+        </div>
+        <div class="col col-2">
+
+            <label class="label">Customer Bank</label>
+            <label class="input">
+
+                @Html.TextBox("BankName", "", new { @class = "input-sm" })
+            </label>
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="col col-2">
+
+            <label class="label">IFSC</label>
+            <label class="input">
+
+                @Html.TextBox("IFSC", "", new { @class = "input-sm" })
+            </label>
+        </div>
+        <div class="col col-2">
+
+            <label class="label">MICR Cd</label>
+            <label class="input">
+
+                @Html.TextBox("MICRCd", "", new { @class = "input-sm" })
+            </label>
+        </div>
+        <div class="col col-2">
+
+            <label class="label">Amount</label>
+            <label class="input">
+
+                @Html.TextBox("Amt", "", new { @class = "input-sm" })
+            </label>
+        </div>
+        <div class="col col-2">
+            <label class="label">Freq</label>
+            <label class="select">
+
+                @Html.DropDownList("Freq", new SelectList(ViewBag.FrqList, "Key", "Value"), new { @class = "input-sm" })<i></i>
+            </label>
+        </div>
+        <div class="col col-2">
+            <label class="label">Debit Typ</label>
+            <label class="select">
+
+                @Html.DropDownList("Freq", new SelectList(ViewBag.DrTypList, "Key", "Value"), new { @class = "input-sm" })<i></i>
+            </label>
+        </div>
+    </div>
+    <div class="row">
+
+
+        <div class="col col-2">
+
+            <label class="label">Reference 1</label>
+            <label class="input">
+
+                @Html.TextBox("RefNo1", "", new { @class = "input-sm" })
+            </label>
+        </div>
+        <div class="col col-2">
+
+            <label class="label">Reference 2</label>
+            <label class="input">
+
+                @Html.TextBox("RefNo2", "", new { @class = "input-sm" })
+            </label>
+        </div>
+        <div class="col col-2">
+
+            <label class="label">Phone No</label>
+            <label class="input">
+
+                @Html.TextBox("PhoneNo", "", new { @class = "input-sm" })
+            </label>
+        </div>
+        <div class="col col-2">
+
+            <label class="label">E-Mail</label>
+            <label class="input">
+
+                @Html.TextBox("EMail", "", new { @class = "input-sm" })
+            </label>
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="col col-2">
+
+            <label class="label">From Period</label>
+            <label class="input">
+
+                @Html.TextBox("FrmPrd", "", new { @class = "input-sm date" })
+            </label>
+        </div>
+        <div class="col col-2">
+
+            <label class="label">To Period</label>
+            <label class="input">
+
+                @Html.TextBox("ToPrd", "", new { @class = "input-sm date" })
+            </label>
+        </div>
+        <section>
+            <div class="col col-2">
+                <label class="checkbox">
+                    <input type="checkbox" name="checkbox-inline">
+                    <i></i>Unit Cancel
+                </label>
+            </div>
+
+            <div class="col col-4 inline-group">
+                <label class="radio">
+                    <input type="radio" name="radio-inline" checked="checked">
+                    <i></i>Create
+                </label>
+                <label class="radio">
+                    <input type="radio" name="radio-inline">
+                    <i></i>Modify
+                </label>
+                <label class="radio">
+                    <input type="radio" name="radio-inline">
+                    <i></i>Cancel
+                </label>
+            </div>
+        </section>
+    </div>
+</div>

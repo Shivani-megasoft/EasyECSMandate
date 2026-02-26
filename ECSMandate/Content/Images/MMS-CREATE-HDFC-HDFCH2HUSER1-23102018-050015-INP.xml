@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.009.001.01">
+	<MndtInitnReq>
+		<GrpHdr>
+			<MsgId>HDFC00000106112009</MsgId>
+			<CreDtTm>2018-10-23T00:00:00+05:30</CreDtTm>
+			<InstgAgt>
+				<FinInstnId>
+					<ClrSysMmbId>
+						<MmbId>HDFC0999999</MmbId>
+					</ClrSysMmbId>
+				</FinInstnId>
+			</InstgAgt>
+			<InstdAgt>
+				<FinInstnId>
+					<ClrSysMmbId>
+						<MmbId>TDCB0000022</MmbId>
+					</ClrSysMmbId>
+				</FinInstnId>
+			</InstdAgt>
+		</GrpHdr>
+		<Mndt>
+			<MndtId>TDCB0000000000097466</MndtId>
+			<MndtReqId>HDFC00000106112009</MndtReqId>
+			<Tp>
+				<SvcLvl>
+					<Prtry>M001</Prtry>
+				</SvcLvl>
+				<LclInstrm>
+					<Prtry>DEBIT</Prtry>
+				</LclInstrm>
+			</Tp>
+			<Ocrncs>
+				<SeqTp>RCUR</SeqTp>
+				<Frqcy>ADHO</Frqcy>
+				<FrstColltnDt>2018-11-23</FrstColltnDt>
+				<FnlColltnDt>2035-11-23</FnlColltnDt>
+			</Ocrncs>
+			<MaxAmt Ccy="INR">20000.00</MaxAmt>
+			<Cdtr>
+				<Nm>HDFC MUTUAL FUND</Nm>
+			</Cdtr>
+			<CdtrAcct>
+				<Id>
+					<Othr>
+						<Id>HDFC05834000028635</Id>
+					</Othr>
+				</Id>
+			</CdtrAcct>
+			<CdtrAgt>
+				<FinInstnId>
+					<ClrSysMmbId>
+						<MmbId>HDFC0999999</MmbId>
+					</ClrSysMmbId>
+				</FinInstnId>
+			</CdtrAgt>
+			<Dbtr>
+				<Nm>MAYURI UMESH PATIL</Nm>
+				<Id>
+					<PrvtId>
+						<Othr>
+							<Id>590181592708</Id>
+							<SchmeNm>
+								<Prtry>HDFC OTM</Prtry>
+							</SchmeNm>
+						</Othr>
+					</PrvtId>
+				</Id>
+				<CtctDtls>
+					
+					
+					
+					
+				</CtctDtls>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>002200300012948</Id>
+					</Othr>
+				</Id>
+				<Tp>
+					<Prtry>SAVINGS</Prtry>
+				</Tp>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<ClrSysMmbId>
+						<MmbId>TDCB0000022</MmbId>
+					</ClrSysMmbId>
+				</FinInstnId>
+			</DbtrAgt>
+		</Mndt>
+	</MndtInitnReq>
+</Document>

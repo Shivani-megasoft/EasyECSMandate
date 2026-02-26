@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.009.001.01">
+	<MndtInitnReq>
+		<GrpHdr>
+			<MsgId>8994471</MsgId>
+			<CreDtTm>2018-10-23T14:25:08</CreDtTm>
+			<InstgAgt>
+				<FinInstnId>
+					<ClrSysMmbId>
+						<MmbId>CITI000PIGW</MmbId>
+					</ClrSysMmbId>
+					<Nm>CITIBANK N A</Nm>
+				</FinInstnId>
+			</InstgAgt>
+			<InstdAgt>
+				<FinInstnId>
+					<ClrSysMmbId>
+						<MmbId>TDCB0000048</MmbId>
+					</ClrSysMmbId>
+					<Nm>THE THANE DIST CENTRAL CO OP BANK L</Nm>
+				</FinInstnId>
+			</InstdAgt>
+		</GrpHdr>
+		<Mndt>
+			<MndtId>TDCB0000000000097516</MndtId>
+			<MndtReqId>8994471</MndtReqId>
+			<Tp>
+				<SvcLvl>
+					<Prtry>M001</Prtry>
+				</SvcLvl>
+				<LclInstrm>
+					<Prtry>DEBIT</Prtry>
+				</LclInstrm>
+			</Tp>
+			<Ocrncs>
+				<SeqTp>RCUR</SeqTp>
+				<Frqcy>ADHO</Frqcy>
+				<FrstColltnDt>2018-10-04</FrstColltnDt>
+				<FnlColltnDt>2099-12-31</FnlColltnDt>
+			</Ocrncs>
+			<MaxAmt Ccy="INR">100000</MaxAmt>
+			<Cdtr>
+				<Nm>BSE Limited</Nm>
+			</Cdtr>
+			<CdtrAcct>
+				<Id>
+					<Othr>
+						<Id>CITI00002000000037</Id>
+					</Othr>
+				</Id>
+			</CdtrAcct>
+			<CdtrAgt>
+				<FinInstnId>
+					<ClrSysMmbId>
+						<MmbId>CITI000PIGW</MmbId>
+					</ClrSysMmbId>
+					<Nm>CITIBANK N A</Nm>
+				</FinInstnId>
+			</CdtrAgt>
+			<Dbtr>
+				<Nm>SHEWARE RATNPRABHA VANA</Nm>
+				<Id>
+					<PrvtId>
+						<Othr>
+							<Id>1859925</Id>
+							<SchmeNm>
+								<Prtry>655192</Prtry>
+							</SchmeNm>
+						</Othr>
+					</PrvtId>
+				</Id>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>004800300035639</Id>
+					</Othr>
+				</Id>
+				<Tp>
+					<Prtry>SAVINGS</Prtry>
+				</Tp>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<ClrSysMmbId>
+						<MmbId>TDCB0000048</MmbId>
+					</ClrSysMmbId>
+					<Nm>THE THANE DIST CENTRAL CO OP BANK L</Nm>
+				</FinInstnId>
+			</DbtrAgt>
+		</Mndt>
+	</MndtInitnReq>
+</Document>

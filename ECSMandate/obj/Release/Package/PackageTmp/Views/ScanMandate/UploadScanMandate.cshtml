@@ -1,0 +1,84 @@
+﻿
+@{
+    ViewBag.Title = "UploadScanMandate";
+}
+@using (Html.BeginForm("SaveScanImage", "ScanMandate", FormMethod.Post, new { @id = "createRequest", enctype = "multipart/form-data", @class = "jqtransform", }))
+{
+
+<h2>Upload Scan Mandate</h2>
+
+<article class="col-sm-12 col-md-12 col-lg-5">
+    @Html.Hidden("MsgAlert","", new { @value=ViewBag.Message })
+    <div class="well">
+        
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="editor-label">
+                    Grey Scale
+                </div>
+            </div>
+            <div class="col-lg-8 smart-form">
+                <div class="input input-file">
+                    <span class="button"><input type="file" id="gryFile" name="filesGryUp" onchange="this.parentNode.nextSibling.value = this.value">Browse</span><input type="text" id="txtGry" readonly />
+                </div>
+            </div>
+        </div>
+        <p></p>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="editor-label">
+                    Bitonal
+                </div>
+            </div>
+            <div class="col-lg-8 smart-form">
+                <div class="input input-file">
+                    <span class="button"><input type="file" id="bitFile" name="filesBitUp" onchange="this.parentNode.nextSibling.value = this.value">Browse</span><input type="text" id="txtBit" readonly />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <p class="pull-left">
+                <button type="button" id="btnSave" class="btn btn-success">
+                    Save
+                </button>
+            </p>
+        </div>
+    </div>
+</article>
+}
+<script type="text/javascript">
+    $(function () {
+        if ($("#MsgAlert").val() != "") {
+            PopupError($("#MsgAlert").val());
+        }
+    });
+
+    $("#btnSave").on("click", function () {
+        $.ajax({
+            url: '@Url.Action("SaveScanImage", "ScanMandate")',
+            type: "POST",
+            data: function () {
+                var data = new FormData();
+
+                data.append("gryFile", jQuery("#gryFile").get(0).files[0]);
+                data.append("bitFile", jQuery("#bitFile").get(0).files[0]);
+                return data;
+            }(),
+            contentType: false,
+            processData: false,
+            success: function (result) {
+                if (result.Status==2) {
+                    PopupError(result.Message);
+                }
+                else {
+                    PopupSuccess(result.Message);
+                    //alert();
+                    $("#txtGry").val("");
+                    $("#txtBit").val("");
+                }
+
+            }
+        })
+    });
+
+</script>

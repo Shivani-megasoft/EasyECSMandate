@@ -1,0 +1,330 @@
+﻿
+@using EasyBank.BusinessLayer.Transactions.Objects;
+@model List<EBTCredit>
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="form">
+    <div class="form-title">
+        <br />
+        <div class="well">
+            <div class="row">
+                <div class="col-lg-12">
+                    <table>
+                        <tr>
+                            <td>
+                                <form action="~/ACHFilePosting/Import/" id="IWClearing" name="IWClearing"
+                                      method="post" enctype="multipart/form-data">
+                                    <table>
+                                        <tr>
+                                            <td style="width: 138px; padding-right: 20px;">
+                                                <label>
+                                                    Import File
+                                                </label>
+                                            </td>
+                                            <td class="editor-field" style="width:400px; border:groove">
+                                                <input type="file" id="file"
+                                                       name="file" />
+                                            </td>
+                                            <td style="padding-left:15px">
+                                                <button id="btnImport" name="btnImport" value="Import" class="">
+                                                    Import
+                                                </button>
+                                            </td>
+
+
+                                           @if (TempData["ShowAuthButton"] != null)
+                                            {
+                                                if ((bool)TempData["ShowAuthButton"])
+                                                {
+                                                    <td style="padding-left:20px">
+                                                        <input type="button" class="btn-danger" id="btnPost" value="Post" style="width:90px" />
+                                                    </td>
+                                                }
+                                            }
+
+                                           @if (TempData["ErrorMsg"] != null)
+                                            {
+                                                <td style="padding-left:20px">
+                                                    <strong class="dz-error-mark"> @TempData["ErrorMsg"].ToString() </strong>
+                                                </td>
+                                            }
+                                        </tr>
+                                    </table>
+                                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <br />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+
+                                <form action="~/ACHFilePosting/Show/" id="IWClearing" name="IWClearing"
+                                      method="get" enctype="multipart/form-data">
+                                    <table>
+                                        <tr>
+                                            <td style="width: 125px;">
+                                                <label>
+                                                    Settlement Date
+                                                </label>
+                                            </td>
+                                            <td class="col-md-1" style="width:120px">
+                                                @Html.TextBox("SettleDt", @ViewBag.ForDate as string, new { @class = "input-sm date", @style = "width:120px", @autocomplete = "off" })<i></i>
+                                            </td>
+                                            <td class="col-md-1" style="width:80px">
+                                                <label>
+                                                    FileName
+                                                </label>
+                                            </td>
+                                            <td class="col-md-1" style="width:130px">
+                                                @Html.DropDownList("FileName", ViewBag.FileNames as SelectList, new { @class = "input-sm", @style = "width:140px" })<i></i>
+                                            </td>
+                                            <td class="col-md-1" style="width:80px">
+                                                <label>
+                                                    Status
+                                                </label>
+                                            </td>
+                                            <td class="col-md-1" style="width:130px">
+                                                @Html.DropDownList("FilterStatus", ViewBag.FilterStatus as SelectList, new { @class = "input-sm", @style = "width:140px" })<i></i>
+                                            </td>
+
+                                            <td style="padding-left:15px">
+                                                <button id="btnShow" name="Show" value="Show" class="btn btn-success small">
+                                                    Show
+                                                </button>
+                                            </td>
+</table>
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@using (Html.BeginForm("Post", "ACHFilePosting", FormMethod.Post, new { @Id = "frmACHFilePosting", @class = "form-horizontal", enctype = "multipart/form-data" }))
+{
+    <div class="well">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <table id="dt_basic" class="table table-striped table-bordered table-hover" style="margin: 0; width: 100%; padding: 0">
+                    <tbody>
+
+                       @{int count1 = 0;}
+                       @{decimal totamtPass = 0;}
+                       @{int count2 = 0;}
+                       @{decimal totamtRetn = 0;}
+                       @if (Model != null)
+                        {
+                            foreach (var item in Model)
+                            {
+                                if (item.Stat == "A")
+                                {
+                                    count1++;
+                                    totamtPass += @item.Amt;
+                                }
+                                else
+                                {
+                                    count2++;
+                                    totamtRetn += @item.Amt;
+                                }
+                            }
+
+                            <tr>
+                                <td>
+                                    Total Authenticated   (@count1.ToString())
+                                </td>
+                                <td>
+                                    Authenticated Amount
+                                </td>
+                                <td>
+                                    @totamtPass
+                                </td>
+
+                                <td>
+                                    Total Returned   (@count2.ToString())
+                                </td>
+                                <td>
+                                    Returned Amount
+                                </td>
+                                <td>
+                                    @totamtRetn
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <table id="dt_basic" class="table table-striped table-bordered table-hover" style="margin: 0;
+            width: 100%; padding: 0">
+                    <thead>
+                        <tr>
+                            <th>
+                                Sr No
+                            </th>
+                            <th>
+                                Settlement Date
+                            </th>
+                            <th>
+                                Creditor A/c No.
+                            </th>
+                            <th>
+                                Creditor A/c Name
+                            </th>
+                            <th>
+                                Debitor A/c No.
+                            </th>
+                            <th>
+                                Debitor A/c Name
+                            </th>
+                            <th>
+                                Item Sequence
+                            </th>
+
+                            <th>
+                                Amount
+                            </th>
+                            <th>
+                                UMRNo
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{decimal total = 0;}
+                        @{int count = 0;}
+                        @{int i = 0; int j = 0;}
+                       @if (Model != null)
+                        {
+                            foreach (var item in Model)
+                            {
+                                count++;
+                                var rStat = "";
+                                total += @item.Amt;
+                                <tr id="@item.Id" style="@(item.Stat != "R" ? "background-color: #d7fb1094;" : "background-color: #ef271394;")">
+
+                                    <td>
+                                        @count.ToString()
+                                    </td>
+                                    <td>
+                                        @Convert.ToDateTime(item.RecdDt).ToShortDateString()
+                                    </td>
+                                    <td>
+                                        @item.LoanAcNo
+                                    </td>
+                                    <td>
+                                        @item.LoanAcName @* @item.Account.Customer.Name*@
+                                    </td>
+                                    <td>
+                                        @item.BenfBankAcNo
+                                    </td>
+                                    <td>
+                                        @item.BenfName
+
+                                    </td>
+                                    <td>
+                                        @item.ItemSeqNo
+
+                                    </td>
+                                    <td>
+                                        @item.Amt
+                                    </td>
+                                    <td>
+                                        @item.UMRN
+                                    </td>
+
+
+                                    @Html.Hidden("Model[" + i + "].Id", @Model[j].Id)
+                                    @Html.Hidden("Model[" + i + "].TrnCode", @Model[j].TrnCode)
+                                    @Html.Hidden("Model[" + i + "].UserName", @Model[j].UserName)
+                                    @Html.Hidden("Model[" + i + "].InputFileNo", @Model[j].InputFileNo)
+                                    @Html.Hidden("Model[" + i + "].LFNo", @Model[j].LFNo)
+                                    @Html.Hidden("Model[" + i + "].RecdDt", @Model[j].RecdDt)
+                                    @Html.Hidden("Model[" + i + "].ItemSeqNo", @Model[j].ItemSeqNo)
+                                    @Html.Hidden("Model[" + i + "].UserNo", @Model[j].UserNo)
+                                    @Html.Hidden("Model[" + i + "].SponBankId", @Model[j].SponBankId)
+                                    @Html.Hidden("Model[" + i + "].BenfBankAcNo", @Model[j].BenfBankAcNo)
+                                    @*@Html.Hidden("Model[" + i + "].TotalCount", @Model[j].TotalCount)*@
+                                    @*@Html.Hidden("Model[" + i + "].Cycle", @Model[j].cyc)*@
+                                    @Html.Hidden("Model[" + i + "].DestAccType", @Model[j].DestAccType)
+                                    @Html.Hidden("Model[" + i + "].LFNo", @Model[j].LFNo)
+                                    @Html.Hidden("Model[" + i + "].BenfName", @Model[j].BenfName)
+                                    @Html.Hidden("Model[" + i + "].Amt", @Model[j].Amt)
+                                    @Html.Hidden("Model[" + i + "].ItemSeqNo", @Model[j].ItemSeqNo)
+                                    @Html.Hidden("Model[" + i + "].TrnInd", @Model[j].TrnInd)
+                                    @Html.Hidden("Model[" + i + "].Rcode", @Model[j].Rcode)
+                                    @Html.Hidden("Model[" + i + "].DestBankId", @Model[j].DestBankId)
+                                    @Html.Hidden("Model[" + i + "].BenfBankAcNo", @Model[j].BenfBankAcNo)
+                                    @Html.Hidden("Model[" + i + "].TranRefNo", @Model[j].TranRefNo)
+                                    @Html.Hidden("Model[" + i + "].ProductType", @Model[j].ProductType)
+                                    @Html.Hidden("Model[" + i + "].AadhaarNo", @Model[j].AadhaarNo)
+                                    @Html.Hidden("Model[" + i + "].UMRN", @Model[j].UMRN)
+                                    @Html.Hidden("Model[" + i + "].TrnInd", @Model[j].TrnInd)
+                                    @Html.Hidden("Model[" + i + "].Stat", @Model[j].Stat)
+                                    @Html.Hidden("Model[" + i + "].Id", @Model[j].Id)
+
+                                </tr>
+
+                                i++;
+                                j++;
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+ }
+<script type="text/javascript">
+
+    $("#btnPost").click(function () {
+
+        if (window.confirm("Are you sure, Post the Transaction ?")) {
+
+            var dataString = $("#frmACHFilePosting").serialize();
+
+            $.ajax({
+                type: "POST",
+                url: "/ACHFilePosting/Post",
+                data: dataString,
+                dataType: "json",
+                success: function (data, textStatus) {
+                    if (data.Status === 0) {
+                        PopupSuccess(data.Message);
+                        $("#btnPost").disableSelection();
+                    }
+                    else {
+                        PopupError(data.Message);
+                    }
+
+                }
+            });
+        }
+    });
+
+    $("#SettleDt").change(function () {
+        var url = "/ACHFilePosting/GetFileNames";
+        $.ajax({
+            type: "GET",
+            url: url,
+            data: "date=" + $("#SettleDt").val(),
+            dataType: "json",
+            success: function (data) {
+                $("#FileName").empty();
+                $.each(data.Item, function (i, item) {
+                    $("#FileName").append(
+                        $('<option></option>').val(item.Text).html(item.Value));
+                });
+            }
+        });
+    });
+</script>

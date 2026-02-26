@@ -1,0 +1,66 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<form action="~/MandateResponse/GetExcelByDate" method="post" id="frmGenerateExcel">
+    <div class="well">
+        <h3 style="margin-top: -1%; font-weight: bold; font-size: 30px;"> ECS Response</h3>
+        <div class="row">
+            @*<div class="col-md-3" >
+                <b>Request Type: &nbsp;</b>@Html.DropDownList("Type", new SelectList(ViewBag.TypeList, "Id", "Name", "--Select--"), new { @class = "input-sm", @id = "Type" })
+            </div>*@
+
+
+            <div class="col-md-3">
+                <b>From Date:</b>&nbsp;@Html.TextBox("FrmDate", "", new { @class = "input-sm date", @Value = ViewBag.FrmDate })
+            </div>
+            <div class="col-md-3">
+                <b> To Date:</b>&nbsp; @Html.TextBox("ToDate", "", new { @class = "input-sm date", @Value = ViewBag.ToDate })
+            </div>
+            <div class="col-md-3">
+                <b>Branch:</b>&nbsp;@Html.DropDownList("Branch", new SelectList(ViewBag.BranchList, "Id", "Name", "--Select--"), new { @class = "input-sm", @id = "Branch" })
+            </div>
+            <div class="col-md-3">
+                <input class="btn btn-success btn-sm" type="button" value="Get List" id="btnGet" />
+                <input class="btn btn-success btn-sm" type="submit" value="Export Excel" id="btnExcel" />
+            </div>
+        </div>
+    </div>
+    <div id="dvMandtList"></div>
+</form>
+
+<script type="text/javascript">
+    $dvMandtList = $("#dvMandtList");
+
+    $("#btnGet").click(function () {
+        GetListByStatus($("#Type").val() + $("#FrmDate").val() + $("#ToDate").val() + $("#Branch").val());
+    });
+
+    function GetListByStatus(Type, FrmDate, ToDate) {
+        console.log(status);
+
+        $.ajax({
+            url: "/MandateResponse/GetMandateResponse",
+            type: "GET",
+            data: "FrmDate=" + $("#FrmDate").val() + "&ToDate=" + $("#ToDate").val() + "&Branch=" + $("#Branch").val(),
+            dataType: 'json',
+            contentType: 'application/json',
+            success: function (result) {
+                //$("#FrmDate").val("");
+                //$("#ToDate").val("");
+                //$("#Type").val("");
+                $dvMandtList.html(result.partialView);
+            }
+        });
+    }
+    $('#startdate').datepicker({
+        dateFormat: 'dd.mm.yy',
+        prevText: '<i class="fa fa-chevron-left"></i>',
+        nextText: '<i class="fa fa-chevron-right"></i>',
+        onSelect: function (selectedDate) {
+            $('#finishdate').datepicker('option', 'minDate', selectedDate);
+        }
+    });
+</script>
+
+
+

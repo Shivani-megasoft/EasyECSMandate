@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<form action="~/FileSummary/GenerateExcel" method="post" id="frmECSSummaryReport">
+    <div class="well">
+        <h3 style="margin-top: -1%; font-weight: bold; font-size: 30px;"> ECS Summary</h3>
+        <div class="row">
+            <div class="col-md-3" style="width:120px">
+                Select Status
+            </div>
+            <div class="col-md-2" style="width:150px">
+                @Html.DropDownList("MandateStatus", new SelectList(ViewBag.StatusList, "Key", "Value"), new { @class = "input-sm" })<i></i>
+            </div>
+            <div class="col-md-1" style="width:100px">
+                From Date
+            </div>
+            <div class="col-md-1" style="width:200px">
+                @Html.TextBox("FrmDate", "", new { @class = "input-sm date", @Value = ViewBag.FrmDate })<i></i>
+            </div>
+            <div class="col-md-1" style="width:100px">
+                To Date
+            </div>
+            <div class="col-md-1" style="width:200px">
+                @Html.TextBox("ToDate", "", new { @class = "input-sm date", @Value = ViewBag.ToDate })<i></i>
+            </div>
+
+            <div class="col-md-1" style="width:100px">
+                <input class="btn btn-success btn-sm" type="button" value="Get List" id="btnGet" />
+
+            </div>
+            <div class="col-md-2" style="width:150px">
+                <input class="btn btn-primary btn-sm" type="submit" style="width:100px" value="Export Excel" id="btnExcel" />
+            </div>
+        </div>
+    </div>
+        <br />
+        <br />
+        <div id="dvMandtList">
+
+        </div>
+</form>
+
+<script type="text/javascript">
+    $dvMandtList = $("#dvMandtList");
+
+    $("#btnGet").click(function () {
+        GetListByStatus($("#MandateStatus").val(), $("#FrmDate").val(), $("#ToDate").val());
+    });
+
+    function GetListByStatus(status, FrmDate, ToDate) {
+        console.log(status);
+
+        $.ajax({
+            url: "/FileSummary/GetECSByStatus",
+            type: "GET",
+            data: { Status: status, FrmDate: FrmDate, ToDate: ToDate },
+            dataType: 'json',
+            contentType: 'application/json',
+            success: function (result) {
+                $dvMandtList.html(result.partialView);
+            }
+        });
+    }
+</script>

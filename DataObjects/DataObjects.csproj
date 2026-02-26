@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2C09970C-B86C-4B4C-841D-8D66EBB4D45D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EasyBank.DataLayer.DataObjects</RootNamespace>
+    <AssemblyName>EasyBank.DataLayer.DataObjects</AssemblyName>
+    <SignAssembly>false</SignAssembly>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BusinessObject, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\BusinessObject\obj\Debug\BusinessObject.dll</HintPath>
+    </Reference>
+    <Reference Include="EasyBank.Framework.EasyAttributes, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\EasyAttributes\obj\Debug\EasyBank.Framework.EasyAttributes.dll</HintPath>
+    </Reference>
+    <Reference Include="EasyBank.Framework.EasyCaching, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\EasyCaching\obj\Debug\EasyBank.Framework.EasyCaching.dll</HintPath>
+    </Reference>
+    <Reference Include="EasyBank.Framework.EasyExceptions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\EasyExceptions\obj\Debug\EasyBank.Framework.EasyExceptions.dll</HintPath>
+    </Reference>
+    <Reference Include="EasyBank.Framework.EasyExtensions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\EasyExtensions\obj\Debug\EasyBank.Framework.EasyExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="EasyBank.Framework.EasyLogging, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\EasyLogging\obj\Debug\EasyBank.Framework.EasyLogging.dll</HintPath>
+    </Reference>
+    <Reference Include="EasyBank.Framework.EasySession, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\EasySession\obj\Debug\EasyBank.Framework.EasySession.dll</HintPath>
+    </Reference>
+    <Reference Include="EasyBank.Infrastructure.ApplicationSettings, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\HUSSIEN\EasyBank-UPCBLatest -ORACLE\EasyBank-UPCBLatest -ORACLE\ApplicationSettings\obj\Debug\EasyBank.Infrastructure.ApplicationSettings.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.DataAccess, Version=4.122.18.3, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AuditTrail\AuditTrail.cs" />
+    <Compile Include="AuditTrail\AuditTrailService.cs" />
+    <Compile Include="AuditTrail\AudtiDBEngine.cs" />
+    <Compile Include="AuditTrail\SmartAuditData.cs" />
+    <Compile Include="BulkOperations\SqlBulkDBEngine.cs" />
+    <Compile Include="DBEngine.cs" />
+    <Compile Include="Parameter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Request.cs" />
+    <Compile Include="SmartDataOld.cs" />
+    <Compile Include="SmartData.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

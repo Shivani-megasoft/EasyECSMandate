@@ -1,0 +1,120 @@
+﻿@model EASYECS.BussinessLayer.EasyECSService.Object.ObjUserMaster
+@{
+    ViewBag.Title = "Register";
+}
+
+<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<style>
+    {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        outline: none;
+    }
+
+    .form-control {
+        position: relative;
+        font-size: 16px;
+        height: auto;
+        padding: 10px;
+
+
+    {
+        z-index: 2;
+    }
+
+    }
+
+    body {
+        background: url(http://i.imgur.com/GHr12sH.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .login-form {
+        margin-top: 60px;
+    }
+
+    form[role=login] {
+        color: #5d5d5d;
+        background: #f2f2f2;
+        padding: 26px;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+    }
+
+        form[role=login] img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 35px;
+        }
+
+        form[role=login] input,
+        form[role=login] button {
+            font-size: 18px;
+            margin: 16px 0;
+        }
+
+        form[role=login] > div {
+            text-align: center;
+        }
+
+    .form-links {
+        text-align: center;
+        margin-top: 1em;
+        margin-bottom: 50px;
+    }
+
+        .form-links a {
+            color: #fff;
+        }
+</style>
+@*<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>*@
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+<div class="container">
+
+    <div class="row" id="pwd-container">
+        <div class="col-md-4"></div>
+
+        <div class="col-md-4">
+            <section class="login-form">
+                @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", @id = "frmRegister", role = "login" }))
+                { 
+                     @Html.ValidationSummary(true)
+                    
+                     <h3 style="text-align:center;">Create a new account</h3>
+                    @*<img src="http://i.imgur.com/RcmcLv4.png" class="img-responsive" alt="" />*@
+                    @Html.ValidationMessageFor(m => m.FirstName)
+                    @Html.TextBoxFor(m => m.FirstName, new { @class = "form-username form-control", @type = "text", @id = "txtFirstName", @placeholder = "First Name", @autofocus = "autofocus", @required="required" })
+
+                    @Html.TextBoxFor(m => m.LastName, new { @class = "form-username form-control", @type = "text", @id = "txtLastName", @placeholder = "Last Name", @autofocus = "autofocus", @required = "required" })
+
+                    @Html.TextBoxFor(m => m.UserName, new { @class = "form-username form-control", @type = "text", @id = "txtemailid", @placeholder = "Username", @autofocus = "autofocus", @required = "required" })
+
+                    @Html.TextBoxFor(m => m.Password, new { @class = "form-password form-control", @type = "password", @id = "txtpassword", @placeholder = "Password", @required = "required" })
+                    @*@Html.TextBoxFor(m => m.ConfirmPass, new { @class = "form-password form-control", @type = "password", @id = "txtConfirmPass", @placeholder = "Confirm Password" })*@
+                    <div class="pwstrength_viewport_progress"></div>
+
+
+                    <button type="submit" name="go" class="btn btn-lg btn-primary btn-block">Create Account</button>
+                    <div>
+                        Switch to <a href="~/Account/login">Login</a>
+                    </div>
+                }
+            </section>
+        </div>
+
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+

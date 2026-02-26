@@ -1,0 +1,225 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<style>
+    .lbText {
+        font-weight: bold;
+    }
+
+    .dropdown{
+        border-style:solid;
+        border-color:black;
+        width:170px;
+        height:30px;
+    }
+</style>
+@using (Html.BeginForm("", "", FormMethod.Post, new { @class = "form-horizontal", @id = "frmAmendMandate",@style ="margin-top:30px "}))
+{
+    <div class="row" style="margin-top:20px">
+        <div class="col-md-5" style="padding-left:30px"><input class="btn btn-warning btn-sm" type="button" value="Show Un-Authenticated" id="btnUnAuth"/>
+            <input class="btn bg-color-blue txt-color-white" type="button" value="Authenticate" id="btnAuth" style="display:none"/></div>
+       
+        <div class="col-md-7">
+            <p class="pull-right">
+               <button type="button" id="btnQuery" class="btn btn-warning">Edit</button>
+               <button type="button" id="btnSave" class="btn btn-success" disabled="disabled">Save</button>
+            </p>
+        </div>       
+    </div>
+    <br />
+    <div class="row" id="divMandate" style="margin-left:9px">
+        <div class="col-sm-2 well" style="padding:8px; height:440px">            
+            @Html.ListBox("MandateList", new SelectList(ViewBag.MandateList, "Id", "UMRNo"), new { @style = "height:100%;width:100%" })
+        </div>
+        <div class="col-sm-10 well smart-form">
+            <div class="row">
+                <div class="col col-4">
+                    <label style="margin-right:51px">UMRN No</label> @Html.TextBox("UMRNo", "", new { @class = "input-sm", @Id = "umrNo", @style = "height: 15px" })
+                </div>
+                <div class="col col-4">
+                    <label style="margin-right:77px">Date</label> @Html.TextBox("Date", "", new { @class = "input-sm date", @Id = "Date", @style = "height: 15px" })
+                </div>
+                <div class="col col-4">
+                    <label style="margin-right:25px">Sponser IFSC</label> @Html.TextBox("SpnsrBnkCd", "", new { @class = "input-sm", @Id = "SpnsrBnkCd", @style = "height: 15px" })
+                </div>
+            </div><br />
+
+            <div class="row">
+                <div class="col col-4">
+                    <label style="margin-right:37px">Utility Code</label> @Html.TextBox("UtilityCd", "", new { @class = "input-sm", @Id = "UtilityCd", @style = "height: 15px" })
+                </div>
+                <div class="col col-4">
+                    <label>Corporate Name</label> @Html.TextBox("UtilityName", "", new { @class = "input-sm", @Id = "UtilityName", @style = "height: 15px" })
+                </div>
+                <div class="col col-4">
+                    <label style="margin-right:7px">Debitor A/c Type</label>@Html.DropDownList("AcTyp", new SelectList(ViewBag.AcTypList, "Key", "Value"), new { @class = "input-sm dropdown", @style = "height: 30px" })<i></i>
+                </div>
+            </div><br />
+
+            <div class="row">
+                <div class="col col-4">
+                    <label style="margin-right:3px">Debitor Bank A/c</label> @Html.TextBox("AcNo", "", new { @class = "input-sm", @style = "height: 15px" })
+                </div>
+                <div class="col col-4">
+                    <label style="margin-right:9px">Customer Bank</label> @Html.TextBox("BankName", "", new { @class = "input-sm", @style = "height: 15px" })
+                </div>
+                <div class="col col-4">
+                    <label style="margin-right:40px">Bank Code</label> @Html.TextBox("BnkCd", "", new { @class = "input-sm", @style = "height: 15px" })
+                </div>
+            </div><br />
+
+            <div class="row">
+                <div class="col col-4">
+                    <label style="margin-right:67px">Amount</label>@Html.TextBox("Amt", "", new { @class = "input-sm", @style = "height: 15px" })<i></i>
+                </div>
+                <div class="col col-4">
+                    <label style="margin-right:42px">Frequency</label>@Html.DropDownList("Freq", new SelectList(ViewBag.FrqList, "Key", "Value"), new { @class = "input-sm dropdown", @style = "height: 30px" })<i></i>
+                </div>
+                <div class="col col-4">
+                    <label style="margin-right:40px">Debit Type</label> @Html.DropDownList("DbTyp", new SelectList(ViewBag.DrTypList, "Key", "Value"), new { @class = "input-sm dropdown", @style = "height: 30px" })<i></i>
+                </div>
+            </div><br />
+
+            <div class="row">
+                <div class="col col-4">
+                    <label style="margin-right:39px">Reference 1</label>@Html.TextBox("RefNo1", "", new { @class = "input-sm", @style = "height: 15px" })
+                </div>
+                <div class="col col-4">
+                    <label style="margin-right:30px">Reference 2</label>@Html.TextBox("RefNo2", "", new { @class = "input-sm", @style = "height: 15px" })
+                </div>
+            </div>
+            <br />
+
+            <div class="row">
+                <div class="col col-4">
+                    <label style="margin-right:50px">Phone No</label> @Html.TextBox("PhoneNo", "", new { @class = "input-sm", @style = "height: 15px" })
+                </div>
+                <div class="col col-4">
+                    <label style="margin-right:70px">E-Mail</label>@Html.TextBox("EMail", "", new { @class = "input-sm", @style = "height: 15px" })
+                </div>
+            </div>
+            <br />
+
+            <div class="row">
+                <div class="col col-4">
+                    <label style="margin-right:36px">From Period</label>@Html.TextBox("FrmPrd", "", new { @class = "input-sm date", @style = "height: 15px" })
+                </div>
+                <div class="col col-4">
+                    <label style="margin-right:50px">To Period</label>@Html.TextBox("ToPrd", "", new { @class = "input-sm date", @style = "height: 15px" })
+                </div>
+            </div><br />
+            <div class="alert alert-info alert-block">
+                <h6 style="font-size:13px">Please select reason to amend Mandate @Html.DropDownList("AmendReason", new SelectList(ViewBag.ReasonList, "RsnCd", "Name"), "--Select--", new { @class = "input-sm" })</h6>
+            </div>
+        </div>
+    </div>
+ }
+
+<script type="text/javascript">
+    $(function () {
+        $('input[type=text]').attr("disabled", "disabled");
+        $('select').attr("disabled", "disabled");
+        $("#umrNo").removeAttr("disabled");
+    });
+
+    $("#btnUnAuth").click(function (e) {
+        $("#MandateList").removeAttr("disabled");  
+    });
+
+    $("#btnAuth").click(function () {
+
+        $.ajax({
+            url: "/AmendMandate/AuthenticateAmend",
+            type: "POST",
+            data: "Id=" + $("#MandateList").val(),
+            dataType: 'json',           
+            success: function (result) {
+                if (result.Status == 0) {
+                    PopupSuccess(result.Message);
+                    location.reload();
+                }
+                else {
+                    PopupError(result.Message);
+                }
+            }
+        })
+    });
+
+    $("#btnSave").click(function (e) {
+
+        if ($("#AmendReason").val == "") {
+            PopupError("Please select reason");
+            return;
+        }
+        var formData = $("#frmAmendMandate").serialize();
+        $.ajax({
+            url: "/AmendMandate/UpdateMandate",
+            type: "POST",
+            data: formData,
+            dataType: 'json',
+            success: function (result) {
+                PopupSuccess(result.Message);
+                $("input[type=text]").val("");
+                $("input[type=text]").removeAttr("disabled");
+            }
+        })
+    })
+
+    $("#umrNo").on("change", function () {
+        $.ajax({
+            url: "/AmendMandate/GetMandateByUMRN",
+            type: "POST",
+            data: "UMRN=" + $(this).val(),
+            dataType: 'json',
+            success: function (result) {
+                if (result.Status == 0) {
+                    bindFormData("#frmAmendMandate", result.Item);
+                }
+                else
+                {
+                    PopupError(result.Message);
+                }
+            }
+        });
+    });
+
+    $("#MandateList").on("click", function () {
+        $.ajax({
+            url: "/AmendMandate/GetMandateById",
+            type: "POST",
+            data: "Id=" + $(this).val(),
+            dataType: 'json',           
+            success: function (result) {
+                if (result.Status == 0) {
+                    bindFormData("#frmAmendMandate", result.Item);
+                    $("#umrNo").val(result.Item.UMRNo);
+                    $("#AmendReason").val(result.Item.RtnRsn);
+                    $("input[type=text]").attr("disabled", "disabled");
+                    $("#btnQuery").attr("disabled","disabled");
+                    $("#btnAuth").show();
+                }
+                else {
+                    PopupError(result.Message);
+                    return;
+                }
+            }
+        }); 
+    });
+    $("#btnQuery").on("click", function () {
+        console.log("sdsd" + $(this).html());
+        if ($(this).html() === "Edit") {
+            $('input[type=text]').removeAttr("disabled");
+            $('select').removeAttr("disabled");
+            $(this).html("Cancel");
+            $("#btnSave").removeAttr("disabled");
+        }
+        else {
+            $('input[type=text]').attr("disabled", "disabled");
+            $('input[type=text]').val();
+            $('select').attr("disabled", "disabled");
+            $(this).html("Edit");
+            $("#umrNo").removeAttr("disabled");
+            $("#btnSave").attr("disabled", "disabled");
+        }
+    });
+</script>

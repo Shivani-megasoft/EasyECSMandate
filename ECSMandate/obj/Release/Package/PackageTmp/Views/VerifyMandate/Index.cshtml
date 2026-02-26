@@ -1,0 +1,827 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<script>
+    //$(function () {
+    //    $(".date").datepicker({
+    //        autoclose: true,
+    //        todayHighlight: true
+    //    });
+    //});
+    !function ($) {
+
+        "use strict"; // jshint ;_;
+
+
+        /* MAGNIFY PUBLIC CLASS DEFINITION
+         * =============================== */
+
+        var Magnify = function (element, options) {
+            this.init('magnify', element, options)
+        }
+
+        Magnify.prototype = {
+
+            constructor: Magnify
+
+            , init: function (type, element, options) {
+                var event = 'mousemove'
+                    , eventOut = 'mouseleave';
+
+                this.type = type
+                this.$element = $(element)
+                this.options = this.getOptions(options)
+                this.nativeWidth = 0
+                this.nativeHeight = 0
+
+                this.$element.wrap('<div class="magnify" \>');
+                this.$element.parent('.magnify').append('<div class="magnify-large" id="magnifylarge" \>');
+                //this.$element.siblings(".magnify-large").css("background", "url('" + this.$element.attr("src") + "') no-repeat");
+
+                this.$element.parent('.magnify').on(event + '.' + this.type, $.proxy(this.check, this));
+                this.$element.parent('.magnify').on(eventOut + '.' + this.type, $.proxy(this.check, this));
+            }
+
+            , getOptions: function (options) {
+                options = $.extend({}, $.fn[this.type].defaults, options, this.$element.data())
+
+                if (options.delay && typeof options.delay == 'number') {
+                    options.delay = {
+                        show: options.delay
+                        , hide: options.delay
+                    }
+                }
+
+                return options
+            }
+
+            , check: function (e) {
+                var container = $(e.currentTarget);
+                var self = container.children('img');
+                var mag = container.children(".magnify-large");
+
+                // Get the native dimensions of the image
+                if (!this.nativeWidth && !this.nativeHeight) {
+                    var image = new Image();
+                    image.src = self.attr("src");
+
+                    this.nativeWidth = image.width;
+                    this.nativeHeight = image.height;
+
+                } else {
+
+                    var magnifyOffset = container.offset();
+                    var mx = e.pageX - magnifyOffset.left;
+                    var my = e.pageY - magnifyOffset.top;
+
+                    if (mx < container.width() && my < container.height() && mx > 0 && my > 0) {
+                        mag.fadeIn(100);
+                    } else {
+                        mag.fadeOut(100);
+                    }
+
+                    if (mag.is(":visible")) {
+                        var rx = Math.round(mx / container.width() * this.nativeWidth - mag.width() / 2) * -1;
+                        var ry = Math.round(my / container.height() * this.nativeHeight - mag.height() / 2) * -1;
+                        var bgp = rx + "px " + ry + "px";
+
+                        var px = mx - mag.width() / 2;
+                        var py = my - mag.height() / 2;
+
+                        mag.css({ left: px, top: py, backgroundPosition: bgp });
+                    }
+                }
+
+            }
+        }
+
+
+        /* MAGNIFY PLUGIN DEFINITION
+         * ========================= */
+
+        $.fn.magnify = function (option) {
+            return this.each(function () {
+                var $this = $(this)
+                    , data = $this.data('magnify')
+                    , options = typeof option == 'object' && option
+                if (!data) $this.data('tooltip', (data = new Magnify(this, options)))
+                if (typeof option == 'string') data[option]()
+            })
+        }
+
+        $.fn.magnify.Constructor = Magnify
+
+        $.fn.magnify.defaults = {
+            delay: 0
+        }
+
+
+        /* MAGNIFY DATA-API
+         * ================ */
+
+        $(window).on('load', function () {
+            $('[data-toggle="magnify"]').each(function () {
+                var $mag = $(this);
+                $mag.magnify()
+            })
+        })
+
+    }(window.jQuery);
+
+</script>
+<style>
+    .container {
+        width: 100%;
+    }
+
+    .card-default {
+        color: #333;
+        background: linear-gradient(#fff,#ebebeb) repeat scroll 0 0 transparent;
+        font-weight: 600;
+        border-radius: 6px;
+    }
+
+    .mag {
+        width: 500px;
+        margin: 0 auto;
+        float: none;
+    }
+
+        .mag img {
+            max-width: 100%;
+        }
+
+    .magnify {
+        position: relative;
+        cursor: none;
+    }
+
+    .magnify-large {
+        position: absolute;
+        display: none;
+        width: 300px;
+        height: 300px;
+        -webkit-box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+        -moz-box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+        box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        border-radius: 100%;
+    }
+
+    .imageSize {
+        width: 400px;
+        height: 400px;
+    }
+
+    .container {
+        padding-top: 20px;
+        /*background: #ddd;*/
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .box {
+        margin: 0px 10px;
+        transition: 1s;
+        transform: scale(1.4);
+        z-index: 2;
+        box-shadow: 2px 2px 2px #000;
+    }
+
+        .box:hover {
+        }
+</style>
+@using (Html.BeginForm("Upload", "UploadData", FormMethod.Post, new { @class = "form-horizontal", @id = "frmMandateForm", role = "login" }))
+{
+<h3 style="margin-top: -1%; font-weight: bold; font-size: 30px;"> Verify Mandate</h3>
+
+    @Html.Hidden("Id");
+    <div class="row col-sm-6" style="text-align:left;padding-left:46px;">
+        @*<button type="button" class="btn btn-next" data-dismiss="modal" id="btnFetch">Fetch Details</button>*@
+        <input type="button" class="btn btn-next" data-dismiss="modal" id="btnFetch" value="Fetch Details" style="background-color:#cf8484" />
+        <a href="javascript:void(0);" class="btn btn-labeled btn-warning" style="background-color:#61a8f0" id="btnHold"> <span class="btn-label"><i class="glyphicon glyphicon-compressed"></i></span>Hold</a>
+        <button type="button" class="btn btn-warning" data-dismiss="modal" id="btnRelease">Release</button>
+        <button type="button" class="btn btn-success" data-dismiss="modal" id="btnVerify">Pass Mandate</button>
+        @ViewBag.Message
+    </div>
+    <div class="row col-sm-6" style="text-align:right;">
+        Reason
+        @Html.DropDownList("RetReasonList", new SelectList(ViewBag.ReasonList, "RsnCd", "Name"), "--Select--", new { @class = "input-sm" })
+        <button type="button" class="btn btn-danger" data-dismiss="modal" id="btnReturn" style="text-align:right">Return Mandate</button>
+    </div>
+    <br />
+    <div style="height:320px; padding-top: 10px" class="container" id="magnify">
+        <div style="height:370px" class="col-sm-7 ">
+            <div id="myCarousel" class="carousel fade">
+                <ol class="carousel-indicators"></ol>
+                <div id="divCarousel" class="carousel-inner ">
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+            </div>
+        </div>
+        <div class="col-sm-5" style="background-color: #ffffff; position: relative; overflow: auto;">
+            <div class="row">
+                <img data-toggle="magnify" id="FrntSignImg" src="#" alt="" style="width:100%;height:100% ;object-fit:contain" />
+            </div>
+        </div>
+    </div>
+    <div class="row" style="height:15px">
+        <div class="col-sm-7"></div>
+        <div class="col-sm-5">
+            <div class="row">
+                <a href="#" id="imgPrevious" style="float:left;height:20px">
+                    <img style="height:20px" id="imgPrevious1" src="~/Content/Images/previous.png" />
+                </a>
+                <a id="imgNext" href="#" style="float:right;height:20px">
+                    <img style="height:20px" id="imgNext11" src="~/Content/Images/nextimage.png" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-7">
+            <div class="jarviswidget jarviswidget-color-darken" id="wid-id-1" data-widget-editbutton="false">
+                <header>
+                    <span class="widget-icon"> <i class="fa fa-table"></i> </span>
+                    <h2>Mandate Details</h2>
+                </header>
+                <div>
+                    <div class="jarviswidget-editbox">
+                        <!-- This area used as dropdown edit box -->
+                    </div>
+                    <div class="widget-body no-padding">
+                        <table class="table table-bordered table-striped">
+                            <tr>
+                                <td style="width:176px">
+                                    UMR Dt:
+                                </td>
+                                <td style="width:176px">
+                                    <label id="umrDt"></label>
+                                </td>
+                                <td>
+                                    Aadhar No
+                                </td>
+                                <td>
+                                    <label id="Aadhaarno"></label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:200px">
+                                    Sponser IFSC
+                                </td>
+                                <td>
+                                    <label id="spnrCd"></label>
+                                </td>
+                                <td style="width:200px">
+                                    Beneficiary Name
+                                </td>
+                                <td>
+                                    <label id="VenfName"></label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:200px">
+                                    Customer Name
+                                </td>
+                                <td>
+                                    <label id="crdtrName"></label>
+                                </td>
+                                <td style="width:200px">
+                                    From Date
+                                </td>
+                                <td>
+                                    <label id="FrmPrd"></label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:200px">
+                                    Amount
+                                </td>
+                                <td>
+                                    <label id="amt"></label>
+                                </td>
+                                <td style="width:200px">
+                                    To Date
+                                </td>
+                                <td>
+                                    <label id="ToPrd"></label>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td style="width:200px">
+                                    Account No
+                                </td>
+                                <td>
+                                    <label id="mandateAcno"></label>
+                                    <label> &nbsp;</label>
+                                    <input style="float:right" id="ShowMandate" type="button" class="btn-info" value="Zoom In" />
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-5">
+            <div class="jarviswidget jarviswidget-color-darken" id="wid-id-1" data-widget-editbutton="false">
+                <header>
+                    <span class="widget-icon"> <i class="fa fa-table"></i> </span>
+                    <h2>Account Details</h2>
+                </header>
+                <div>
+                    <div class="jarviswidget-editbox">
+                        <!-- This area used as dropdown edit box -->
+                    </div>
+                    <div class="widget-body no-padding">
+                        <table class="table table-bordered table-striped">
+                            <tr>
+                                <td>
+                                    Account No
+                                </td>
+                                <td>
+                                    <label id="acno"></label>
+                                </td>
+                                <td>
+                                    KYC Status
+                                </td>
+                                <td>
+                                    <label id="kycStatus"></label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Name
+                                </td>
+                                <td>
+                                    <label id="acName"></label>
+                                </td>
+                                <td>
+                                    PAN No
+                                </td>
+                                <td>
+                                    <label id="PanNo"></label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Father Name
+                                </td>
+                                <td>
+                                    <label id="acFName"></label>
+                                </td>
+                                <td>
+                                    Aadhar No
+                                </td>
+                                <td>
+                                    <label id="adhaarNo"></label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Status
+                                </td>
+                                <td>
+                                    <label id="acStatus"></label>
+                                </td>
+                                <td>
+                                    Category
+                                </td>
+                                <td>
+                                    <label id="acCat"></label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Clear Bal
+                                </td>
+                                <td>
+                                    <label id="clrBal"></label>
+                                </td>
+                                <td>
+                                    Operating inst.
+                                </td>
+                                <td>
+                                    <label id="OprInst"></label>
+                                </td>
+                                <td colspan="2"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<script type="text/javascript">
+    $("#ShowMandate").click(function () {
+        if ($("#ShowMandate").val() === "Zoom In") {
+            $("#ShowMandate").val("Zoom Out")
+            $("#myCarousel").addClass("box");
+        } else {
+            $("#ShowMandate").val("Zoom In")
+            $("#myCarousel").removeClass("box");
+        }
+    });
+
+    $("#btnFetch").click(function () {
+
+        console.log("sdfdsff");
+        $.ajax({
+            url: '@Url.Action("LoadMandateImage", "VerifyMandate")',
+            type: "POST",
+            //data: { Id: id },
+            dataType: 'json',
+            // contentType: 'application/json',
+            success: function (result) {
+                debugger;
+                if (result.Status !== 0) {
+                    PopupError(result.Message);
+                }
+
+                if (result.Item !== null) {
+                    var cnt = 0;
+                    $('.carousel-inner div').remove();
+                    $('.carousel-indicators li').remove();
+                    //for (var m = 0; m < result.Item.ImageList.Count; m++) {
+                    $.each(result.Item.ImageList, function (i, item) {
+                        console.log(item.ImageTyp);
+                        var div = $('<div class="item">');
+                        div.appendTo('.carousel-inner');
+
+                        var image = $('<img data-toggle="magnify" id="dynamic">');
+                        if (item.ImageTyp == "DetailFrnt") {
+                            image.attr("src", '@Url.Action("GetFile", "File")?file=' + item.ImgName + '&path=' + item.ImgSrc);
+                        }
+                        else {
+                            image.attr("src", item.ImgSrc);
+                        }
+                        image.appendTo(div);
+
+                        $('<li data-target="#myCarousel" data-slide-to="' + cnt + '"></li>').appendTo('.carousel-indicators');
+                        $('.item').first().addClass('active');
+                        $('.carousel-indicators > li').first().addClass('active');
+                        $('#myCarousel').carousel();
+                        cnt++;
+                    });
+
+
+                    //EasyBank Signature
+
+                        @*$("#FrntSignImg").attr("src", '@Url.Action("GetFile", "File")?file=' + result.Item.CustSign + '&path=' + result.Item.SignImgSrc);
+                        $("#FrntSignImg").src = '@Url.Action("GetFile", "File")?file=' + result.Item.CustSign + '&path=' + result.Item.SignImgSrc;*@
+
+                    if (result.Item === null) {
+                        PopupError(result.Message);
+                    }
+
+                    else {
+
+                        if (result.Status !== 0) {
+                            PopupError(result.Message);
+                        }
+
+                        if (result.Item.IsValidAcc) {
+                            GetSignatures(result.Item.AcModel.BrnCd, result.Item.AcModel.GLCd, result.Item.AcModel.AcNo);
+                        }
+
+                        /*  $("#magnifylarge").css("background", "url('/File/GetFileByName?file=" + result.Item.CustSign + "')");*/
+
+
+                        //Mandate Details Load
+                        $("#Id").val(result.Item.Mandate.Id);
+
+                        //Load mandate detail & account detail
+                        $("#umrDt").html(parseDate(result.Item.Mandate.UMRDt));
+                        $("#spnrCd").html(result.Item.Mandate.SpnsrBnkCd);
+                        $("#crdtrName").html(result.Item.Mandate.CrdtrName);
+                        $("#VenfName").html(result.Item.Mandate.UtilityName);
+                        $("#mandateName").html(result.Item.Mandate.AccNo);
+                        $("#kycStatus").html(result.Item.KycStatus);
+                        $("#PanNo").html(result.Item.AcModel.PANNo);
+                        $("#FrmPrd").html(FrmDate(result.Item.Mandate.FrmPrd));
+                        $("#ToPrd").html(TDate(result.Item.Mandate.ToPrd));
+                        $("#Aadhaarno").html(result.Item.AcModel.AadhaarNo);
+                        $("#OprInst").html(result.Item.OpinstName);
+
+                        $("#adhaarNo").html(result.Item.AcModel.AadhaarNo);
+                        //$("#micr").html(result.Item.Mandate.MICRCd);
+                        $("#amt").html(result.Item.Mandate.Amt.toFixed(2));
+
+                        $("#mandateAcno").html(result.Item.AcModel.AccNo);
+                        if (result.Item.Mandate.RefNo1.length === 12) {
+                            $("#refNo1").html("/  " + result.Item.Mandate.RefNo1);
+                        }
+                        $("#acno").html(result.Item.AcNo);
+                        $("#acName").html(result.Item.AcModel.AcName);
+                        $("#clrBal").html(result.Item.AcModel.ClrBal.toFixed(2));
+                        $("#acFName").html(result.Item.AcModel.FName);
+                        $("#acStatus").html(result.Item.AcModel.Status);
+                        $("#acCat").html(result.Item.AcModel.Category);
+
+                        $("#RetReasonList").empty();
+                        $("#RetReasonList").append("<option value=''>Select Reason</option>")
+                        $.each(result.Item.RsnList, function (i, item) {
+                            $("#RetReasonList").append("<option value=" + item.RsnCd + ">" + item.Name + "</option>")
+                        });
+                        $("myCarousel").prop("hidden", false);
+                        $("magnify").prop("hidden", false);
+                        console.log(result.Item.IsValidAcc);
+                        if (!result.Item.IsValidAcc) {
+                            $("#btnVerify").attr("disabled", "disabled");
+                            console.log("false");
+                            $("#acName").html("Account Not Found");
+                        }
+                        else {
+                            $("#btnVerify").removeAttr("disabled");
+                            console.log("true");
+                        }
+
+                        if (result.Item.AcModel.Status !== "Operative") {
+
+                            $("#btnVerify").attr("disabled", "disabled");
+                        }
+                        else {
+                            $("#btnVerify").removeAttr("disabled");
+                        }
+                    }
+                }
+            }
+        });
+    });
+
+    $("#imgNext").click(function () {
+        ShowNextSignature();
+    });
+
+    $("#imgPrevious").click(function () {
+
+        ShowPreviousSignature();
+    });
+
+    $("#btnVerify").click(function () {
+        if ($("#RetReasonList").val() === "" || $("#RetReasonList").val() === "ac01") {
+            UpdateMandate($("#Id").val(), "Verify", "");
+        }
+        else {
+            PopupError("Incorrect reason");
+            return false;
+        }
+    });
+
+    $("#btnReturn").click(function () {
+        if ($("#Id").val() != "") {
+            if ($("#RetReasonList").val() == "") {
+                PopupError("Please select reason for return");
+                return false;
+            }
+        }
+
+        UpdateMandate($("#Id").val(), "Return", $("#RetReasonList").val());
+    });
+
+    $("#btnHold").click(function () {
+        UpdateMandate($("#Id").val(), "Hold", "");
+    });
+
+    $("#btnRelease").click(function () {
+        $.ajax({
+            url: "/VerifyMandate/ReleaseMandate",
+            type: "POST",
+            data: {},
+            dataType: 'json',
+            // contentType: 'application/json',
+            success: function (result) {
+
+                if (result.Status == 2) {
+                    PopupError(result.Message);
+                }
+                else {
+                    PopupSuccess(result.Message);
+                }
+                setTimeout(function () { window.location.href = '@Url.Action("Index", "VerifyMandate")'; }, 5000);
+                //
+            }
+        });
+    });
+
+    @*var SignatureList = null;
+        var SigCount = 0;
+    function GetSignatures (brnCd, glCd, acNo) {
+        $("#imgPrevious").removeAttr("tag").hide();
+        $("#imgNext").removeAttr("tag").hide();
+        //SignatureList = null;
+        //SigCount = 0;
+        $("#FrntSignImg").attr("src", "#");
+
+       /* if (memNo == undefined) { memNo = ""; }*/
+
+        $.ajax({
+            type: "POST",
+            url: '@Url.Action("GetSignatureFiles", "Signature")',
+            //url: "/Signature/GetSignatureFiles",
+            //dataType: "json",
+            dataType: 'json',
+            data: "brnCd=" + brnCd + "&glCd=" + glCd + "&acNo=" + acNo + "&memNo=" + "",
+            success: function (data, textStatus) {
+                if (null != data.Item) {
+
+                    if (null != data.Item.SignatureList && data.Item.SignatureList.length > 0) {
+                        SignatureList = data.Item.SignatureList;
+                        var sigModel = SignatureList[0];
+
+                        $("#FrntSignImg").attr("src", sigModel.Src);
+                        $("#magnifylarge").css("background", "url('/File/GetFileByName?file=" + sigModel.FileName + "')");
+                        SigCount = parseInt(data.Item.SignatureList.length, 10);
+
+                        if (SigCount > 1) {
+                            $("#imgNext").attr("tag", 2).show();
+                            $("#imgPrevious").attr("tag", 1).hide();
+                        }
+                    }
+                }
+                else {
+                    PopupError(data.Message);
+                }
+            }
+        });
+    }*@
+
+    function ShowPreviousSignature() {
+        debugger;
+        var attr = $("#imgPrevious").attr('tag');
+
+        if (typeof attr !== typeof undefined && attr !== false) {
+        //if ($("#imgPrevious").hasAttr("tag")) {
+            var imgIndex = parseInt($("#imgPrevious").attr("tag"));
+            if (null != SignatureList && SignatureList.length > 0) {
+                var sigModel = SignatureList[imgIndex - 1];
+
+                $("#FrntSignImg").attr("src", sigModel.Src);
+                $("#magnifylarge").css("background", "url('/File/GetFileByName?file=" + sigModel.FileName + "')");
+                $("#imgNext").attr("tag", imgIndex + 1).show();
+
+                }
+                if (imgIndex > 1) {
+                    $("#imgPrevious").attr("tag", imgIndex - 1).show();
+                }
+                else {
+                    $("#imgPrevious").removeAttr("tag").hide();
+                }
+            }
+        }
+
+    function ShowNextSignature() {
+        var attr = $("#imgNext").attr('tag');
+
+        if (typeof attr !== typeof undefined && attr !== false) {
+        /*if ($("#imgNext").hasAttribute("tag")) {*/
+            var imgIndex = parseInt($("#imgNext").attr("tag"));
+            if (null != SignatureList && SignatureList.length > 0) {
+                var sigModel = SignatureList[imgIndex - 1];
+
+                $("#FrntSignImg").attr("src", sigModel.Src);
+                $("#magnifylarge").css("background", "url('/File/GetFileByName?file=" + sigModel.FileName + "')");
+                $("#imgPrevious").attr("tag", imgIndex - 1).show();
+
+                if (SigCount > imgIndex) {
+                    $("#imgNext").attr("tag", imgIndex + 1);
+                }
+                else {
+                    $("#imgNext").removeAttr("tag").hide();
+                }
+            }
+        }
+    }
+    function UpdateMandate(Id, Operation, RtnRsn) {
+      var Id = "5097";
+        if (Id == "") {
+            return false;
+        }
+        $.ajax({
+            url: "/VerifyMandate/UpdateMandate",
+            type: "POST",
+            data: { Id: $("#Id").val(), Operation: Operation, RtnRsn: RtnRsn },
+            dataType: 'json',
+            // contentType: 'application/json',
+            success: function (result) {
+                if (result.Status === 0) {
+                    PopupSuccess(result.Message);
+                }
+                else {
+                    PopupError(result.Message);
+                }
+                setTimeout(function () {
+                    window.location.href = '@Url.Action("Index", "VerifyMandate")';
+                }, 5000);
+                //
+            }
+        });
+    }
+
+    function parseDate(dateString) {
+        //console.log(this);
+        var m = dateString.match(/^\/Date\((\d+)\)\/$/);
+        var date = null;
+        //alert(m);
+        //m = 568704600000;
+        //alert(new Date(568704600000));
+        if (m) {
+            date = new Date(parseInt(m[1]));
+            //console.log("m:", date);
+        }
+        return formatJSONDate(date);
+    }
+
+    function FrmDate(dateString) {
+
+        var F = dateString.match(/^\/Date\((\d+)\)\/$/);
+        var date = null;
+        if (F) {
+            date = new Date(parseInt(F[1]));
+        }
+        return formatJSONDate(date);
+    }
+
+    function TDate(dateString) {
+        debugger;
+        //console.log(this);
+        var T = dateString.match(/^\/Date\((\d+)\)\/$/);
+        var date = null;
+        if (T) {
+            date = new Date(parseInt(T[1]));
+        }
+        return formatJSONDate(date);
+    }
+
+    function formatJSONDate(jsonDate) {
+        console.log(jsonDate);
+        if (null != jsonDate) {
+            //var newDate = dateFormat(jsonDate.toLocaleDateString(), "dd/mm/yyyy");
+            var newDate = pad(jsonDate.getDate(), 2, '0') + "/" + pad((jsonDate.getMonth() + 1), 2, '0') + "/" + jsonDate.getFullYear();
+            return newDate;
+        }
+        else return "";
+    }
+
+    function pad(number, length, char) {
+
+        var str = '' + number;
+        while (str.length < length) {
+            str = char + str;
+        }
+        return str;
+    }
+</script>
+
+
+<script>
+    var SignatureList = null;
+    var SigCount = 0;
+    function GetSignatures(brnCd, glCd, acNo) {
+        $("#imgPrevious").removeAttr("tag").hide();
+        $("#imgNext").removeAttr("tag").hide();
+        //SignatureList = null;
+        //SigCount = 0;
+        $("#FrntSignImg").attr("src", "#");
+
+        /* if (memNo == undefined) { memNo = ""; }*/
+
+        $.ajax({
+            type: "POST",
+            url: '@Url.Action("GetSignatureFiles", "Signature")',
+            //url: "/Signature/GetSignatureFiles",
+            //dataType: "json",
+            dataType: 'json',
+            data: "brnCd=" + brnCd + "&glCd=" + glCd + "&acNo=" + acNo + "&memNo=" + "",
+            success: function (data, textStatus) {
+                if (null != data.Item) {
+
+                    if (null != data.Item.SignatureList && data.Item.SignatureList.length > 0) {
+                        SignatureList = data.Item.SignatureList;
+                        var sigModel = SignatureList[0];
+
+                        $("#FrntSignImg").attr("src", sigModel.Src);
+                        $("#magnifylarge").css("background", "url('/File/GetFileByName?file=" + sigModel.FileName + "')");
+                        SigCount = parseInt(data.Item.SignatureList.length, 10);
+
+                        if (SigCount > 1) {
+                            $("#imgNext").attr("tag", 2).show();
+                            $("#imgPrevious").attr("tag", 1).hide();
+                        }
+                    }
+                }
+                else {
+                    PopupError(data.Message);
+                }
+            }
+        });
+    }
+
+</script>

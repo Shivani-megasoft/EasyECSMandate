@@ -1,0 +1,92 @@
+﻿@{
+    ViewBag.Title = "_ECSRejectList";
+}
+
+<br />
+<br />
+@using (Html.BeginForm("UpdateMandate", "RejectMandate", FormMethod.Post, new { @id = "formexcel", enctype = "multipart/form-data" }))
+{
+    <div>
+        <table id="dt_basic" class="table table-striped table-bordered table-hover" style="margin: 0; width: 100%; padding: 0;">
+            <thead>
+                <tr>
+                    <th>Select</th>
+                    <th>Type</th>
+                    <th>Account No</th>
+                    <th>NPCI File</th>
+                    <th>Mandate File</th>
+                    <th>UMRNo</th>
+                    <th>Amount</th>
+                    <th>UMRN Date</th>
+                    <th>Return Reason</th>
+                    <th>Auth By</th>
+                    <th>Debitor Name</th>
+                    <th>Reject Reason</th>
+                    <th>NPCI Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null)
+                {
+                    foreach (var item in Model)
+                    {
+                <tr>
+                    <td><input type="radio" name="selectedRecord" value="@item.Id" /></td>
+                    <td>@(item.MandateTyp == "IW" ? "Inward" : "Outward")</td>
+                    <td>@item.AcNo</td>
+                    <td>@item.NPCIFile</td>
+                    <td>@item.MandateFile</td>
+                    <td>@item.UMRNo</td>
+                    <td>@item.Amt</td>
+                    <td>@Convert.ToDateTime(item.UMRDt).ToShortDateString()</td>
+                    <td>@item.RtnRsn</td>
+                    <td>@item.AuthUser</td>
+                    <td>@item.DebtrName</td>
+                    <td>@item.Reason</td>
+                    <td>@item.MandateStatus</td>
+                </tr>
+                    }
+                }
+            </tbody>
+        </table>
+        <input type="hidden" id="selectedRecordId" name="selectedRecordId" value="" />
+    </div>
+}
+<br />
+<div>
+    <button type="button" class="btn btn-success" id="btnRegenFile">Regenerate File</button>
+</div>
+
+<div id="divCarousel">
+    <!-- This is where the partial view will be loaded -->
+</div>
+
+<script>
+    $(function () {
+        $('#btnRegenFile').click(function () {
+            var selectedRecord = $('input[name="selectedRecord"]:checked').val();
+            if (!selectedRecord) {
+                alert("Please select a record to regenerate the file.");
+                return;
+            }
+            $('#selectedRecordId').val(selectedRecord);
+            $.ajax({
+                url: '@Url.Action("UpdateMandate", "RejectMandate")',
+                type: 'GET',
+                data: { selectedRecordId: selectedRecord },
+                success: function (response) {
+
+                    if (response.Status === 1) {   
+                        alert(response.Message);  
+                    } else {
+                        alert(response.Message);   
+                    }
+
+                },
+                error: function (xhr, status, error) {
+                    console.error('An error occurred:', error);
+                }
+            });
+        });
+    });
+</script>

@@ -1,0 +1,241 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<style>
+    /* Custom CSS to make datepicker look like first image (simple calendar) */
+    .ui-datepicker {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        background: #fff;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        padding: 10px;
+    }
+
+    .ui-datepicker-header {
+        background: #f8f9fa;
+        border: none;
+        border-radius: 3px;
+        padding: 8px 0;
+        margin-bottom: 5px;
+    }
+
+    .ui-datepicker-title {
+        font-weight: bold;
+        color: #333;
+    }
+
+    .ui-datepicker-calendar {
+        margin: 0;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+        .ui-datepicker-calendar th {
+            background: #e9ecef;
+            color: #495057;
+            font-weight: 600;
+            padding: 8px 0;
+            text-align: center;
+            border: 1px solid #dee2e6;
+        }
+
+        .ui-datepicker-calendar td {
+            padding: 5px;
+            text-align: center;
+            border: 1px solid #dee2e6;
+        }
+
+            .ui-datepicker-calendar td a {
+                text-decoration: none;
+                color: #007bff;
+                display: block;
+                padding: 6px;
+                border-radius: 3px;
+                transition: all 0.2s;
+            }
+
+
+                .ui-datepicker-calendar td a:hover {
+                    background: #007bff;
+                    color: white;
+                }
+
+        .ui-datepicker-calendar .ui-state-active {
+            background: #007bff;
+            color: white;
+            font-weight: bold;
+        }
+
+        .ui-datepicker-calendar .ui-state-highlight {
+            background: #ffc107;
+            color: #212529;
+        }
+
+    .ui-datepicker-prev, .ui-datepicker-next {
+        cursor: pointer;
+        color: #6c757d;
+        padding: 5px;
+    }
+
+        .ui-datepicker-prev:hover, .ui-datepicker-next:hover {
+            color: #007bff;
+            background: #e9ecef;
+            border-radius: 3px;
+        }
+
+    /* Hide the button panel for cleaner look */
+    .ui-datepicker-buttonpane {
+        display: none;
+    }
+    #FrmDate {
+        width: 70%;
+    }
+    #ToDate {
+        width: 70%;
+    }
+
+
+</style>
+
+<form action="~/RejectMandate/GetRejectMandate" method="post" id="frmGenerateReject">
+    <div class="well">
+        <h3 style="margin-top: -1%; font-weight: bold; font-size: 30px;">Reject Mandate Regenerate</h3>
+        <div class="row">
+            <div class="col-md-3">
+                <b>From Date:</b>
+                <div style="position: relative;">
+                    @Html.TextBox("FrmDate", ViewBag.FrmDate as string, new { @class = "form-control", @id = "FrmDate", autocomplete = "off", @readonly = "readonly" })
+                    <span style="position: absolute; width: 18%; right: 66px; top: 6px; cursor: pointer;" id="calFrmDate">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <b>To Date:</b>
+                <div style="position: relative;">
+                    @Html.TextBox("ToDate", ViewBag.ToDate as string, new { @class = "form-control", @id = "ToDate", autocomplete = "off", @readonly = "readonly" })
+                    <span style="position: absolute; width: 18%; right: 66px; top: 6px; cursor: pointer;" id="calToDate">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <input class="btn btn-success btn-sm" type="button" value="Show" id="btnShow" style="margin-top: 6%; margin-left: -26%;" />
+            </div>
+        </div>
+    </div>
+    <div id="dvMandtList"></div>
+</form>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+<link href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css" rel="stylesheet" />
+
+
+
+<script type="text/javascript">
+    var $dvMandtList = $("#dvMandtList");
+
+    $("#btnShow").click(function () {
+        GetListByStatus();
+    });
+
+    function GetListByStatus() {
+        var frmDate = $("#FrmDate").val();
+        var toDate = $("#ToDate").val();
+
+        $.ajax({
+            url: "/RejectMandate/GetRejectMandate",
+            type: "GET",
+            data: { FrmDate: frmDate, ToDate: toDate },
+            dataType: 'json',
+            success: function (result) {
+                $dvMandtList.html(result.partialView);
+            },
+            error: function () {
+                alert("Error occurred while fetching data.");
+            }
+        });
+    }
+
+    $(function () {
+        var today = new Date();
+        var tomorrow = new Date();
+        tomorrow.setDate(today.getDate() + 1);
+
+        function formatDate(date) {
+            var dd = String(date.getDate()).padStart(2, '0');
+            var mm = String(date.getMonth() + 1).padStart(2, '0');
+            var yyyy = date.getFullYear();
+            return dd + '/' + mm + '/' + yyyy;
+        }
+
+        // Set default dates
+        if (!$('#FrmDate').val()) $('#FrmDate').val(formatDate(today));
+        if (!$('#ToDate').val()) $('#ToDate').val(formatDate(tomorrow));
+
+        // Initialize datepickers with configuration for simple calendar look
+        $('#FrmDate').datepicker({
+            dateFormat: 'dd/mm/yy',
+            showOn: 'focus',
+            changeMonth: true,
+            changeYear: true,
+            showButtonPanel: false,  // Hide button panel for cleaner look
+            showWeek: false,         // Don't show week numbers
+            firstDay: 0,            // Start with Sunday (0 = Sunday, 1 = Monday)
+            showOtherMonths: true,  // Show days from other months
+            selectOtherMonths: true, // Allow selecting days from other months
+            // Hide the calendar initially
+            beforeShow: function (input, inst) {
+                setTimeout(function () {
+                    inst.dpDiv.css({
+                        'z-index': 9999
+                    });
+                }, 0);
+            }
+        }).datepicker("hide");
+
+        $('#ToDate').datepicker({
+            dateFormat: 'dd/mm/yy',
+            showOn: 'focus',
+            changeMonth: true,
+            changeYear: true,
+            showButtonPanel: false,
+            showWeek: false,
+            firstDay: 0,
+            showOtherMonths: true,
+            selectOtherMonths: true,
+            beforeShow: function (input, inst) {
+                setTimeout(function () {
+                    inst.dpDiv.css({
+                        'z-index': 9999
+                    });
+                }, 0);
+            }
+        }).datepicker("hide");
+
+        // Icon click handlers - prevent default and show datepicker
+        $('#calFrmDate').click(function (e) {
+            e.preventDefault();
+            $('#FrmDate').datepicker('show');
+        });
+
+        $('#calToDate').click(function (e) {
+            e.preventDefault();
+            $('#ToDate').datepicker('show');
+        });
+
+        // Also make the input fields clickable to show datepicker
+        $('#FrmDate').click(function () {
+            $(this).datepicker('show');
+        });
+
+        $('#ToDate').click(function () {
+            $(this).datepicker('show');
+        });
+    });
+</script>

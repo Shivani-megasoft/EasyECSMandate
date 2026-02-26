@@ -1,0 +1,131 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+@using (Html.BeginForm("", "", FormMethod.Post, new { @class = "form-horizontal", @id = "frmAmendMandate" }))
+{
+    <br />
+    <div class="well">
+        <h3 style="margin-top: -1%; font-weight: bold; font-size: 30px;"> ACH Input File</h3>
+        <div class="row">
+            <div class="col-md-2">
+                <b>From Date:</b> @Html.TextBox("FromDate", "", new { @class = "input-sm date", @Value = ViewBag.ForDate })
+            </div>
+            <div class="col-md-2">
+                <b> To Date:</b> @Html.TextBox("ToDate", "", new { @class = "input-sm date", @Value = ViewBag.ForDate })
+            </div>
+            <div class="col-md-2">
+                <b> Settlement Date: </b>@Html.TextBox("SetDate", "", new { @class = "input-sm date", @Value = ViewBag.SetDate })
+            </div>
+            <div class="col-md-4">
+                <input class="btn btn-success btn-sm" style="margin-top: 4%" type="button" value="View ACH File" id="btnView" />
+                <input class="btn btn-success btn-sm" style="margin-left: 10px; margin-top: 4%" type="button" value="Generate ACH File" id="btnGenerate" />
+                <input class="btn btn-success btn-sm" style="margin-left: 10px; margin-top: 4%" type="button" value="View Gen ACH File" id="btnViewGenFile" />
+            </div>
+        </div><br />
+
+        <div id="dvecs">
+
+        </div>
+    </div>
+}
+<script type="text/javascript">
+    $(document).ready(function () {
+        var $dvecs = $("#dvecs");
+
+        $("#btnView").click(function () {
+            GetListByStatus($("#FromDate").val(), $("#ToDate").val(), $("#SetDate").val());
+            $dvecs.prop("disabled", false);
+        });
+
+        $("#btnViewGenFile").click(function () {
+            GetListByStatusGenFile($("#FromDate").val(), $("#ToDate").val(), $("#SetDate").val());
+            $dvecs.prop("disabled", false);
+        });
+
+        $("#btnGenerate").click(function () {
+            generateACHFile($("#FromDate").val(), $("#ToDate").val(), $("#SetDate").val());
+        });
+
+        function GetListByStatus(FromDate, ToDate, SetDate) {
+            $.ajax({
+                url: "/ACHInputFile/ViewACHFile",
+                type: "GET",
+                data: {
+                    FromDate: FromDate,
+                    ToDate: ToDate,
+                    SetDate: SetDate
+                },
+                dataType: 'json',
+                success: function (result) {
+                    if (result.Status == 3) {
+                        PopupSuccess(result.Message);
+                    } else {
+                        $dvecs.html(result.partialView);
+                    }
+                }
+            });
+        }
+
+        function GetListByStatusGenFile(FromDate, ToDate, SetDate) {
+            $.ajax({
+                url: "/ACHInputFile/ViewGenACHFile",
+                type: "GET",
+                data: {
+                    FromDate: FromDate,
+                    ToDate: ToDate,
+                    SetDate: SetDate
+                },
+                dataType: 'json',
+                success: function (result) {
+                    if (result.Status == 3) {
+                        PopupSuccess(result.Message);
+                    } else {
+                        $dvecs.html(result.partialView);
+                    }
+                }
+            });
+        }
+
+        function generateACHFile(FromDate, ToDate, SetDate) {
+            $.ajax({
+                url: "/ACHInputFile/GenerateACHFile",
+                type: "POST",
+                data: {
+                    FromDate: FromDate,
+                    ToDate: ToDate,
+                    SetDate: SetDate
+                },
+                dataType: 'json',
+                success: function (result) {
+                    if (result.Status == 0) {
+                        PopupSuccess(result.Message);
+                    } else {
+                        PopupError(result.Message);
+                    }
+                }
+            });
+        }
+
+        // START AND FINISH DATE
+        //$('#startdate').datepicker({
+        //    dateFormat: 'dd.mm.yy',
+        //    prevText: '<i class="fa fa-chevron-left"></i>',
+        //    nextText: '<i class="fa fa-chevron-right"></i>',
+        //    onSelect: function (selectedDate) {
+        //        $('#finishdate').datepicker('option', 'minDate', selectedDate);
+        //    }
+        //});
+
+        $('#startdate').datepicker({
+            dateFormat: 'dd.mm.yy',
+            prevText: '<i class="fa fa-chevron-left"></i>',
+            nextText: '<i class="fa fa-chevron-right"></i>',
+            onSelect: function (selectedDate) {
+                $('#finishdate').datepicker('option', 'minDate', selectedDate);
+            }
+        });
+    });
+</script>
+
+

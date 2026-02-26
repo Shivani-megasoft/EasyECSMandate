@@ -1,0 +1,1568 @@
+1.FilePath:D:\Pritam\H2HMandate
+3.Copy Path:D:\Pritam\MandateImage\New
+4.Path exists:D:\Pritam\H2HMandate
+4.ZIp Count:6
+1.FilePath:D:\Pritam\H2HMandate
+3.Copy Path:D:\Pritam\MandateImage\New
+4.Path exists:D:\Pritam\H2HMandate
+4.ZIp Count:6
+1.FilePath:\\MANZAR-PC\Manzer\Pacs_Database
+3.Copy Path:D:\Pritam\MandateImage\New
+4.Path exists:\\MANZAR-PC\Manzer\Pacs_Database
+1.FilePath:D:\Pritam\H2HMandate
+3.Copy Path:D:\Pritam\MandateImage\New
+4.Path exists:D:\Pritam\H2HMandate
+4.ZIp Count:1
+1.FilePath:D:\Pritam\H2HMandate
+3.Copy Path:\\192.168.2.12\d\CTS
+4.Path exists:D:\Pritam\H2HMandate
+1.FilePath:\\192.168.99.108\SharedVinod
+3.Copy Path:D:\Pritam\MandateImage\New
+4.Path exists:\\192.168.99.108\SharedVinod
+1.FilePath:\\192.168.99.108\SharedVinod
+3.Copy Path:D:\Pritam\MandateImage\New
+1.FilePath:\\192.168.99.108\SharedVinod
+1.FilePath:\\192.168.99.108\SharedVinod
+1.FilePath:\\192.168.99.108\SharedVinod
+1.\\192.168.99.108\SharedVinod\TestMandate
+1.\\192.168.99.113\SharedVinod\TestMandate
+2.2
+3.\\192.168.99.113\SharedVinod\TestMandate\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+3.\\192.168.99.113\SharedVinod\TestMandate\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+3.\\192.168.99.113\SharedVinod\TestMandate\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip
+3.\\192.168.99.113\SharedVinod\TestMandate\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+The file exists.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 78
+3.\\192.168.99.113\SharedVinod\TestMandate\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+The file exists.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 78
+3.\\192.168.99.113\SharedVinod\TestMandate\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+3.\\192.168.99.113\SharedVinod\TestMandate\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+The file 'D:\Pritam\MandateImage\New\MMS-CREATE-CITI-CITI137268-04032020-003552_front.tif' already exists.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 73
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+Object reference not set to an instance of an object.   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 244
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+The file 'D:\Pritam\MandateImage\New\MMS-CREATE-CITI-CITI137268-04032020-003552-INP.xml' already exists.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 73
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+Object reference not set to an instance of an object.   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 244
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip
+The column order for ebECSMandate is not correct.  Please verify.
+The correct order is [umrno,mandatefile,msgid,umrdt,spnsrbnkcd,utilitycd,utilityname,action,actyp,acno,bankname,brnname,ifsc,bnkcd,amt,refno1,refno2,freq,frmprd,toprd,isunitcancel,phoneno,email,detailfrntimg,frntimg,trnind,mandatestatus,dtstamp,clerk,authuser,reserveby,operation,deleted,debittyp,mandatetyp,spnsrbankname,credtragentcode,credtragentname,crdtrname,mobile,othrdetail,debtrcode,debtrbnk,usernachid,mndtreqid,category,proprietary,seq,rtnrsn,variant,npcifile,reservedt,authdt,id]   at EasyBank.DataLayer.DataObjects.SqlBulkDBEngine.Insert(DataTable sourceTable, SqlConnection connection, SqlTransaction tx) in D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\BulkOperations\SqlBulkDBEngine.cs:line 105
+   at EASYECS.BussinessLayer.ECSService.Service.MandateService.BulkUpdate(List`1 ecsList, List`1 mandateHisList) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\Service\MandateService.cs:line 59
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 262
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip
+The column order for ebECSMandate is not correct.  Please verify.
+The correct order is [umrno,mandatefile,msgid,umrdt,spnsrbnkcd,utilitycd,utilityname,action,actyp,acno,bankname,brnname,ifsc,bnkcd,amt,refno1,refno2,freq,frmprd,toprd,isunitcancel,phoneno,email,detailfrntimg,frntimg,trnind,mandatestatus,dtstamp,clerk,authuser,reserveby,operation,deleted,debittyp,mandatetyp,spnsrbankname,credtragentcode,credtragentname,crdtrname,mobile,othrdetail,debtrcode,debtrbnk,usernachid,mndtreqid,category,proprietary,seq,rtnrsn,variant,npcifile,reservedt,authdt,id]   at EasyBank.DataLayer.DataObjects.SqlBulkDBEngine.Insert(DataTable sourceTable, SqlConnection connection, SqlTransaction tx) in D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\BulkOperations\SqlBulkDBEngine.cs:line 105
+   at EASYECS.BussinessLayer.ECSService.Service.MandateService.BulkUpdate(List`1 ecsList, List`1 mandateHisList) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\Service\MandateService.cs:line 59
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 262
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip
+The transaction is either not associated with the current connection or has been completed.   at System.Data.SqlClient.SqlBulkCopy.CreateOrValidateConnection(String method)
+   at System.Data.SqlClient.SqlBulkCopy.WriteRowSourceToServerAsync(Int32 columnCount, CancellationToken ctoken)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServer(DataTable table, DataRowState rowState)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServer(DataTable table)
+   at EasyBank.DataLayer.DataObjects.SqlBulkDBEngine.Insert(DataTable sourceTable, SqlConnection connection, SqlTransaction tx) in D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\BulkOperations\SqlBulkDBEngine.cs:line 122
+   at EASYECS.BussinessLayer.ECSService.Service.MandateService.BulkUpdate(List`1 ecsList, List`1 mandateHisList) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\Service\MandateService.cs:line 59
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 262
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip
+Object reference not set to an instance of an object.   at EasyBank.DataLayer.DataObjects.SqlBulkDBEngine.IsTableStructureValid(String tableName, String columns, SqlConnection connection, SqlTransaction tx) in D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\BulkOperations\SqlBulkDBEngine.cs:line 315
+   at EasyBank.DataLayer.DataObjects.SqlBulkDBEngine.Insert(DataTable sourceTable, SqlConnection connection, SqlTransaction tx) in D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\BulkOperations\SqlBulkDBEngine.cs:line 98
+   at EASYECS.BussinessLayer.ECSService.Service.MandateService.BulkUpdate(List`1 ecsList, List`1 mandateHisList) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\Service\MandateService.cs:line 70
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 262
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+5.ErrorThe file 'D:\Pritam\MandateImage\New\MMS-CREATE-CITI-CITI137268-04032020-003552_front.tif' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 76Inner:
+Object reference not set to an instance of an object.   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 251
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+5.ErrorThe file 'D:\Pritam\MandateImage\New\MMS-CREATE-CITI-CITI137268-04032020-003552-INP.xml' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 76Inner:
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+Object reference not set to an instance of an object.   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 251
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+5.ErrorThe file 'D:\Pritam\MandateImage\New\MMS-CREATE-CITI-CITI137268-04032020-003552-INP.xml' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 76Inner:
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+5.ErrorThe file 'D:\Pritam\MandateImage\New\MMS-CREATE-CITI-CITI137268-04032020-003552-INP.xml' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 76Inner:
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip Copy:D:\Pritam\MandateImage\New
+The column order for ebECSMandate is not correct.  Please verify.
+The correct order is [umrno,mandatefile,msgid,umrdt,spnsrbnkcd,utilitycd,utilityname,action,actyp,acno,bankname,brnname,ifsc,bnkcd,amt,refno1,refno2,freq,frmprd,toprd,isunitcancel,phoneno,email,detailfrntimg,frntimg,trnind,mandatestatus,dtstamp,clerk,authuser,reserveby,operation,deleted,debittyp,mandatetyp,spnsrbankname,credtragentcode,credtragentname,crdtrname,mobile,othrdetail,debtrcode,debtrbnk,usernachid,mndtreqid,category,proprietary,seq,rtnrsn,variant,npcifile,reservedt,authdt,id,craccount]   at EasyBank.DataLayer.DataObjects.SqlBulkDBEngine.Insert(DataTable sourceTable, SqlConnection connection, SqlTransaction tx) in D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\BulkOperations\SqlBulkDBEngine.cs:line 105
+   at EASYECS.BussinessLayer.ECSService.Service.MandateService.BulkUpdate(List`1 ecsList, List`1 mandateHisList) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\Service\MandateService.cs:line 59
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 273
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+5.ErrorThe file 'D:\Pritam\MandateImage\New\MMS-CREATE-CITI-CITI137268-04032020-003552_front.tif' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 76Inner:
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip Copy:D:\Pritam\MandateImage\New
+The column order for ebECSMandate is not correct.  Please verify.
+The correct order is [umrno,mandatefile,msgid,umrdt,spnsrbnkcd,utilitycd,utilityname,action,actyp,acno,bankname,brnname,ifsc,bnkcd,amt,refno1,refno2,freq,frmprd,toprd,isunitcancel,phoneno,email,detailfrntimg,frntimg,trnind,mandatestatus,dtstamp,clerk,authuser,reserveby,operation,deleted,debittyp,mandatetyp,spnsrbankname,credtragentcode,credtragentname,crdtrname,mobile,othrdetail,debtrcode,debtrbnk,usernachid,mndtreqid,category,proprietary,seq,rtnrsn,variant,npcifile,reservedt,authdt,id,craccount]   at EasyBank.DataLayer.DataObjects.SqlBulkDBEngine.Insert(DataTable sourceTable, SqlConnection connection, SqlTransaction tx) in D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\BulkOperations\SqlBulkDBEngine.cs:line 105
+   at EASYECS.BussinessLayer.ECSService.Service.MandateService.BulkUpdate(List`1 ecsList, List`1 mandateHisList) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\Service\MandateService.cs:line 59
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 273
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip Copy:D:\Pritam\MandateImage\New
+The column order for ebECSMandate is not correct.  Please verify.
+The correct order is [umrno,mandatefile,msgid,umrdt,spnsrbnkcd,utilitycd,utilityname,action,actyp,acno,bankname,brnname,ifsc,bnkcd,amt,refno1,refno2,freq,frmprd,toprd,isunitcancel,phoneno,email,detailfrntimg,frntimg,trnind,mandatestatus,dtstamp,clerk,authuser,reserveby,operation,deleted,debittyp,mandatetyp,spnsrbankname,credtragentcode,credtragentname,crdtrname,mobile,othrdetail,debtrcode,debtrbnk,usernachid,mndtreqid,category,proprietary,seq,rtnrsn,variant,npcifile,reservedt,authdt,id,craccount]   at EasyBank.DataLayer.DataObjects.SqlBulkDBEngine.Insert(DataTable sourceTable, SqlConnection connection, SqlTransaction tx) in D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\BulkOperations\SqlBulkDBEngine.cs:line 105
+   at EASYECS.BussinessLayer.ECSService.Service.MandateService.BulkUpdate(List`1 ecsList, List`1 mandateHisList) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\Service\MandateService.cs:line 59
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 273
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+5.ErrorThe file 'D:\Pritam\MandateImage\New\MMS-CREATE-CITI-CITI137268-04032020-003552_front.tif' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 76Inner:
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+5.ErrorThe file 'D:\Pritam\MandateImage\New\MMS-CREATE-CITI-CITI137268-04032020-003552_front.tif' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 76Inner:
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip Copy:D:\Pritam\MandateImage\New
+Object reference not set to an instance of an object.   at EasyBank.DataLayer.DataObjects.SqlBulkDBEngine.IsTableStructureValid(String tableName, String columns, SqlConnection connection, SqlTransaction tx) in D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\BulkOperations\SqlBulkDBEngine.cs:line 315
+   at EasyBank.DataLayer.DataObjects.SqlBulkDBEngine.Insert(DataTable sourceTable, SqlConnection connection, SqlTransaction tx) in D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\BulkOperations\SqlBulkDBEngine.cs:line 98
+   at EASYECS.BussinessLayer.ECSService.Service.MandateService.BulkUpdate(List`1 ecsList, List`1 mandateHisList) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\Service\MandateService.cs:line 70
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 273
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+5.ErrorThe file 'D:\Pritam\MandateImage\New\MMS-CREATE-CITI-CITI137268-04032020-003552_front.tif' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 76Inner:
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip Copy:D:\Pritam\MandateImage\New
+Object reference not set to an instance of an object.   at EasyBank.DataLayer.DataObjects.SqlBulkDBEngine.IsTableStructureValid(String tableName, String columns, SqlConnection connection, SqlTransaction tx) in D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\BulkOperations\SqlBulkDBEngine.cs:line 315
+   at EasyBank.DataLayer.DataObjects.SqlBulkDBEngine.Insert(DataTable sourceTable, SqlConnection connection, SqlTransaction tx) in D:\Pritam\SourceCode\EasyBank-UPCBLatest\DataObjects\BulkOperations\SqlBulkDBEngine.cs:line 98
+   at EASYECS.BussinessLayer.ECSService.Service.MandateService.BulkUpdate(List`1 ecsList, List`1 mandateHisList) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\Service\MandateService.cs:line 70
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 273
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+5.ErrorThe file 'D:\Pritam\MandateImage\New\MMS-CREATE-CITI-CITI137268-04032020-003552_front.tif' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 76Inner:
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+5.ErrorThe file 'D:\Pritam\MandateImage\New\MMS-CREATE-CITI-CITI137268-04032020-003552_front.tif' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 76Inner:
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+5.ErrorThe file 'D:\Pritam\MandateImage\New\MMS-CREATE-CITI-CITI137268-04032020-003552_front.tif' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 76Inner:
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+5.ErrorThe file 'D:\Pritam\MandateImage\New\MMS-CREATE-CITI-CITI137268-04032020-003552_front.tif' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath)Inner:
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-ZSLX-20072020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-ZSLX-20072020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+5.ErrorThe file 'D:\Pritam\MandateImage\New\MMS-CREATE-CITI-CITI137268-04032020-003552_front.tif' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 77Inner:
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-ZSLX-20072020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-ZSLX-20072020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+5.ErrorThe file 'D:\Pritam\MandateImage\New\MMS-CREATE-CITI-CITI137268-04032020-003552-INP.xml' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSMandate\Controllers\UploadDataController.cs:line 77Inner:
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-ZSLX-20072020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-ZSLX-20072020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-ZSLX-20072020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-ZSLX-20072020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-MCDX-05032020-LVMWI000001-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-ZSLX-20072020-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-ZSLX-20072020-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\TDCB1864-TDCB-1630051303621-FILES.zip
+4.OrgZip:D:\Pritam\MandateImage\New\TDCB1864-TDCB-1630051303621-FILES.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-TDCB-27082021-HV000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-TDCB-27082021-HV000001-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-TDCB-27082021-HV000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-TDCB-27082021-HV000001-INW.zip Copy:D:\Pritam\MandateImage\New
+5.ErrorEnd of Central Directory record could not be found.Stack:   at System.IO.Compression.ZipArchive.ReadEndOfCentralDirectory()
+   at System.IO.Compression.ZipArchive.Init(Stream stream, ZipArchiveMode mode, Boolean leaveOpen)
+   at System.IO.Compression.ZipArchive..ctor(Stream stream, ZipArchiveMode mode, Boolean leaveOpen, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.Open(String archiveFileName, ZipArchiveMode mode, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSMandate\Controllers\UploadDataController.cs:line 78Inner:
+3.D:\Pritam\MandateImage\New\MMS-CREATE-TDCB-27082021-LV000002-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-TDCB-27082021-LV000002-INW.zip Copy:D:\Pritam\MandateImage\New\
+5.ErrorEnd of Central Directory record could not be found.Stack:   at System.IO.Compression.ZipArchive.ReadEndOfCentralDirectory()
+   at System.IO.Compression.ZipArchive.Init(Stream stream, ZipArchiveMode mode, Boolean leaveOpen)
+   at System.IO.Compression.ZipArchive..ctor(Stream stream, ZipArchiveMode mode, Boolean leaveOpen, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.Open(String archiveFileName, ZipArchiveMode mode, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSMandate\Controllers\UploadDataController.cs:line 78Inner:
+3.D:\Pritam\MandateImage\New\TDCB1864-TDCB-1630051303621-FILES.zip
+4.OrgZip:D:\Pritam\MandateImage\New\TDCB1864-TDCB-1630051303621-FILES.zip Copy:D:\Pritam\MandateImage\New\
+5.ErrorThe file 'D:\Pritam\MandateImage\New\MMS-CREATE-TDCB-27082021-HV000001-INW.zip' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSMandate\Controllers\UploadDataController.cs:line 78Inner:
+3.D:\Pritam\MandateImage\New\TDCB1864-TDCB-1630051309477-FILES.zip
+4.OrgZip:D:\Pritam\MandateImage\New\TDCB1864-TDCB-1630051309477-FILES.zip Copy:D:\Pritam\MandateImage\New\
+5.ErrorThe file 'D:\Pritam\MandateImage\New\MMS-CANCEL-TDCB-26082021-LV000001-INW.zip' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSMandate\Controllers\UploadDataController.cs:line 78Inner:
+3.D:\Pritam\MandateImage\New\TDCB1864-TDCB-1630051303621-FILES.zip
+4.OrgZip:D:\Pritam\MandateImage\New\TDCB1864-TDCB-1630051303621-FILES.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\TDCB1864-TDCB-1630051309477-FILES.zip
+4.OrgZip:D:\Pritam\MandateImage\New\TDCB1864-TDCB-1630051309477-FILES.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-ALIX-26082021-LV000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-ALIX-26082021-LV000001-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-ALIX-29082021-LV000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-ALIX-29082021-LV000001-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-ALIX-31082021-LV000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-ALIX-31082021-LV000001-INW.zip Copy:D:\Pritam\MandateImage\New
+ORA-24381: error(s) in array DML
+
+ORA-01400: cannot insert NULL into ("CBS_ALIGARH"."EBECSMANDATE"."ID")
+
+ORA-01400: cannot insert NULL into ("CBS_ALIGARH"."EBECSMANDATE"."ID")
+
+ORA-01400: cannot insert NULL into ("CBS_ALIGARH"."EBECSMANDATE"."ID")
+
+ORA-01400: cannot insert NULL into ("CBS_ALIGARH"."EBECSMANDATE"."ID")   at EasyBank.DataLayer.DataObjects.OracleBulkDBEngine.OracleBulkInsert(DataTable dt, OracleConnection connection) in D:\Pritam\SourceCode\EasyBank-UPCBLatest -ORACLE\DataObjects\BulkOperations\SqlBulkDBEngine.cs:line 402
+   at EasyBank.DataLayer.DataObjects.OracleBulkDBEngine.Insert(DataTable sourceTable, OracleConnection connection) in D:\Pritam\SourceCode\EasyBank-UPCBLatest -ORACLE\DataObjects\BulkOperations\SqlBulkDBEngine.cs:line 103
+   at EASYECS.BussinessLayer.ECSService.Service.MandateService.BulkUpdate(List`1 ecsList, List`1 mandateHisList) in D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\Service\MandateService.cs:line 62
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSMandate\Controllers\UploadDataController.cs:line 276
+3.D:\Pritam\MandateImage\New\MMS-CREATE-ALIX-26082021-LV000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-ALIX-26082021-LV000001-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-ALIX-29082021-LV000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-ALIX-29082021-LV000001-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-ALIX-31082021-LV000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-ALIX-31082021-LV000001-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-ALIX-26082021-LV000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-ALIX-26082021-LV000001-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-ALIX-29082021-LV000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-ALIX-29082021-LV000001-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-ALIX-31082021-LV000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-ALIX-31082021-LV000001-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-ALIX-26082021-LV000001-INW.zip
+3.D:\Pritam\MandateImage\New\MMS-CREATE-ALIX-26082021-LV000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-ALIX-26082021-LV000001-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-ALIX-29082021-LV000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-ALIX-29082021-LV000001-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Pritam\MandateImage\New\MMS-CREATE-ALIX-31082021-LV000001-INW.zip
+4.OrgZip:D:\Pritam\MandateImage\New\MMS-CREATE-ALIX-31082021-LV000001-INW.zip Copy:D:\Pritam\MandateImage\New
+3.D:\Mandate_Files\Inward_Files\MMS-CREATE-DIBX-13102021-LV000001-INW.zip
+4.OrgZip:D:\Mandate_Files\Inward_Files\MMS-CREATE-DIBX-13102021-LV000001-INW.zip Copy:D:\Mandate_Files\Inward_Images\
+3.D:\Mandate_Files\Inward_Files\MMS-CREATE-ZSLX-20102021-LV000001-INW.zip
+4.OrgZip:D:\Mandate_Files\Inward_Files\MMS-CREATE-ZSLX-20102021-LV000001-INW.zip Copy:D:\Mandate_Files\Inward_Images\
+Could not find a part of the path 'D:\ECS_Data\Verified'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSMandate\Controllers\UploadDataController.cs:line 60
+3.D:\ECS_Data\Verified\MMS-CREATE-TDCB-21092021-LV000003-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-TDCB-21092021-LV000003-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+5.ErrorCould not find a part of the path.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSMandate\Controllers\UploadDataController.cs:line 85Inner:
+3.D:\ECS_Data\Verified\MMS-CREATE-TDCB-21092021-LV000003-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-TDCB-21092021-LV000003-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+5.ErrorCould not find a part of the path.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSMandate\Controllers\UploadDataController.cs:line 87Inner:
+3.D:\ECS_Data\Verified\MMS-CREATE-TDCB-21092021-LV000003-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-TDCB-21092021-LV000003-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+3.D:\ECS_Data\Verified\MMS-CREATE-TDCB-21092021-LV000003-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-TDCB-21092021-LV000003-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+3.D:\ECS_Data\Verified\MMS-CREATE-TDCB-21092021-LV000003-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-TDCB-21092021-LV000003-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+3.D:\ECS_Data\Verified\MMS-CREATE-TDCB-21092021-LV000003-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-TDCB-21092021-LV000003-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+3.D:\ECS_Data\Verified\MMS-CREATE-TDCB-21092021-LV000003-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-TDCB-21092021-LV000003-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+3.D:\ECS_Data\Verified\MMS-CREATE-TDCB-21092021-LV000003-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-TDCB-21092021-LV000003-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+3.D:\ECS_Data\Verified\MMS-CREATE-TDCB-21092021-LV000003-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-TDCB-21092021-LV000003-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+3.D:\ECS_Data\Verified\MMS-CREATE-TDCB-21092021-LV000003-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-TDCB-21092021-LV000003-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+3.D:\ECS_Data\Verified\MMS-CREATE-TDCB-21092021-LV000003-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-TDCB-21092021-LV000003-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+3.D:\ECS_Data\Verified\MMS-CREATE-DIBX-13102021-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-DIBX-13102021-LV000001-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+3.D:\ECS_Data\Verified\MMS-CREATE-ZSLX-26012022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ZSLX-26012022-LV000001-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+3.D:\ECS_Data\Verified\MMS-CREATE-ZSLX-26012022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ZSLX-26012022-LV000001-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+5.ErrorThe file 'D:\ECS_Data\Mandate_Image\MMS-CREATE-HDFC-HDFCH2H1-25012022-042326_front.tif' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSMandate\Controllers\UploadDataController.cs:line 86Inner:
+3.D:\ECS_Data\Verified\MMS-CREATE-ZSLX-26012022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ZSLX-26012022-LV000001-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+3.D:\ECS_Data\Verified\MMS-CREATE-ZSLX-26012022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ZSLX-26012022-LV000001-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+5.ErrorCannot create a file when that file already exists.
+Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSMandate\Controllers\UploadDataController.cs:line 87Inner:
+3.D:\ECS_Data\Verified\MMS-CREATE-ZSLX-26012022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ZSLX-26012022-LV000001-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+3.D:\ECS_Data\Verified\MMS-CREATE-ZSLX-26012022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ZSLX-26012022-LV000001-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+3.D:\ECS_Data\Verified\MMS-CREATE-ZSLX-26012022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ZSLX-26012022-LV000001-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+5.ErrorCannot create a file when that file already exists.
+Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSMandate\Controllers\UploadDataController.cs:line 87Inner:
+3.D:\ECS_Data\Verified\MMS-CREATE-ZSLX-26012022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ZSLX-26012022-LV000001-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+3.D:\ECS_Data\Verified\MMS-CREATE-ZSLX-26012022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ZSLX-26012022-LV000001-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+5.ErrorCould not find a part of the path.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSMandate\Controllers\UploadDataController.cs:line 87Inner:
+3.D:\ECS_Data\Verified\MMS-CREATE-ZSLX-26012022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ZSLX-26012022-LV000001-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+3.D:\ECS_Data\Verified\MMS-CREATE-ZSLX-26012022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ZSLX-26012022-LV000001-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+5.ErrorCould not find a part of the path.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSMandate\Controllers\UploadDataController.cs:line 87Inner:
+3.D:\ECS_Data\Verified\MMS-CREATE-ZSLX-26012022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ZSLX-26012022-LV000001-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+3.D:\ECS_Data\Verified\MMS-CREATE-MCDX-14042022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-MCDX-14042022-LV000001-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+3.D:\ECS_Data\Verified\MMS-CREATE-MCDX-06042022-LVMWI000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-MCDX-06042022-LVMWI000001-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+3.D:\ECS_Data\Verified\MMS-CREATE-MCDX-06042022-LVMWI000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-MCDX-06042022-LVMWI000001-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-08042022-LVESIGN000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-08042022-LVESIGN000001-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+3.D:\ECS_Data\Verified\MMS-CREATE-ZBSX-13072022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ZBSX-13072022-LV000001-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+3.D:\ECS_Data\Verified\MMS-CREATE-ZBSX-13072022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ZBSX-13072022-LV000001-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+5.ErrorThe file 'D:\ECS_Data\Mandate_Image\MMS-CREATE-HDFC-HDFCH2H1-12072022-003595_front.tif' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath)Inner:
+3.D:\ECS_Data\Verified\MMS-CREATE-ZBSX-13072022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ZBSX-13072022-LV000001-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+5.ErrorCannot create a file when that file already exists.
+Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\EasyECSMandate-ORACLE\ECSMandate\Controllers\UploadDataController.cs:line 89Inner:
+3.D:\ECS_Data\Verified\MMS-CREATE-ZBSX-13072022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ZBSX-13072022-LV000001-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+5.ErrorCannot create a file when that file already exists.
+Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\EasyECSMandate-ORACLE\ECSMandate\Controllers\UploadDataController.cs:line 89Inner:
+3.D:\ECS_Data\Verified\MMS-CREATE-ZBSX-13072022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ZBSX-13072022-LV000001-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+5.ErrorCannot create a file when that file already exists.
+Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\EasyECSMandate-ORACLE\ECSMandate\Controllers\UploadDataController.cs:line 89Inner:
+3.D:\ECS_Data\Verified\MMS-CREATE-ZBSX-13072022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ZBSX-13072022-LV000001-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+5.ErrorCannot create a file when that file already exists.
+Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\EasyECSMandate-ORACLE\ECSMandate\Controllers\UploadDataController.cs:line 89Inner:
+3.D:\ECS_Data\Verified\MMS-CREATE-ZBSX-13072022-LV000001-INW (1).zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ZBSX-13072022-LV000001-INW (1).zip Copy:D:\ECS_Data\Mandate_Image\
+5.ErrorThe file 'D:\ECS_Data\Mandate_Image\MMS-CREATE-HDFC-HDFCH2H1-12072022-003595-INP.xml' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\EasyECSMandate-ORACLE\ECSMandate\Controllers\UploadDataController.cs:line 90Inner:
+3.D:\ECS_Data\Verified\MMS-CREATE-ZBSX-13072022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ZBSX-13072022-LV000001-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+5.ErrorCannot create a file when that file already exists.
+Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\EasyECSMandate-ORACLE\ECSMandate\Controllers\UploadDataController.cs:line 89Inner:
+3.D:\ECS_Data\Verified\MMS-CREATE-ZBSX-13072022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ZBSX-13072022-LV000001-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+5.ErrorCannot create a file when that file already exists.
+Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\EasyECSMandate-ORACLE\ECSMandate\Controllers\UploadDataController.cs:line 89Inner:
+3.D:\ECS_Data\Verified\MMS-CREATE-ZBSX-13072022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ZBSX-13072022-LV000001-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+5.ErrorCannot create a file when that file already exists.
+Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\EasyECSMandate-ORACLE\ECSMandate\Controllers\UploadDataController.cs:line 89Inner:
+3.D:\ECS_Data\Verified\MMS-CREATE-ZBSX-13072022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ZBSX-13072022-LV000001-INW.zip Copy:D:\ECS_Data\Mandate_Image\
+5.ErrorCannot create a file when that file already exists.
+Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\EasyECSMandate-ORACLE\ECSMandate\Controllers\UploadDataController.cs:line 89Inner:
+3.D:\ECS_Data\Verified\MMS-CREATE-ZBSX-ZBSXH2HUSER1-04062022-000002-RES.zip
+3.D:\ECS_Data\Verified\MMS-CREATE-ZBSX-ZBSXH2HUSER1-04062022-000002-RES.zip
+The network path was not found.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\EasyECSMandate-ORACLE\ECSMandate\Controllers\UploadDataController.cs:line 60
+The network path was not found.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\EasyECSMandate-ORACLE\ECSMandate\Controllers\UploadDataController.cs:line 60
+The network path was not found.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\EasyECSMandate-ORACLE\ECSMandate\Controllers\UploadDataController.cs:line 60
+The network path was not found.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath)
+The network path was not found.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath)
+The network path was not found.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath)
+3.D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-ZBSX-ZBSXH2HUSER1-13072022-000051-INP.zip
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-ZBSX-ZBSXH2HUSER1-13072022-000051-INP.zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+5.ErrorCould not find a part of the path.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSMandate\Controllers\UploadDataController.cs:line 82Inner:
+3.D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-ZBSX-ZBSXH2HUSER1-13072022-000051-INP.zip
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-ZBSX-ZBSXH2HUSER1-13072022-000051-INP.zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+5.ErrorCould not find a part of the path.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSMandate\Controllers\UploadDataController.cs:line 82Inner:
+3.D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-ZBSX-ZBSXH2HUSER1-13072022-000051-INP.zip
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-ZBSX-ZBSXH2HUSER1-13072022-000051-INP.zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+5.ErrorCould not find a part of the path.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSMandate\Controllers\UploadDataController.cs:line 82Inner:
+3.D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-ZBSX-ZBSXH2HUSER1-13072022-000051-INP.zip
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-ZBSX-ZBSXH2HUSER1-13072022-000051-INP.zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-ZBSX-ZBSXH2HUSER1-13072022-000051-INP.zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-ZBSX-ZBSXH2HUSER1-13072022-000051-INP.zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+5.ErrorCould not find a part of the path.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSMandate\Controllers\UploadDataController.cs:line 84Inner:
+3.D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-ZBSX-ZBSXH2HUSER1-18072022-000051-INP.zip
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-ZBSX-ZBSXH2HUSER1-18072022-000051-INP.zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+5.ErrorCould not find a part of the path.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSMandate\Controllers\UploadDataController.cs:line 84Inner:
+3.D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-ZBSX-ZBSXH2HUSER1-13072022-000050-INP.zip
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-ZBSX-ZBSXH2HUSER1-13072022-000050-INP.zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+5.ErrorCould not find file 'D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-ZBSX-ZBSXH2HUSER1-13072022-000050-INP.zip'.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSMandate\Controllers\UploadDataController.cs:line 82Inner:
+3.D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-ZBSX-ZBSXH2HUSER1-13072022-000050-INP.zip
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-ZBSX-ZBSXH2HUSER1-13072022-000050-INP.zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+5.ErrorCannot create a file when that file already exists.
+Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSMandate\Controllers\UploadDataController.cs:line 82Inner:
+3.D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-ZBSX-ZBSXH2HUSER1-13072022-000050-INP.zip
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-ZBSX-ZBSXH2HUSER1-13072022-000050-INP.zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+5.ErrorCannot create a file when that file already exists.
+Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSMandate\Controllers\UploadDataController.cs:line 82Inner:
+3.D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-TDCB-31102022-HV000003-INW.zip
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-TDCB-31102022-HV000003-INW.zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+5.ErrorEnd of Central Directory record could not be found.Stack:   at System.IO.Compression.ZipArchive.ReadEndOfCentralDirectory()
+   at System.IO.Compression.ZipArchive.Init(Stream stream, ZipArchiveMode mode, Boolean leaveOpen)
+   at System.IO.Compression.ZipArchive..ctor(Stream stream, ZipArchiveMode mode, Boolean leaveOpen, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.Open(String archiveFileName, ZipArchiveMode mode, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSMandate\Controllers\UploadDataController.cs:line 83Inner:
+3.D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-TDCB-31102022-LV000002-INW.zip
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-TDCB-31102022-LV000002-INW.zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-TDCB-31102022-LV000002-INW.zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-TDCB-31102022-LV000002-INW.zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+5.ErrorCould not find file 'D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-TDCB-31102022-LV000002-INW.zip'.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSMandate\Controllers\UploadDataController.cs:line 82Inner:
+3.D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-TDCB-31102022-LVESIGN000001-INW.zip
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-TDCB-31102022-LVESIGN000001-INW.zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+5.ErrorEnd of Central Directory record could not be found.Stack:   at System.IO.Compression.ZipArchive.ReadEndOfCentralDirectory()
+   at System.IO.Compression.ZipArchive.Init(Stream stream, ZipArchiveMode mode, Boolean leaveOpen)
+   at System.IO.Compression.ZipArchive..ctor(Stream stream, ZipArchiveMode mode, Boolean leaveOpen, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.Open(String archiveFileName, ZipArchiveMode mode, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSMandate\Controllers\UploadDataController.cs:line 83Inner:
+3.D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-DCTX-27052022-LV000001-INW.zip
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-DCTX-27052022-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+3.D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-DCTX-27052022-LV000001-INW (1).zip
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-DCTX-27052022-LV000001-INW (1).zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+5.ErrorThe file 'D:\All_DCB_ECS_Data\Varanasi\MandateImage\MMS-CREATE-HDFC-HDFCH2H1-26052022-002148_front.tif' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath)Inner:
+3.D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-DCTX-27052022-LV000001-INW (1).zip
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-DCTX-27052022-LV000001-INW (1).zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-DCTX-27052022-LV000001-INW (1).zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-DCTX-27052022-LV000001-INW (1).zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+5.ErrorCould not find file 'D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-DCTX-27052022-LV000001-INW (1).zip'.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath)Inner:
+3.D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-DCTX-27052022-LV000001-INW (1).zip
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-DCTX-27052022-LV000001-INW (1).zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+5.ErrorThe file 'D:\All_DCB_ECS_Data\Varanasi\MandateImage\MMS-CREATE-HDFC-HDFCH2H1-26052022-002148_front.tif' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSMandate\Controllers\UploadDataController.cs:line 83Inner:
+3.D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-DCTX-27052022-LV000001-INW (1).zip
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-DCTX-27052022-LV000001-INW (1).zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+5.ErrorThe file 'D:\All_DCB_ECS_Data\Varanasi\MandateImage\MMS-CREATE-HDFC-HDFCH2H1-26052022-002148_front.tif' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSMandate\Controllers\UploadDataController.cs:line 83Inner:
+3.D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-DCTX-27052022-LV000001-INW (2).zip
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-DCTX-27052022-LV000001-INW (2).zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+5.ErrorThe file 'D:\All_DCB_ECS_Data\Varanasi\MandateImage\MMS-CREATE-HDFC-HDFCH2H1-26052022-002148_front.tif' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSMandate\Controllers\UploadDataController.cs:line 83Inner:
+3.D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-DCTX-27052022-LV000001-INW (1).zip
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-DCTX-27052022-LV000001-INW (1).zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+5.ErrorCannot create a file when that file already exists.
+Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSMandate\Controllers\UploadDataController.cs:line 82Inner:
+3.D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-DCTX-27052022-LV000001-INW (1).zip
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-DCTX-27052022-LV000001-INW (1).zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+3.D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-DCTX-27052022-LV000001-INW (2).zip
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-DCTX-27052022-LV000001-INW (2).zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+5.ErrorThe file 'D:\All_DCB_ECS_Data\Varanasi\MandateImage\MMS-CREATE-HDFC-HDFCH2H1-26052022-002148_front.tif' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSMandate\Controllers\UploadDataController.cs:line 83Inner:
+3.D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-ZBSX-13072022-LV000001-INW.zip
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-ZBSX-13072022-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+3.D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-UPCX-04112022-LV000001-INW.zip
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-UPCX-04112022-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+3.D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-UPCX-12112022-LV000001-INW.zip
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-UPCX-12112022-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+3.D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-UPCX-21102022-LV000001-INW.zip
+4.OrgZip:D:\Varanasi_H2H\DataSource\Upload\Source\MMS-CREATE-UPCX-21102022-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\Varanasi\MandateImage\
+Could not find a part of the path 'D:\ECS_Data\Verified'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSMandate\Controllers\UploadDataController.cs:line 55
+Could not find a part of the path 'D:\ECS_Data\Verified'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSMandate\Controllers\UploadDataController.cs:line 55
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-02122022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-02122022-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-02122022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-02122022-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+5.ErrorThe file 'D:\All_DCB_ECS_Data\Allahabad\MandateImage\MMS-CREATE-INDB-INDBH2H-01122022-534525_front.tiff' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSMandate\Controllers\UploadDataController.cs:line 83Inner:
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-19112022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-19112022-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-22112022-LV000002-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-22112022-LV000002-INW.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-24112022-LV000002-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-24112022-LV000002-INW.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-28112022-LV000002-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-28112022-LV000002-INW.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-28112022-LV000003-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-28112022-LV000003-INW.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-ALLXH2HUSER1-16122022-000066-INP.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-ALLXH2HUSER1-16122022-000066-INP.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+5.ErrorThe file 'D:\All_DCB_ECS_Data\Allahabad\MandateImage\MMS-CREATE-ALLX-ALLXH2HUSER1-16122022-000066-INP.xml' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSMandate\Controllers\UploadDataController.cs:line 83Inner:
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-23122022-LV000003-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-23122022-LV000003-INW.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+String was not recognized as a valid DateTime.   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.DateTime.Parse(String s, IFormatProvider provider, DateTimeStyles styles)
+   at System.Xml.Linq.XElement.op_Explicit(XElement element)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSMandate\Controllers\UploadDataController.cs:line 180
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-23122022-LV000004-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-23122022-LV000004-INW.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+Could not find file 'D:\All_DCB_ECS_Data\Allahabad\MandateImage\MMS-CREATE-ALLX-ALLXH2HUSER1-16122022-000066-INP.xml'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   at System.Xml.Linq.XDocument.Load(String uri)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSMandate\Controllers\UploadDataController.cs:line 119
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-23122022-LV000006-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-23122022-LV000006-INW.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-26042022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-26042022-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+Object reference not set to an instance of an object.   at EasyBank.Infrastructure.SystemParameters.WebStartUp.get_LOGIN_ID()
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath)
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-28042022-LV000002-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-28042022-LV000002-INW.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-23122022-LV000088-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-23122022-LV000088-INW.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-05012023-LV000002-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-05012023-LV000002-INW.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-08112022-LV000002-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-08112022-LV000002-INW.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-08112022-LV000003-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-08112022-LV000003-INW.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-27102022-LV000002-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-27102022-LV000002-INW.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-30102022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-30102022-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-ALLXH2HUSER1-06012023-007064-ACCEPT.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-ALLXH2HUSER1-06012023-007064-ACCEPT.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-ALLXH2HUSER1-06012023-009707-ACCEPT.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-ALLXH2HUSER1-06012023-009707-ACCEPT.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-ALLXH2HUSER1-06012023-010288-ACCEPT.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-ALLXH2HUSER1-06012023-010288-ACCEPT.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-ALLXH2HUSER1-06012023-015035-ACCEPT.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-ALLXH2HUSER1-06012023-015035-ACCEPT.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-ALLXH2HUSER1-06012023-523044-ACCEPT.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-ALLXH2HUSER1-06012023-523044-ACCEPT.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-05012023-LV000002-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-05012023-LV000002-INW.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+5.ErrorThe file 'D:\All_DCB_ECS_Data\Allahabad\MandateImage\MMS-CREATE-HDFC-HDFCH2H1-05012023-015035_front.tif' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath)Inner:
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-08112022-LV000002-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-08112022-LV000002-INW.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+5.ErrorThe file 'D:\All_DCB_ECS_Data\Allahabad\MandateImage\MMS-CREATE-HSBC-HSBCH2HUSER1-08112022-007064_front.tiff' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath)Inner:
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-08112022-LV000003-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-08112022-LV000003-INW.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-27102022-LV000002-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-27102022-LV000002-INW.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-30102022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-30102022-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-02122022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-02122022-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-08112022-LV000003-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-08112022-LV000003-INW.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-27102022-LV000002-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-27102022-LV000002-INW.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-30102022-LV000001-INW.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-30102022-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+3.D:\ECS_Data\Verified\MMS-CREATE-ALLX-ALLXH2HUSER1-23012023-009707-ACCEPT.zip
+4.OrgZip:D:\ECS_Data\Verified\MMS-CREATE-ALLX-ALLXH2HUSER1-23012023-009707-ACCEPT.zip Copy:D:\All_DCB_ECS_Data\Allahabad\MandateImage\
+3.D:\All_DCB_ECS_Data\Lucknow\Inward\MMS-CREATE-ALLX-23122022-LV000003-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\Lucknow\Inward\MMS-CREATE-ALLX-23122022-LV000003-INW.zip Copy:D:\All_DCB_ECS_Data\Lucknow\MandateImage\
+5.ErrorCannot create a file when that file already exists.
+Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSMandate\Controllers\UploadDataController.cs:line 84Inner:
+3.D:\All_DCB_ECS_Data\Lucknow\Inward\MMS-CREATE-ALLX-23122022-LV000003-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\Lucknow\Inward\MMS-CREATE-ALLX-23122022-LV000003-INW.zip Copy:D:\All_DCB_ECS_Data\Lucknow\MandateImage\
+5.ErrorCannot create a file when that file already exists.
+Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSMandate\Controllers\UploadDataController.cs:line 82Inner:
+3.D:\All_DCB_ECS_Data\Lucknow\Inward\MMS-CREATE-ALLX-23122022-LV000003-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\Lucknow\Inward\MMS-CREATE-ALLX-23122022-LV000003-INW.zip Copy:D:\All_DCB_ECS_Data\Lucknow\MandateImage\
+5.ErrorCannot create a file when that file already exists.
+Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSMandate\Controllers\UploadDataController.cs:line 82Inner:
+3.D:\All_DCB_ECS_Data\Lucknow\Inward\MMS-CREATE-ZISX-19042023-LV000001-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\Lucknow\Inward\MMS-CREATE-ZISX-19042023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\Lucknow\MandateImage\
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-07092023-LV000001-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-07092023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-07092023-LV000001-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-07092023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+5.ErrorThe file 'D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-HDFC-HDFCH2H1-06092023-140769_front.tif' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath)Inner:
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-05092023-LV000001-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-05092023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-05092023-LV000001-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-05092023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-11082023-HV000002-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-11082023-HV000002-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-17072023-HV000001-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-17072023-HV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-10102023-LV000001-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-10102023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-11102023-LV000001-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-11102023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+The network path was not found.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSMandate\Controllers\UploadDataController.cs:line 55
+The network path was not found.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSMandate\Controllers\UploadDataController.cs:line 55
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-10102023-LV000001-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-10102023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-11102023-LV000001-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-11102023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+The network path was not found.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath)
+3.D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip
+4.OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.1 Start-OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip
+4.1 End-OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip
+4.1.1 Start-OrgZip:24/11/2023 12:12:35
+4.2 OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.2.1 start extract24/11/2023 12:12:35
+4.2.1 wait start24/11/2023 12:12:35
+4.2.1 wait complte24/11/2023 12:12:38
+4.3 OrgZip:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\ProcessedMandate
+The column order for ebECSMandate is not correct.  Please verify.
+The correct order is [umrno,mandatefile,msgid,umrdt,spnsrbnkcd,utilitycd,utilityname,action,actyp,acno,bankname,brnname,ifsc,bnkcd,amt,refno1,refno2,freq,frmprd,toprd,isunitcancel,phoneno,email,detailfrntimg,frntimg,trnind,mandatestatus,dtstamp,clerk,authuser,reserveby,operation,deleted,debittyp,mandatetyp,spnsrbankname,credtragentcode,credtragentname,crdtrname,mobile,othrdetail,debtrcode,debtrbnk,usernachid,mndtreqid,category,proprietary,seq,rtnrsn,variant,npcifile,reservedt,authdt,id,crbrncd,crglcd,cracno,execdt,debtrname,reqdt,resdt,isaccept,status,reason,resfile,dateofmandate]   at EasyBank.DataLayer.DataObjects.OracleBulkDBEngine.Update(DataTable sourceTable, String spName, OracleConnection connection) in D:\EasyBank\ALLINONE\LATEST CODES\EasyBank Plus\EasyBank Plus\DataObjects\BulkOperations\SqlBulkDBEngine.cs:line 226
+   at EASYECS.BussinessLayer.ECSService.Service.MandateService.BulkUpdate(List`1 ecsList, List`1 mandateHisList, List`1 ecsHistoryList) in D:\Projects\ETAH - CBS+Projects\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\Service\MandateService.cs:line 577
+   at ECSMandate.Controllers.UploadCancelMandateController.<UploadMandate>d__6.MoveNext() in D:\Projects\ETAH - CBS+Projects\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSMandate\Controllers\UploadCancelMandateController.cs:line 246
+3.D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip
+4.OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.1 Start-OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip
+4.1 End-OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip
+4.1.1 Start-OrgZip:24/11/2023 12:17:32
+4.2 OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.2.1 start extract24/11/2023 12:18:13
+4.2.1 wait start24/11/2023 12:18:15
+4.2.1 wait complte24/11/2023 12:18:23
+4.3 OrgZip:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\ProcessedMandate
+The column order for ebECSMandate is not correct.  Please verify.
+The correct order is [umrno,mandatefile,msgid,umrdt,spnsrbnkcd,utilitycd,utilityname,action,actyp,acno,bankname,brnname,ifsc,bnkcd,amt,refno1,refno2,freq,frmprd,toprd,isunitcancel,phoneno,email,detailfrntimg,frntimg,trnind,mandatestatus,dtstamp,clerk,authuser,reserveby,operation,deleted,debittyp,mandatetyp,spnsrbankname,credtragentcode,credtragentname,crdtrname,mobile,othrdetail,debtrcode,debtrbnk,usernachid,mndtreqid,category,proprietary,seq,rtnrsn,variant,npcifile,reservedt,authdt,id,crbrncd,crglcd,cracno,execdt,debtrname,reqdt,resdt,isaccept,status,reason,resfile,dateofmandate]   at EasyBank.DataLayer.DataObjects.OracleBulkDBEngine.Update(DataTable sourceTable, String spName, OracleConnection connection) in D:\EasyBank\ALLINONE\LATEST CODES\EasyBank Plus\EasyBank Plus\DataObjects\BulkOperations\SqlBulkDBEngine.cs:line 226
+   at EASYECS.BussinessLayer.ECSService.Service.MandateService.BulkUpdate(List`1 ecsList, List`1 mandateHisList, List`1 ecsHistoryList) in D:\Projects\ETAH - CBS+Projects\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\Service\MandateService.cs:line 577
+   at ECSMandate.Controllers.UploadCancelMandateController.<UploadMandate>d__6.MoveNext() in D:\Projects\ETAH - CBS+Projects\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSMandate\Controllers\UploadCancelMandateController.cs:line 246
+3.D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CREATE-UPCX-22112023-HV000002-INW.zip
+4.OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CREATE-UPCX-22112023-HV000002-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.1 Start-OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CREATE-UPCX-22112023-HV000002-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-22112023-HV000002-INW.zip
+4.1 End-OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CREATE-UPCX-22112023-HV000002-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-22112023-HV000002-INW.zip
+4.1.1 Start-OrgZip:24/11/2023 13:16:38
+4.2 OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CREATE-UPCX-22112023-HV000002-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.2.1 start extract24/11/2023 13:16:43
+4.2.1 wait start24/11/2023 13:16:44
+4.2.1 wait complte24/11/2023 13:16:56
+4.3 OrgZip:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-22112023-HV000002-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\ProcessedMandate
+3.D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip
+4.OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.1 Start-OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip
+4.1 End-OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip
+4.1.1 Start-OrgZip:24/11/2023 13:21:53
+4.2 OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.2.1 start extract24/11/2023 13:21:56
+4.2.1 wait start24/11/2023 13:22:10
+4.2.1 wait complte24/11/2023 13:22:13
+4.3 OrgZip:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\ProcessedMandate
+The column order for ebECSMandate is not correct.  Please verify.
+The correct order is [umrno,mandatefile,msgid,umrdt,spnsrbnkcd,utilitycd,utilityname,action,actyp,acno,bankname,brnname,ifsc,bnkcd,amt,refno1,refno2,freq,frmprd,toprd,isunitcancel,phoneno,email,detailfrntimg,frntimg,trnind,mandatestatus,dtstamp,clerk,authuser,reserveby,operation,deleted,debittyp,mandatetyp,spnsrbankname,credtragentcode,credtragentname,crdtrname,mobile,othrdetail,debtrcode,debtrbnk,usernachid,mndtreqid,category,proprietary,seq,rtnrsn,variant,npcifile,reservedt,authdt,id,crbrncd,crglcd,cracno,execdt,debtrname,reqdt,resdt,isaccept,status,reason,resfile,dateofmandate]   at EasyBank.DataLayer.DataObjects.OracleBulkDBEngine.Update(DataTable sourceTable, String spName, OracleConnection connection) in D:\EasyBank\ALLINONE\LATEST CODES\EasyBank Plus\EasyBank Plus\DataObjects\BulkOperations\SqlBulkDBEngine.cs:line 226
+   at EASYECS.BussinessLayer.ECSService.Service.MandateService.BulkUpdate(List`1 ecsList, List`1 mandateHisList, List`1 ecsHistoryList) in D:\Projects\ETAH - CBS+Projects\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\Service\MandateService.cs:line 577
+   at ECSMandate.Controllers.UploadCancelMandateController.<UploadMandate>d__6.MoveNext()
+3.D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CREATE-UPCX-22112023-HV000002-INW.zip
+3.D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip
+4.OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.1 Start-OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip
+4.1 End-OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip
+4.1.1 Start-OrgZip:24/11/2023 13:35:05
+4.2 OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.2.1 start extract24/11/2023 13:35:05
+4.2.1 wait start24/11/2023 13:35:05
+4.2.1 wait complte24/11/2023 13:35:08
+4.3 OrgZip:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\ProcessedMandate
+ORA-20002: -6502:ORA-06502: PL/SQL: numeric or value error: character string buffer too small
+ORA-06512: at "UPCB160923.UTILS", line 1942
+ORA-06512: at "UPCB160923.USPUPDATEECSBATCH", line 25
+ORA-06512: at line 1   at EasyBank.DataLayer.DataObjects.OracleBulkDBEngine.Update(DataTable sourceTable, String spName, OracleConnection connection) in D:\EasyBank\ALLINONE\LATEST CODES\EasyBank Plus\EasyBank Plus\DataObjects\BulkOperations\SqlBulkDBEngine.cs:line 268
+   at EASYECS.BussinessLayer.ECSService.Service.MandateService.BulkUpdate(List`1 ecsList, List`1 mandateHisList, List`1 ecsHistoryList) in D:\Projects\ETAH - CBS+Projects\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\Service\MandateService.cs:line 577
+   at ECSMandate.Controllers.UploadCancelMandateController.<UploadMandate>d__6.MoveNext()
+3.D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip
+4.OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.1 Start-OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip
+4.1 End-OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip
+4.1.1 Start-OrgZip:24/11/2023 14:09:38
+4.2 OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.2.1 start extract24/11/2023 14:09:38
+4.2.1 wait start24/11/2023 14:09:38
+4.2.1 wait complte24/11/2023 14:09:41
+4.3 OrgZip:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\ProcessedMandate
+3.D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip
+4.OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.1 Start-OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip
+4.1 End-OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip
+4.1.1 Start-OrgZip:24/11/2023 15:13:10
+4.2 OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.2.1 start extract24/11/2023 15:13:10
+4.2.1 wait start24/11/2023 15:13:10
+4.2.1 wait complte24/11/2023 15:13:13
+4.3 OrgZip:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\ProcessedMandate
+3.D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip
+4.OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.1 Start-OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip
+4.1 End-OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip
+4.1.1 Start-OrgZip:24/11/2023 15:24:06
+4.2 OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.2.1 start extract24/11/2023 15:24:06
+4.2.1 wait start24/11/2023 15:24:06
+4.2.1 wait complte24/11/2023 15:24:09
+4.3 OrgZip:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\ProcessedMandate
+3.D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip
+4.OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.1 Start-OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip
+4.1 End-OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip
+4.1.1 Start-OrgZip:24/11/2023 15:29:43
+4.2 OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.2.1 start extract24/11/2023 15:29:43
+4.2.1 wait start24/11/2023 15:29:43
+4.2.1 wait complte24/11/2023 15:29:46
+4.3 OrgZip:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CANCEL-UPCX-21112023-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\ProcessedMandate
+3.D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CREATE-UPCX-29112023-HV000001-INW.zip
+4.OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CREATE-UPCX-29112023-HV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CREATE-UPCX-30112023-HV000002-INW.zip
+4.OrgZip:D:\\All_DCB_ECS_Data\\UPCB\\Verified\MMS-CREATE-UPCX-30112023-HV000002-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+The network path was not found.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New folder\EasyECSMandate-ORACLE0512-23JAN2024\ECSMandate\Controllers\UploadDataController.cs:line 56
+The network path was not found.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New folder\EasyECSMandate-ORACLE0512-23JAN2024\ECSMandate\Controllers\UploadDataController.cs:line 56
+The network path was not found.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New folder\EasyECSMandate-ORACLE0512-23JAN2024\ECSMandate\Controllers\UploadDataController.cs:line 56
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-29112023-HV000001-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-29112023-HV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+5.ErrorThe file 'D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-HDFC-HDFCH2H1-28112023-011746_front.tif' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New folder\EasyECSMandate-ORACLE0512-23JAN2024\ECSMandate\Controllers\UploadDataController.cs:line 84Inner:
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-30112023-HV000002-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-30112023-HV000002-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+5.ErrorThe file 'D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UTIB-UTIBH2H-29112023-008932_front.tif' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\New folder\EasyECSMandate-ORACLE0512-23JAN2024\ECSMandate\Controllers\UploadDataController.cs:line 84Inner:
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-29112023-HV000001-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-29112023-HV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-30112023-HV000002-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-30112023-HV000002-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-26012024-HV000002-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-26012024-HV000002-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-26012024-LV000001-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-26012024-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-27012024-LV000001-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-27012024-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-28012024-LV000001-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-28012024-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-29012024-LV000001-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-29012024-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-30012024-LV000001-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-30012024-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-26012024-HV000002-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-26012024-HV000002-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+5.ErrorThe file 'D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-HDFC-HDFCH2H1-25012024-017067_front.tif' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\ECSMandate\EasyECSMandate-ORACLE0512-23JAN2024\ECSMandate\Controllers\UploadDataController.cs:line 84Inner:
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-28012024-LV000001-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-28012024-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-30012024-LV000001-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-30012024-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-06032024-LV000001-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-06032024-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-07032024-LV000001-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-07032024-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-06032024-LV000001-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-06032024-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-29052024-LV000002-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-29052024-LV000002-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-13062024-HV000002-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-13062024-HV000002-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-13062024-LV000001-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-13062024-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-13062024-HV000002-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-13062024-HV000002-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-13062024-HV000002-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-13062024-HV000002-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-16062024-LV000002-INW (1).zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-16062024-LV000002-INW (1).zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-16062024-LV000002-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-16062024-LV000002-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+5.ErrorThe file 'D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-HDFC-HDFCH2H1-15062024-007074_front.tif' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\ECSMandate\EasyECSMandate-ORACLE21June2024\ECSMandate\Controllers\UploadDataController.cs:line 84Inner:
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-16062024-HV000001-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-16062024-HV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-16062024-LV000002-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-16062024-LV000002-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-16062024-HV000001-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-16062024-HV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+5.ErrorThe file 'D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-HDFC-HDFCH2H1-15062024-011421_front.tif' already exists.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\ECSMandate\EasyECSMandate-ORACLE09Aug2024\ECSMandate\Controllers\UploadDataController.cs:line 84Inner:
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-16062024-HV000001-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-16062024-HV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+5.ErrorCannot create a file when that file already exists.
+Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\ECSMandate\EasyECSMandate-ORACLE09Aug2024\ECSMandate\Controllers\UploadDataController.cs:line 83Inner:
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-16062024-HV000001-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-16062024-HV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-16062024-LV000002-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-16062024-LV000002-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-16062024-HV000001-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-16062024-HV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-16062024-LV000002-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-16062024-LV000002-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-16062024-HV000001-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-16062024-HV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-16062024-LV000002-INW.zip
+4.OrgZip:D:\All_DCB_ECS_Data\UPCB\Verified\MMS-CREATE-UPCX-16062024-LV000002-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-HV000001-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-HV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+5.ErrorCould not find a part of the path.Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE13June2025\EasyECSMandate-ORACLE13June2025\ECSMandate\Controllers\UploadDataController.cs:line 85Inner:
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-HV000001-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-HV000001-INW.zip Copy:D:\NewDDrive\ECS_DATA\MandateImage
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-LV000003-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-LV000003-INW.zip Copy:D:\NewDDrive\ECS_DATA\MandateImage
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-LV000004-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-LV000004-INW.zip Copy:D:\NewDDrive\ECS_DATA\MandateImage
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-LV000005-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-LV000005-INW.zip Copy:D:\NewDDrive\ECS_DATA\MandateImage
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-LV000006-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-LV000006-INW.zip Copy:D:\NewDDrive\ECS_DATA\MandateImage
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-18062025-LV000001-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-18062025-LV000001-INW.zip Copy:D:\NewDDrive\ECS_DATA\MandateImage
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-18062025-LV000003-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-18062025-LV000003-INW.zip Copy:D:\NewDDrive\ECS_DATA\MandateImage
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-18062025-LV000004-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-18062025-LV000004-INW.zip Copy:D:\NewDDrive\ECS_DATA\MandateImage
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-18062025-LV000005-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-18062025-LV000005-INW.zip Copy:D:\NewDDrive\ECS_DATA\MandateImage
+The network path was not found.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE12Dec2025Latest\EasyECSMandate-ORACLE13June2025\ECSMandate\Controllers\UploadDataController.cs:line 58
+The network path was not found.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE12Dec2025Latest\EasyECSMandate-ORACLE13June2025\ECSMandate\Controllers\UploadDataController.cs:line 58
+3.D:\ECS\CXF_272802000_31122025_131009_14_3.zip
+4.OrgZip:D:\ECS\CXF_272802000_31122025_131009_14_3.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\ECS\CXF_272802000_31122025_131009_14_3.zip
+4.OrgZip:D:\ECS\CXF_272802000_31122025_131009_14_3.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\ECS\MMS-CREATE-UPCX-08012026-HV000021-INW.zip
+4.OrgZip:D:\ECS\MMS-CREATE-UPCX-08012026-HV000021-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-18062025-LV000001-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-18062025-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-18062025-LV000003-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-18062025-LV000003-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-27012026-HV000009-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-27012026-HV000009-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-27012026-LV000006-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-27012026-LV000006-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-27012026-LV000008-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-27012026-LV000008-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-HV000003-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-HV000003-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-HV000006-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-HV000006-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-HV000008-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-HV000008-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-HV000011-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-HV000011-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-LV000001-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-LV000004-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-LV000004-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-LV000009-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-LV000009-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-LV000012-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-LV000012-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-HV000001-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-HV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.1 Start-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-HV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-17062025-HV000001-INW.zip
+4.1 End-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-HV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-17062025-HV000001-INW.zip
+4.1.1 Start-OrgZip:31/01/2026 12:22:18
+4.2 OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-HV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.2.1 start extract31/01/2026 12:22:18
+4.2.1 wait start31/01/2026 12:22:18
+4.2.1 wait complte31/01/2026 12:22:21
+4.3 OrgZip:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-17062025-HV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\ProcessedMandate
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-LV000003-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-LV000003-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.1 Start-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-LV000003-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-17062025-LV000003-INW.zip
+4.1 End-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-LV000003-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-17062025-LV000003-INW.zip
+4.1.1 Start-OrgZip:31/01/2026 12:22:23
+4.2 OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-LV000003-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.2.1 start extract31/01/2026 12:22:23
+4.2.1 wait start31/01/2026 12:22:23
+4.2.1 wait complte31/01/2026 12:22:35
+4.3 OrgZip:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-17062025-LV000003-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\ProcessedMandate
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-LV000004-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-LV000004-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.1 Start-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-LV000004-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-17062025-LV000004-INW.zip
+4.1 End-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-LV000004-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-17062025-LV000004-INW.zip
+4.1.1 Start-OrgZip:31/01/2026 12:22:37
+4.2 OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-LV000004-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.2.1 start extract31/01/2026 12:22:37
+4.2.1 wait start31/01/2026 12:22:37
+4.2.1 wait complte31/01/2026 12:22:43
+4.3 OrgZip:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-17062025-LV000004-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\ProcessedMandate
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-LV000005-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-LV000005-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.1 Start-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-LV000005-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-17062025-LV000005-INW.zip
+4.1 End-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-LV000005-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-17062025-LV000005-INW.zip
+4.1.1 Start-OrgZip:31/01/2026 12:22:45
+4.2 OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-LV000005-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.2.1 start extract31/01/2026 12:22:45
+4.2.1 wait start31/01/2026 12:22:45
+4.2.1 wait complte31/01/2026 12:22:48
+4.3 OrgZip:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-17062025-LV000005-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\ProcessedMandate
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-LV000006-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-LV000006-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.1 Start-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-LV000006-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-17062025-LV000006-INW.zip
+4.1 End-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-LV000006-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-17062025-LV000006-INW.zip
+4.1.1 Start-OrgZip:31/01/2026 12:22:49
+4.2 OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-17062025-LV000006-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.2.1 start extract31/01/2026 12:22:49
+4.2.1 wait start31/01/2026 12:22:49
+4.2.1 wait complte31/01/2026 12:22:52
+4.3 OrgZip:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-17062025-LV000006-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\ProcessedMandate
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-27012026-HV000009-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-27012026-HV000009-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.1 Start-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-27012026-HV000009-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-27012026-HV000009-INW.zip
+4.1 End-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-27012026-HV000009-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-27012026-HV000009-INW.zip
+4.1.1 Start-OrgZip:07/02/2026 11:25:41
+4.2 OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-27012026-HV000009-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.2.1 start extract07/02/2026 11:25:41
+4.2.1 wait start07/02/2026 11:25:41
+4.2.1 wait complte07/02/2026 11:25:53
+8.ErrorCannot create a file when that file already exists.
+Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE07Feb2026Latest\EasyECSMandate-ORACLE13June2025\ECSMandate\Controllers\UploadDataController.cs:line 147Inner:Cannot create a file when that file already exists.
+
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-27012026-LV000006-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-27012026-LV000006-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.1 Start-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-27012026-LV000006-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-27012026-LV000006-INW.zip
+4.1 End-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-27012026-LV000006-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-27012026-LV000006-INW.zip
+4.1.1 Start-OrgZip:07/02/2026 11:25:56
+4.2 OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-27012026-LV000006-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.2.1 start extract07/02/2026 11:25:56
+4.2.1 wait start07/02/2026 11:25:56
+4.2.1 wait complte07/02/2026 11:26:02
+8.ErrorCannot create a file when that file already exists.
+Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE07Feb2026Latest\EasyECSMandate-ORACLE13June2025\ECSMandate\Controllers\UploadDataController.cs:line 147Inner:Cannot create a file when that file already exists.
+
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-27012026-LV000008-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-27012026-LV000008-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.1 Start-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-27012026-LV000008-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-27012026-LV000008-INW.zip
+4.1 End-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-27012026-LV000008-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-27012026-LV000008-INW.zip
+4.1.1 Start-OrgZip:07/02/2026 11:26:04
+4.2 OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-27012026-LV000008-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.2.1 start extract07/02/2026 11:26:04
+4.2.1 wait start07/02/2026 11:26:04
+4.2.1 wait complte07/02/2026 11:26:07
+8.ErrorCannot create a file when that file already exists.
+Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE07Feb2026Latest\EasyECSMandate-ORACLE13June2025\ECSMandate\Controllers\UploadDataController.cs:line 147Inner:Cannot create a file when that file already exists.
+
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-HV000003-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-HV000003-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.1 Start-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-HV000003-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-28012026-HV000003-INW.zip
+4.1 End-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-HV000003-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-28012026-HV000003-INW.zip
+4.1.1 Start-OrgZip:07/02/2026 11:26:08
+4.2 OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-HV000003-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.2.1 start extract07/02/2026 11:26:08
+4.2.1 wait start07/02/2026 11:26:08
+4.2.1 wait complte07/02/2026 11:26:38
+8.ErrorCannot create a file when that file already exists.
+Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE07Feb2026Latest\EasyECSMandate-ORACLE13June2025\ECSMandate\Controllers\UploadDataController.cs:line 147Inner:Cannot create a file when that file already exists.
+
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-HV000006-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-HV000006-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.1 Start-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-HV000006-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-28012026-HV000006-INW.zip
+4.1 End-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-HV000006-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-28012026-HV000006-INW.zip
+4.1.1 Start-OrgZip:07/02/2026 11:26:44
+4.2 OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-HV000006-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.2.1 start extract07/02/2026 11:26:44
+4.2.1 wait start07/02/2026 11:26:44
+4.2.1 wait complte07/02/2026 11:26:47
+8.ErrorCannot create a file when that file already exists.
+Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE07Feb2026Latest\EasyECSMandate-ORACLE13June2025\ECSMandate\Controllers\UploadDataController.cs:line 147Inner:Cannot create a file when that file already exists.
+
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-HV000008-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-HV000008-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.1 Start-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-HV000008-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-28012026-HV000008-INW.zip
+4.1 End-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-HV000008-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-28012026-HV000008-INW.zip
+4.1.1 Start-OrgZip:07/02/2026 11:26:48
+4.2 OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-HV000008-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.2.1 start extract07/02/2026 11:26:48
+4.2.1 wait start07/02/2026 11:26:49
+4.2.1 wait complte07/02/2026 11:27:49
+8.ErrorCannot create a file when that file already exists.
+Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE07Feb2026Latest\EasyECSMandate-ORACLE13June2025\ECSMandate\Controllers\UploadDataController.cs:line 147Inner:Cannot create a file when that file already exists.
+
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-HV000011-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-HV000011-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.1 Start-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-HV000011-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-28012026-HV000011-INW.zip
+4.1 End-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-HV000011-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-28012026-HV000011-INW.zip
+4.1.1 Start-OrgZip:07/02/2026 11:27:56
+4.2 OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-HV000011-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.2.1 start extract07/02/2026 11:27:56
+4.2.1 wait start07/02/2026 11:27:56
+4.2.1 wait complte07/02/2026 11:28:17
+8.ErrorCannot create a file when that file already exists.
+Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE07Feb2026Latest\EasyECSMandate-ORACLE13June2025\ECSMandate\Controllers\UploadDataController.cs:line 147Inner:Cannot create a file when that file already exists.
+
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-LV000001-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.1 Start-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-28012026-LV000001-INW.zip
+4.1 End-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-28012026-LV000001-INW.zip
+4.1.1 Start-OrgZip:07/02/2026 11:32:12
+4.2 OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-LV000001-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.2.1 start extract07/02/2026 11:32:12
+4.2.1 wait start07/02/2026 11:32:12
+4.2.1 wait complte07/02/2026 11:32:15
+8.ErrorCannot create a file when that file already exists.
+Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE07Feb2026Latest\EasyECSMandate-ORACLE13June2025\ECSMandate\Controllers\UploadDataController.cs:line 147Inner:Cannot create a file when that file already exists.
+
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-LV000004-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-LV000004-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.1 Start-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-LV000004-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-28012026-LV000004-INW.zip
+4.1 End-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-LV000004-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-28012026-LV000004-INW.zip
+4.1.1 Start-OrgZip:07/02/2026 11:32:16
+4.2 OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-LV000004-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.2.1 start extract07/02/2026 11:32:16
+4.2.1 wait start07/02/2026 11:32:16
+4.2.1 wait complte07/02/2026 11:32:29
+8.ErrorCannot create a file when that file already exists.
+Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE07Feb2026Latest\EasyECSMandate-ORACLE13June2025\ECSMandate\Controllers\UploadDataController.cs:line 147Inner:Cannot create a file when that file already exists.
+
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-LV000009-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-LV000009-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.1 Start-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-LV000009-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-28012026-LV000009-INW.zip
+4.1 End-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-LV000009-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-28012026-LV000009-INW.zip
+4.1.1 Start-OrgZip:07/02/2026 11:32:31
+4.2 OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-LV000009-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.2.1 start extract07/02/2026 11:32:31
+4.2.1 wait start07/02/2026 11:32:31
+4.2.1 wait complte07/02/2026 11:33:07
+8.ErrorCannot create a file when that file already exists.
+Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE07Feb2026Latest\EasyECSMandate-ORACLE13June2025\ECSMandate\Controllers\UploadDataController.cs:line 147Inner:Cannot create a file when that file already exists.
+
+3.D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-LV000012-INW.zip
+4.OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-LV000012-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.1 Start-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-LV000012-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-28012026-LV000012-INW.zip
+4.1 End-OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-LV000012-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage\MMS-CREATE-UPCX-28012026-LV000012-INW.zip
+4.1.1 Start-OrgZip:07/02/2026 11:33:12
+4.2 OrgZip:D:\NewDDrive\ECS_DATA\Verified\MMS-CREATE-UPCX-28012026-LV000012-INW.zip Copy:D:\All_DCB_ECS_Data\UPCB\MandateImage
+4.2.1 start extract07/02/2026 11:33:12
+4.2.1 wait start07/02/2026 11:33:12
+4.2.1 wait complte07/02/2026 11:33:21
+8.ErrorCannot create a file when that file already exists.
+Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ECSMandate.Controllers.UploadDataController.UploadMandate(String FilePath) in D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE07Feb2026Latest\EasyECSMandate-ORACLE13June2025\ECSMandate\Controllers\UploadDataController.cs:line 147Inner:Cannot create a file when that file already exists.
+

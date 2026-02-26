@@ -1,0 +1,998 @@
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\ECSService.dll
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\ECSService.pdb
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\BusinessObject.dll
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.BusinessLayer.Base.dll
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.BusinessLayer.BusinessRulesEngine.dll
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.BusinessLayer.Common.dll
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.DataLayer.DataObjects.dll
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasyAttributes.dll
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasyControls.dll
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasyExceptions.dll
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasyExtensions.dll
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasySecurity.dll
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.BusinessLayer.Accounts.dll
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.BusinessLayer.HOAdmin.dll
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.BusinessLayer.EasyTransactions.dll
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.Infrastructure.SystemParameters.dll
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\ServiceObjects.dll
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasyPrinting.dll
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasyCaching.dll
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.Infrastructure.ApplicationSettings.dll
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasyLogging.dll
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasySession.dll
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.BusinessLayer.Users.dll
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasyUtility.dll
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\BusinessObject.pdb
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.BusinessLayer.Base.pdb
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.BusinessLayer.BusinessRulesEngine.pdb
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.BusinessLayer.Common.pdb
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.DataLayer.DataObjects.pdb
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasyAttributes.pdb
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasyControls.pdb
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasyExceptions.pdb
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasyExtensions.pdb
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasySecurity.pdb
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.BusinessLayer.Accounts.pdb
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.BusinessLayer.HOAdmin.pdb
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.BusinessLayer.EasyTransactions.pdb
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.Infrastructure.SystemParameters.pdb
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\ServiceObjects.pdb
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasyPrinting.pdb
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasyCaching.pdb
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.Infrastructure.ApplicationSettings.pdb
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasyLogging.pdb
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasySession.pdb
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.BusinessLayer.Users.pdb
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasyUtility.pdb
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\obj\Debug\ECSService.csprojResolveAssemblyReference.cache
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\obj\Debug\ECSService.dll
+D:\Pritam\SourceCode\EasyECSMandate\ECSService\obj\Debug\ECSService.pdb
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\ECSService.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\ECSService.pdb
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\BusinessObject.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.BusinessLayer.Base.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.BusinessLayer.BusinessRulesEngine.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.BusinessLayer.Common.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.DataLayer.DataObjects.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasyAttributes.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasyControls.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasyExceptions.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasyExtensions.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasySecurity.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.BusinessLayer.Accounts.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.BusinessLayer.HOAdmin.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.BusinessLayer.EasyTransactions.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.Infrastructure.SystemParameters.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\ServiceObjects.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasyPrinting.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasyCaching.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.Infrastructure.ApplicationSettings.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasyLogging.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasySession.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.BusinessLayer.Users.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasyUtility.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\obj\Debug\ECSService.csprojResolveAssemblyReference.cache
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\obj\Debug\ECSService.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\obj\Debug\ECSService.pdb
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.BusinessLayer.Transactions.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.BusinessLayer.ChequeBook.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.BusinessLayer.Deposits.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\HOOperations.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.BusinessLayer.Loans.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.BusinessLayer.Lockers.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasySms.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.BusinessLayer.ATM.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.SystemOperations.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.BusinessLayer.CBSOperations.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.Framework.EasyTypes.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyReports.Service.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyBank.Common.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\EasyReport.Framework.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\Newtonsoft.Json.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\office.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate\ECSService\bin\Debug\stdole.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\obj\Debug\ECSService.csprojResolveAssemblyReference.cache
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\obj\Debug\ECSService.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\obj\Debug\ECSService.pdb
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\ECSService.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\ECSService.pdb
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\BusinessObject.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Base.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.BusinessRulesEngine.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Common.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.HOAdmin.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.DataLayer.DataObjects.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyAttributes.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyControls.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyExceptions.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyExtensions.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyLogging.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasySecurity.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Infrastructure.SystemParameters.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Accounts.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.EasyTransactions.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\ServiceObjects.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Transactions.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyPrinting.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyCaching.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Infrastructure.ApplicationSettings.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasySession.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Users.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.SystemOperations.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasySms.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.ChequeBook.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Deposits.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Loans.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Agriculture.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Lockers.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\HOOperations.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.ATM.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyUtility.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Pritam\SourceCode\SmartAdminMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\ECSService.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\ECSService.pdb
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\BusinessObject.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Accounts.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Base.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.BusinessRulesEngine.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Common.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.HOAdmin.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.DataLayer.DataObjects.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyAttributes.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyControls.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyExceptions.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyExtensions.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyLogging.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasySecurity.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Infrastructure.SystemParameters.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.EasyTransactions.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\ServiceObjects.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyCaching.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Transactions.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyPrinting.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasySession.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Users.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.SystemOperations.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasySms.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.ChequeBook.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Deposits.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Loans.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Agriculture.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Lockers.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\HOOperations.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.ATM.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyUtility.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Accounts.pdb
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.DataLayer.DataObjects.pdb
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\obj\Debug\ECSService.csprojResolveAssemblyReference.cache
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\obj\Debug\ECSService.dll
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\obj\Debug\ECSService.pdb
+D:\Akash\Covid-19 Code\Akash\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Infrastructure.SystemParameters.pdb
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\ECSService.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\ECSService.pdb
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\BusinessObject.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Base.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.BusinessRulesEngine.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Common.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.HOAdmin.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyAttributes.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyControls.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyExceptions.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyExtensions.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyLogging.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasySecurity.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.EasyTransactions.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\ServiceObjects.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyCaching.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyPrinting.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasySession.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Users.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.SystemOperations.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasySms.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.ChequeBook.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Deposits.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Loans.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Agriculture.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Lockers.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\HOOperations.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.ATM.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyUtility.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Accounts.pdb
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.DataLayer.DataObjects.pdb
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Infrastructure.SystemParameters.pdb
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\obj\Debug\ECSService.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\obj\Debug\ECSService.pdb
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Transactions.pdb
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Transactions.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\ECSService.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\ECSService.pdb
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\BusinessObject.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Base.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.BusinessRulesEngine.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Common.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.HOAdmin.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyAttributes.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyControls.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyExceptions.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyExtensions.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyLogging.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasySecurity.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\Oracle.DataAccess.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.EasyTransactions.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\ServiceObjects.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyCaching.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyPrinting.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.SystemOperations.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasySms.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Users.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.ChequeBook.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Deposits.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Loans.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Agriculture.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Lockers.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\HOOperations.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.ATM.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasySession.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyUtility.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Accounts.pdb
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Transactions.pdb
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.DataLayer.DataObjects.pdb
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Infrastructure.SystemParameters.pdb
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\obj\Debug\ECSService.csprojResolveAssemblyReference.cache
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\obj\Debug\ECSService.dll
+E:\Rohit\PROJECTS\ECSMandate\EasyECSMandate-ORACLE\ECSService\obj\Debug\ECSService.pdb
+D:\New projects\EasyECSMandate-ORACLE\ECSService\bin\Debug\ECSService.dll
+D:\New projects\EasyECSMandate-ORACLE\ECSService\bin\Debug\ECSService.pdb
+D:\New projects\EasyECSMandate-ORACLE\ECSService\bin\Debug\BusinessObject.dll
+D:\New projects\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Base.dll
+D:\New projects\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.BusinessRulesEngine.dll
+D:\New projects\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Common.dll
+D:\New projects\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.HOAdmin.dll
+D:\New projects\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyAttributes.dll
+D:\New projects\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyControls.dll
+D:\New projects\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyExceptions.dll
+D:\New projects\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyExtensions.dll
+D:\New projects\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyLogging.dll
+D:\New projects\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasySecurity.dll
+D:\New projects\EasyECSMandate-ORACLE\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\New projects\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.EasyTransactions.dll
+D:\New projects\EasyECSMandate-ORACLE\ECSService\bin\Debug\ServiceObjects.dll
+D:\New projects\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyCaching.dll
+D:\New projects\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyPrinting.dll
+D:\New projects\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Users.dll
+D:\New projects\EasyECSMandate-ORACLE\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\New projects\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyUtility.dll
+D:\New projects\EasyECSMandate-ORACLE\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\New projects\EasyECSMandate-ORACLE\ECSService\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\New projects\EasyECSMandate-ORACLE\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\New projects\EasyECSMandate-ORACLE\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\New projects\EasyECSMandate-ORACLE\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\New projects\EasyECSMandate-ORACLE\ECSService\obj\Debug\ECSService.dll
+D:\New projects\EasyECSMandate-ORACLE\ECSService\obj\Debug\ECSService.pdb
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\bin\Debug\ECSService.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\bin\Debug\ECSService.pdb
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\bin\Debug\BusinessObject.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Base.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.BusinessRulesEngine.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Common.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.HOAdmin.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyAttributes.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyControls.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyExceptions.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyExtensions.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyLogging.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasySecurity.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.EasyTransactions.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\bin\Debug\ServiceObjects.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyCaching.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyPrinting.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.BusinessLayer.Users.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.Framework.EasyUtility.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\obj\Debug\ECSService.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\obj\Debug\ECSService.pdb
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.DataLayer.DataObjects.dll
+D:\AKASH\SOURCE_CODE\UPCB\ECS Mandate\MITALI\EasyECSMandate-ORACLE\ECSService\bin\Debug\EasyBank.DataLayer.DataObjects.pdb
+D:\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\ECSService.dll
+D:\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\ECSService.pdb
+D:\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\BusinessObject.dll
+D:\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.Base.dll
+D:\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.BusinessRulesEngine.dll
+D:\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.Common.dll
+D:\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.HOAdmin.dll
+D:\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyAttributes.dll
+D:\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyControls.dll
+D:\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyExceptions.dll
+D:\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyExtensions.dll
+D:\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyLogging.dll
+D:\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasySecurity.dll
+D:\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.EasyTransactions.dll
+D:\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\ServiceObjects.dll
+D:\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyCaching.dll
+D:\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyPrinting.dll
+D:\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.Users.dll
+D:\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyUtility.dll
+D:\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.DataLayer.DataObjects.pdb
+D:\Mandate\EasyECSMandate-ORACLE2110\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\Mandate\EasyECSMandate-ORACLE2110\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\Mandate\EasyECSMandate-ORACLE2110\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\Mandate\EasyECSMandate-ORACLE2110\ECSService\obj\Debug\ECSService.dll
+D:\Mandate\EasyECSMandate-ORACLE2110\ECSService\obj\Debug\ECSService.pdb
+D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\ECSService.dll
+D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\ECSService.pdb
+D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\BusinessObject.dll
+D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.Base.dll
+D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.BusinessRulesEngine.dll
+D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.Common.dll
+D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.HOAdmin.dll
+D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyAttributes.dll
+D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyControls.dll
+D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyExceptions.dll
+D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyExtensions.dll
+D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyLogging.dll
+D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasySecurity.dll
+D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.EasyTransactions.dll
+D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\ServiceObjects.dll
+D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyCaching.dll
+D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyPrinting.dll
+D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.Users.dll
+D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyUtility.dll
+D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.DataLayer.DataObjects.pdb
+D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSService\obj\Debug\ECSService.dll
+D:\New projects\Mandate\EasyECSMandate-ORACLE2110\ECSService\obj\Debug\ECSService.pdb
+D:\New projects\MandateUPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\ECSService.dll
+D:\New projects\MandateUPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\ECSService.pdb
+D:\New projects\MandateUPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\BusinessObject.dll
+D:\New projects\MandateUPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.Base.dll
+D:\New projects\MandateUPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.BusinessRulesEngine.dll
+D:\New projects\MandateUPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.Common.dll
+D:\New projects\MandateUPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.HOAdmin.dll
+D:\New projects\MandateUPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyAttributes.dll
+D:\New projects\MandateUPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyControls.dll
+D:\New projects\MandateUPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyExceptions.dll
+D:\New projects\MandateUPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyExtensions.dll
+D:\New projects\MandateUPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyLogging.dll
+D:\New projects\MandateUPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasySecurity.dll
+D:\New projects\MandateUPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\New projects\MandateUPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.EasyTransactions.dll
+D:\New projects\MandateUPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\ServiceObjects.dll
+D:\New projects\MandateUPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyCaching.dll
+D:\New projects\MandateUPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyPrinting.dll
+D:\New projects\MandateUPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.Users.dll
+D:\New projects\MandateUPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\New projects\MandateUPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyUtility.dll
+D:\New projects\MandateUPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\New projects\MandateUPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\New projects\MandateUPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.DataLayer.DataObjects.pdb
+D:\New projects\MandateUPCB\EasyECSMandate-ORACLE2110\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\New projects\MandateUPCB\EasyECSMandate-ORACLE2110\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\New projects\MandateUPCB\EasyECSMandate-ORACLE2110\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\New projects\MandateUPCB\EasyECSMandate-ORACLE2110\ECSService\obj\Debug\ECSService.dll
+D:\New projects\MandateUPCB\EasyECSMandate-ORACLE2110\ECSService\obj\Debug\ECSService.pdb
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\ECSService.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\ECSService.pdb
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\BusinessObject.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.Base.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.BusinessRulesEngine.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.Common.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.HOAdmin.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyAttributes.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyControls.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyExceptions.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyExtensions.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyLogging.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasySecurity.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.EasyTransactions.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\ServiceObjects.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyCaching.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyPrinting.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.Users.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasyUtility.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\obj\Debug\ECSService.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\obj\Debug\ECSService.pdb
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.Transactions.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.UI.Controllers.Transactions.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.ChequeBook.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.SystemOperations.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasySms.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.Deposits.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.Loans.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.Agriculture.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.Lockers.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\HOOperations.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.ATM.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Infrastructure.ApplicationSettings.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Framework.EasySession.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.UI.Controllers.Common.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.UI.Models.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.Operations.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.Common.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.BusinessLayer.Transactions.pdb
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\bin\Debug\EasyBank.UI.Controllers.Transactions.pdb
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE2110\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\ECSService.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\ECSService.pdb
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\BusinessObject.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Base.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.BusinessRulesEngine.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Common.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.HOAdmin.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Transactions.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyAttributes.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyControls.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyExceptions.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyExtensions.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyLogging.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasySecurity.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.UI.Controllers.Transactions.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Oracle.DataAccess.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.EasyTransactions.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\ServiceObjects.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyCaching.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyPrinting.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.ChequeBook.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.SystemOperations.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasySms.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Users.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Deposits.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Loans.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Agriculture.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Lockers.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\HOOperations.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.ATM.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Infrastructure.ApplicationSettings.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasySession.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.UI.Controllers.Common.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.UI.Models.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Operations.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Common.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyUtility.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Transactions.pdb
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.UI.Controllers.Transactions.pdb
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\obj\Debug\ECSService.csprojResolveAssemblyReference.cache
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\obj\Debug\ECSService.dll
+C:\Users\rohit\Desktop\ecs mandate upcb\by mitali madam\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\obj\Debug\ECSService.pdb
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\ECSService.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\ECSService.pdb
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\BusinessObject.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Base.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.BusinessRulesEngine.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Common.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.HOAdmin.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Transactions.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyAttributes.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyControls.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyExceptions.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyExtensions.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyLogging.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasySecurity.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.UI.Controllers.Transactions.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.EasyTransactions.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\ServiceObjects.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyCaching.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyPrinting.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.ChequeBook.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.SystemOperations.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasySms.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Users.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Deposits.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Loans.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Agriculture.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Lockers.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\HOOperations.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.ATM.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Infrastructure.ApplicationSettings.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasySession.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.UI.Controllers.Common.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.UI.Models.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Operations.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Common.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyUtility.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Transactions.pdb
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.UI.Controllers.Transactions.pdb
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\obj\Debug\ECSService.dll
+D:\New projects\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\obj\Debug\ECSService.pdb
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\ECSService.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\ECSService.pdb
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\BusinessObject.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Base.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.BusinessRulesEngine.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Common.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.HOAdmin.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Transactions.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyAttributes.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyControls.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyExceptions.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyExtensions.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyLogging.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasySecurity.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.UI.Controllers.Transactions.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.EasyTransactions.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\ServiceObjects.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyCaching.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyPrinting.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.ChequeBook.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.SystemOperations.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasySms.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Users.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Deposits.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Loans.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Agriculture.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Lockers.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\HOOperations.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.ATM.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Infrastructure.ApplicationSettings.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasySession.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.UI.Controllers.Common.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.UI.Models.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Operations.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Common.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyUtility.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Transactions.pdb
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.UI.Controllers.Transactions.pdb
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\obj\Debug\ECSService.dll
+D:\AKASH\SOURCE_CODE\UPCB\EasyECSMandate-UPCB\EasyECSMandate-ORACLE0512\ECSService\obj\Debug\ECSService.pdb
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\ECSService.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\ECSService.pdb
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\BusinessObject.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Base.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.BusinessRulesEngine.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Common.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.HOAdmin.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Transactions.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyAttributes.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyControls.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyExceptions.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyExtensions.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyLogging.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasySecurity.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.UI.Controllers.Transactions.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.EasyTransactions.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\ServiceObjects.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyCaching.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyPrinting.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.ChequeBook.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.SystemOperations.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasySms.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Users.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Deposits.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Loans.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Agriculture.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Lockers.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\HOOperations.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.ATM.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Infrastructure.ApplicationSettings.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasySession.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.UI.Controllers.Common.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.UI.Models.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Operations.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Common.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyUtility.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Transactions.pdb
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.UI.Controllers.Transactions.pdb
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\obj\Debug\ECSService.csprojResolveAssemblyReference.cache
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\obj\Debug\ECSService.dll
+D:\Projects\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\obj\Debug\ECSService.pdb
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\ECSService.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\ECSService.pdb
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\BusinessObject.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Base.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.BusinessRulesEngine.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Common.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.HOAdmin.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Transactions.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyAttributes.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyControls.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyExceptions.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyExtensions.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyLogging.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasySecurity.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.UI.Controllers.Transactions.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.EasyTransactions.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\ServiceObjects.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyCaching.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyPrinting.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.ChequeBook.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.SystemOperations.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasySms.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Users.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Deposits.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Loans.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Agriculture.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Lockers.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\HOOperations.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.ATM.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Infrastructure.ApplicationSettings.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasySession.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.UI.Controllers.Common.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.UI.Models.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Operations.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Common.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyUtility.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Transactions.pdb
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.UI.Controllers.Transactions.pdb
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\obj\Debug\ECSService.csprojResolveAssemblyReference.cache
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\obj\Debug\ECSService.dll
+D:\Projects\Test\Etha\EasyECSMandate\New\EasyECSMandate-ORACLE0512\ECSService\obj\Debug\ECSService.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\obj\Debug\ECSService.csprojResolveAssemblyReference.cache
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\ECSService.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\ECSService.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\BusinessObject.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Accounts.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Base.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.BusinessRulesEngine.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Common.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.HOAdmin.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Transactions.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.DataLayer.DataObjects.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyAttributes.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyControls.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyExceptions.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyExtensions.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyLogging.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasySecurity.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Infrastructure.SystemParameters.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.SystemOperations.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.UI.Controllers.Transactions.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.EasyTransactions.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\ServiceObjects.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyCaching.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyPrinting.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Users.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasySms.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.ChequeBook.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Deposits.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Loans.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Agriculture.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Lockers.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\HOOperations.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.ATM.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Infrastructure.ApplicationSettings.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasySession.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.UI.Controllers.Common.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\System.Web.Mvc.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.UI.Models.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Operations.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Common.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyUtility.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\System.Web.Razor.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\System.Web.WebPages.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Accounts.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Base.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.BusinessRulesEngine.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Common.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Transactions.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.DataLayer.DataObjects.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyAttributes.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyControls.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyExceptions.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyExtensions.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyLogging.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasySecurity.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.UI.Controllers.Transactions.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.EasyTransactions.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyCaching.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyPrinting.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Users.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasySms.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.ChequeBook.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Deposits.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Loans.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Agriculture.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Lockers.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\HOOperations.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.ATM.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Infrastructure.ApplicationSettings.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasySession.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.UI.Controllers.Common.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.UI.Models.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.BusinessLayer.Operations.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.Framework.EasyUtility.pdb
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\obj\Debug\ECSService.dll
+D:\Projects\Etha\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\obj\Debug\ECSService.pdb
+D:\Projects\ETAH - CBS+Projects\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\ECSService.dll
+D:\Projects\ETAH - CBS+Projects\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\ECSService.pdb
+D:\Projects\ETAH - CBS+Projects\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\BusinessObject.dll
+D:\Projects\ETAH - CBS+Projects\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\EasyBank.SystemOperations.dll
+D:\Projects\ETAH - CBS+Projects\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\Projects\ETAH - CBS+Projects\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\obj\Debug\ECSService.csprojResolveAssemblyReference.cache
+D:\Projects\ETAH - CBS+Projects\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\obj\Debug\ECSService.dll
+D:\Projects\ETAH - CBS+Projects\EasyECSMandate\EasyECSMandate-ORACLE0512\ECSService\obj\Debug\ECSService.pdb
+D:\New folder\EasyECSMandate-ORACLE0512-23JAN2024\ECSService\bin\Debug\ECSService.dll
+D:\New folder\EasyECSMandate-ORACLE0512-23JAN2024\ECSService\bin\Debug\ECSService.pdb
+D:\New folder\EasyECSMandate-ORACLE0512-23JAN2024\ECSService\bin\Debug\BusinessObject.dll
+D:\New folder\EasyECSMandate-ORACLE0512-23JAN2024\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\New folder\EasyECSMandate-ORACLE0512-23JAN2024\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\New folder\EasyECSMandate-ORACLE0512-23JAN2024\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\New folder\EasyECSMandate-ORACLE0512-23JAN2024\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\New folder\EasyECSMandate-ORACLE0512-23JAN2024\ECSService\obj\Debug\ECSService.dll
+D:\New folder\EasyECSMandate-ORACLE0512-23JAN2024\ECSService\obj\Debug\ECSService.pdb
+D:\ECSMandate\EasyECSMandate-ORACLE09FEB2024\ECSService\bin\Debug\ECSService.dll
+D:\ECSMandate\EasyECSMandate-ORACLE09FEB2024\ECSService\bin\Debug\ECSService.pdb
+D:\ECSMandate\EasyECSMandate-ORACLE09FEB2024\ECSService\bin\Debug\BusinessObject.dll
+D:\ECSMandate\EasyECSMandate-ORACLE09FEB2024\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\ECSMandate\EasyECSMandate-ORACLE09FEB2024\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\ECSMandate\EasyECSMandate-ORACLE09FEB2024\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\ECSMandate\EasyECSMandate-ORACLE09FEB2024\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\ECSMandate\EasyECSMandate-ORACLE09FEB2024\ECSService\obj\Debug\ECSService.dll
+D:\ECSMandate\EasyECSMandate-ORACLE09FEB2024\ECSService\obj\Debug\ECSService.pdb
+D:\ECSMandate\EasyECSMandate-ORACLE17FEB2024\ECSService\bin\Debug\ECSService.dll
+D:\ECSMandate\EasyECSMandate-ORACLE17FEB2024\ECSService\bin\Debug\ECSService.pdb
+D:\ECSMandate\EasyECSMandate-ORACLE17FEB2024\ECSService\bin\Debug\BusinessObject.dll
+D:\ECSMandate\EasyECSMandate-ORACLE17FEB2024\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\ECSMandate\EasyECSMandate-ORACLE17FEB2024\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\ECSMandate\EasyECSMandate-ORACLE17FEB2024\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\ECSMandate\EasyECSMandate-ORACLE17FEB2024\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\ECSMandate\EasyECSMandate-ORACLE17FEB2024\ECSService\obj\Debug\ECSService.dll
+D:\ECSMandate\EasyECSMandate-ORACLE17FEB2024\ECSService\obj\Debug\ECSService.pdb
+D:\ECSMandate\EasyECSMandate-ORACLE24FEB2024\ECSService\bin\Debug\ECSService.dll
+D:\ECSMandate\EasyECSMandate-ORACLE24FEB2024\ECSService\bin\Debug\ECSService.pdb
+D:\ECSMandate\EasyECSMandate-ORACLE24FEB2024\ECSService\bin\Debug\BusinessObject.dll
+D:\ECSMandate\EasyECSMandate-ORACLE24FEB2024\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\ECSMandate\EasyECSMandate-ORACLE24FEB2024\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\ECSMandate\EasyECSMandate-ORACLE24FEB2024\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\ECSMandate\EasyECSMandate-ORACLE24FEB2024\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\ECSMandate\EasyECSMandate-ORACLE24FEB2024\ECSService\obj\Debug\ECSService.dll
+D:\ECSMandate\EasyECSMandate-ORACLE24FEB2024\ECSService\obj\Debug\ECSService.pdb
+D:\ECSMandate\EasyECSMandate-ORACLE03March2024\ECSService\bin\Debug\ECSService.dll
+D:\ECSMandate\EasyECSMandate-ORACLE03March2024\ECSService\bin\Debug\ECSService.pdb
+D:\ECSMandate\EasyECSMandate-ORACLE03March2024\ECSService\bin\Debug\BusinessObject.dll
+D:\ECSMandate\EasyECSMandate-ORACLE03March2024\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\ECSMandate\EasyECSMandate-ORACLE03March2024\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\ECSMandate\EasyECSMandate-ORACLE03March2024\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\ECSMandate\EasyECSMandate-ORACLE03March2024\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\ECSMandate\EasyECSMandate-ORACLE03March2024\ECSService\obj\Debug\ECSService.dll
+D:\ECSMandate\EasyECSMandate-ORACLE03March2024\ECSService\obj\Debug\ECSService.pdb
+D:\ECSMandate\EasyECSMandate-ORACLE07March2024\ECSService\bin\Debug\ECSService.dll
+D:\ECSMandate\EasyECSMandate-ORACLE07March2024\ECSService\bin\Debug\ECSService.pdb
+D:\ECSMandate\EasyECSMandate-ORACLE07March2024\ECSService\bin\Debug\BusinessObject.dll
+D:\ECSMandate\EasyECSMandate-ORACLE07March2024\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\ECSMandate\EasyECSMandate-ORACLE07March2024\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\ECSMandate\EasyECSMandate-ORACLE07March2024\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\ECSMandate\EasyECSMandate-ORACLE07March2024\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\ECSMandate\EasyECSMandate-ORACLE07March2024\ECSService\obj\Debug\ECSService.dll
+D:\ECSMandate\EasyECSMandate-ORACLE07March2024\ECSService\obj\Debug\ECSService.pdb
+D:\ECSMandate\EasyECSMandate-ORACLE12April2024\ECSService\bin\Debug\ECSService.dll
+D:\ECSMandate\EasyECSMandate-ORACLE12April2024\ECSService\bin\Debug\ECSService.pdb
+D:\ECSMandate\EasyECSMandate-ORACLE12April2024\ECSService\bin\Debug\BusinessObject.dll
+D:\ECSMandate\EasyECSMandate-ORACLE12April2024\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\ECSMandate\EasyECSMandate-ORACLE12April2024\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\ECSMandate\EasyECSMandate-ORACLE12April2024\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\ECSMandate\EasyECSMandate-ORACLE12April2024\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\ECSMandate\EasyECSMandate-ORACLE12April2024\ECSService\obj\Debug\ECSService.dll
+D:\ECSMandate\EasyECSMandate-ORACLE12April2024\ECSService\obj\Debug\ECSService.pdb
+D:\ECSMandate\EasyECSMandate-ORACLE10May2024\ECSService\bin\Debug\ECSService.dll
+D:\ECSMandate\EasyECSMandate-ORACLE10May2024\ECSService\bin\Debug\ECSService.pdb
+D:\ECSMandate\EasyECSMandate-ORACLE10May2024\ECSService\bin\Debug\BusinessObject.dll
+D:\ECSMandate\EasyECSMandate-ORACLE10May2024\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\ECSMandate\EasyECSMandate-ORACLE10May2024\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\ECSMandate\EasyECSMandate-ORACLE10May2024\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\ECSMandate\EasyECSMandate-ORACLE10May2024\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\ECSMandate\EasyECSMandate-ORACLE10May2024\ECSService\obj\Debug\ECSService.dll
+D:\ECSMandate\EasyECSMandate-ORACLE10May2024\ECSService\obj\Debug\ECSService.pdb
+D:\ECSMandate\EasyECSMandate-ORACLE18May2024\ECSService\bin\Debug\ECSService.dll
+D:\ECSMandate\EasyECSMandate-ORACLE18May2024\ECSService\bin\Debug\ECSService.pdb
+D:\ECSMandate\EasyECSMandate-ORACLE18May2024\ECSService\bin\Debug\BusinessObject.dll
+D:\ECSMandate\EasyECSMandate-ORACLE18May2024\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\ECSMandate\EasyECSMandate-ORACLE18May2024\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\ECSMandate\EasyECSMandate-ORACLE18May2024\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\ECSMandate\EasyECSMandate-ORACLE18May2024\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\ECSMandate\EasyECSMandate-ORACLE18May2024\ECSService\obj\Debug\ECSService.dll
+D:\ECSMandate\EasyECSMandate-ORACLE18May2024\ECSService\obj\Debug\ECSService.pdb
+D:\ECSMandate\EasyECSMandate-ORACLE29June2024\ECSService\bin\Debug\ECSService.dll
+D:\ECSMandate\EasyECSMandate-ORACLE29June2024\ECSService\bin\Debug\ECSService.pdb
+D:\ECSMandate\EasyECSMandate-ORACLE29June2024\ECSService\bin\Debug\BusinessObject.dll
+D:\ECSMandate\EasyECSMandate-ORACLE29June2024\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\ECSMandate\EasyECSMandate-ORACLE29June2024\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\ECSMandate\EasyECSMandate-ORACLE29June2024\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\ECSMandate\EasyECSMandate-ORACLE29June2024\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\ECSMandate\EasyECSMandate-ORACLE29June2024\ECSService\obj\Debug\ECSService.dll
+D:\ECSMandate\EasyECSMandate-ORACLE29June2024\ECSService\obj\Debug\ECSService.pdb
+D:\ECSMandate\EasyECSMandate-ORACLE15July2024\ECSService\bin\Debug\ECSService.dll
+D:\ECSMandate\EasyECSMandate-ORACLE15July2024\ECSService\bin\Debug\ECSService.pdb
+D:\ECSMandate\EasyECSMandate-ORACLE15July2024\ECSService\bin\Debug\BusinessObject.dll
+D:\ECSMandate\EasyECSMandate-ORACLE15July2024\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\ECSMandate\EasyECSMandate-ORACLE15July2024\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\ECSMandate\EasyECSMandate-ORACLE15July2024\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\ECSMandate\EasyECSMandate-ORACLE15July2024\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\ECSMandate\EasyECSMandate-ORACLE15July2024\ECSService\obj\Debug\ECSService.dll
+D:\ECSMandate\EasyECSMandate-ORACLE15July2024\ECSService\obj\Debug\ECSService.pdb
+D:\ECSMandate\EasyECSMandate-ORACLE03Aug2024\ECSService\bin\Debug\ECSService.dll
+D:\ECSMandate\EasyECSMandate-ORACLE03Aug2024\ECSService\bin\Debug\ECSService.pdb
+D:\ECSMandate\EasyECSMandate-ORACLE03Aug2024\ECSService\bin\Debug\BusinessObject.dll
+D:\ECSMandate\EasyECSMandate-ORACLE03Aug2024\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\ECSMandate\EasyECSMandate-ORACLE03Aug2024\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\ECSMandate\EasyECSMandate-ORACLE03Aug2024\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\ECSMandate\EasyECSMandate-ORACLE03Aug2024\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\ECSMandate\EasyECSMandate-ORACLE03Aug2024\ECSService\obj\Debug\ECSService.dll
+D:\ECSMandate\EasyECSMandate-ORACLE03Aug2024\ECSService\obj\Debug\ECSService.pdb
+D:\ECSMandate\EasyECSMandate-ORACLE09Aug2024\ECSService\bin\Debug\ECSService.dll
+D:\ECSMandate\EasyECSMandate-ORACLE09Aug2024\ECSService\bin\Debug\ECSService.pdb
+D:\ECSMandate\EasyECSMandate-ORACLE09Aug2024\ECSService\bin\Debug\BusinessObject.dll
+D:\ECSMandate\EasyECSMandate-ORACLE09Aug2024\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\ECSMandate\EasyECSMandate-ORACLE09Aug2024\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\ECSMandate\EasyECSMandate-ORACLE09Aug2024\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\ECSMandate\EasyECSMandate-ORACLE09Aug2024\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\ECSMandate\EasyECSMandate-ORACLE09Aug2024\ECSService\obj\Debug\ECSService.dll
+D:\ECSMandate\EasyECSMandate-ORACLE09Aug2024\ECSService\obj\Debug\ECSService.pdb
+D:\ECSMandate\EasyECSMandate-ORACLE23Aug2024\ECSService\bin\Debug\ECSService.dll
+D:\ECSMandate\EasyECSMandate-ORACLE23Aug2024\ECSService\bin\Debug\ECSService.pdb
+D:\ECSMandate\EasyECSMandate-ORACLE23Aug2024\ECSService\bin\Debug\BusinessObject.dll
+D:\ECSMandate\EasyECSMandate-ORACLE23Aug2024\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\ECSMandate\EasyECSMandate-ORACLE23Aug2024\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\ECSMandate\EasyECSMandate-ORACLE23Aug2024\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\ECSMandate\EasyECSMandate-ORACLE23Aug2024\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\ECSMandate\EasyECSMandate-ORACLE23Aug2024\ECSService\obj\Debug\ECSService.dll
+D:\ECSMandate\EasyECSMandate-ORACLE23Aug2024\ECSService\obj\Debug\ECSService.pdb
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE19Sep2024\ECSService\bin\Debug\ECSService.dll
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE19Sep2024\ECSService\bin\Debug\ECSService.pdb
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE19Sep2024\ECSService\bin\Debug\BusinessObject.dll
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE19Sep2024\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE19Sep2024\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE19Sep2024\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE19Sep2024\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE19Sep2024\ECSService\obj\Debug\ECSService.dll
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE19Sep2024\ECSService\obj\Debug\ECSService.pdb
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE23Sep2024\ECSService\bin\Debug\ECSService.dll
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE23Sep2024\ECSService\bin\Debug\ECSService.pdb
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE23Sep2024\ECSService\bin\Debug\BusinessObject.dll
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE23Sep2024\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE23Sep2024\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE23Sep2024\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE23Sep2024\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE23Sep2024\ECSService\obj\Debug\ECSService.dll
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE23Sep2024\ECSService\obj\Debug\ECSService.pdb
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE26Sep2024\ECSService\bin\Debug\ECSService.dll
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE26Sep2024\ECSService\bin\Debug\ECSService.pdb
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE26Sep2024\ECSService\bin\Debug\BusinessObject.dll
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE26Sep2024\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE26Sep2024\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE26Sep2024\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE26Sep2024\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE26Sep2024\ECSService\obj\Debug\ECSService.dll
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE26Sep2024\ECSService\obj\Debug\ECSService.pdb
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE28Sep2024\ECSService\bin\Debug\ECSService.dll
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE28Sep2024\ECSService\bin\Debug\ECSService.pdb
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE28Sep2024\ECSService\bin\Debug\BusinessObject.dll
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE28Sep2024\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE28Sep2024\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE28Sep2024\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE28Sep2024\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE28Sep2024\ECSService\obj\Debug\ECSService.dll
+D:\ECSMandate\ECSMandate\EasyECSMandate-ORACLE28Sep2024\ECSService\obj\Debug\ECSService.pdb
+D:\NewDDrive\ECSMandate01Jan2025Code\EasyECSMandate-ORACLE31Dec2024\EasyECSMandate-ORACLE31Dec2024\ECSService\bin\Debug\ECSService.dll
+D:\NewDDrive\ECSMandate01Jan2025Code\EasyECSMandate-ORACLE31Dec2024\EasyECSMandate-ORACLE31Dec2024\ECSService\bin\Debug\ECSService.pdb
+D:\NewDDrive\ECSMandate01Jan2025Code\EasyECSMandate-ORACLE31Dec2024\EasyECSMandate-ORACLE31Dec2024\ECSService\bin\Debug\BusinessObject.dll
+D:\NewDDrive\ECSMandate01Jan2025Code\EasyECSMandate-ORACLE31Dec2024\EasyECSMandate-ORACLE31Dec2024\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\NewDDrive\ECSMandate01Jan2025Code\EasyECSMandate-ORACLE31Dec2024\EasyECSMandate-ORACLE31Dec2024\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\NewDDrive\ECSMandate01Jan2025Code\EasyECSMandate-ORACLE31Dec2024\EasyECSMandate-ORACLE31Dec2024\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\NewDDrive\ECSMandate01Jan2025Code\EasyECSMandate-ORACLE31Dec2024\EasyECSMandate-ORACLE31Dec2024\ECSService\obj\Debug\ECSService.dll
+D:\NewDDrive\ECSMandate01Jan2025Code\EasyECSMandate-ORACLE31Dec2024\EasyECSMandate-ORACLE31Dec2024\ECSService\obj\Debug\ECSService.pdb
+D:\NewDDrive\ECSMandate01Jan2025Code\EasyECSMandate-ORACLE31Dec2024\EasyECSMandate-ORACLE31Dec2024\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE31Dec2024\ECSService\bin\Debug\ECSService.dll
+D:\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE31Dec2024\ECSService\bin\Debug\ECSService.pdb
+D:\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE31Dec2024\ECSService\bin\Debug\BusinessObject.dll
+D:\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE31Dec2024\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE31Dec2024\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE31Dec2024\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE31Dec2024\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE31Dec2024\ECSService\obj\Debug\ECSService.dll
+D:\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE31Dec2024\ECSService\obj\Debug\ECSService.pdb
+D:\NewDDrive\ECSMandate\ECSMandate\ECSMANDATE_2025\EasyECSMandate-ORACLE28012025\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE31Dec2024\ECSService\bin\Debug\ECSService.dll
+D:\NewDDrive\ECSMandate\ECSMandate\ECSMANDATE_2025\EasyECSMandate-ORACLE28012025\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE31Dec2024\ECSService\bin\Debug\ECSService.pdb
+D:\NewDDrive\ECSMandate\ECSMandate\ECSMANDATE_2025\EasyECSMandate-ORACLE28012025\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE31Dec2024\ECSService\bin\Debug\BusinessObject.dll
+D:\NewDDrive\ECSMandate\ECSMandate\ECSMANDATE_2025\EasyECSMandate-ORACLE28012025\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE31Dec2024\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\NewDDrive\ECSMandate\ECSMandate\ECSMANDATE_2025\EasyECSMandate-ORACLE28012025\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE31Dec2024\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\NewDDrive\ECSMandate\ECSMandate\ECSMANDATE_2025\EasyECSMandate-ORACLE28012025\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE31Dec2024\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\NewDDrive\ECSMandate\ECSMandate\ECSMANDATE_2025\EasyECSMandate-ORACLE28012025\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE31Dec2024\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\NewDDrive\ECSMandate\ECSMandate\ECSMANDATE_2025\EasyECSMandate-ORACLE28012025\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE31Dec2024\ECSService\obj\Debug\ECSService.dll
+D:\NewDDrive\ECSMandate\ECSMandate\ECSMANDATE_2025\EasyECSMandate-ORACLE28012025\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE02Jan2025\EasyECSMandate-ORACLE31Dec2024\ECSService\obj\Debug\ECSService.pdb
+D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE13June2025\EasyECSMandate-ORACLE13June2025\ECSService\bin\Debug\ECSService.dll
+D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE13June2025\EasyECSMandate-ORACLE13June2025\ECSService\bin\Debug\ECSService.pdb
+D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE13June2025\EasyECSMandate-ORACLE13June2025\ECSService\bin\Debug\BusinessObject.dll
+D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE13June2025\EasyECSMandate-ORACLE13June2025\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE13June2025\EasyECSMandate-ORACLE13June2025\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE13June2025\EasyECSMandate-ORACLE13June2025\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE13June2025\EasyECSMandate-ORACLE13June2025\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE13June2025\EasyECSMandate-ORACLE13June2025\ECSService\obj\Debug\ECSService.dll
+D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE13June2025\EasyECSMandate-ORACLE13June2025\ECSService\obj\Debug\ECSService.pdb
+D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE07Feb2026Latest\EasyECSMandate-ORACLE13June2025\ECSService\bin\Debug\ECSService.dll
+D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE07Feb2026Latest\EasyECSMandate-ORACLE13June2025\ECSService\bin\Debug\ECSService.pdb
+D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE07Feb2026Latest\EasyECSMandate-ORACLE13June2025\ECSService\bin\Debug\BusinessObject.dll
+D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE07Feb2026Latest\EasyECSMandate-ORACLE13June2025\ECSService\bin\Debug\Oracle.DataAccess.dll
+D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE07Feb2026Latest\EasyECSMandate-ORACLE13June2025\ECSService\obj\Debug\ECSService.csproj.AssemblyReference.cache
+D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE07Feb2026Latest\EasyECSMandate-ORACLE13June2025\ECSService\obj\Debug\ECSService.csproj.CoreCompileInputs.cache
+D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE07Feb2026Latest\EasyECSMandate-ORACLE13June2025\ECSService\obj\Debug\ECSService.csproj.CopyComplete
+D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE07Feb2026Latest\EasyECSMandate-ORACLE13June2025\ECSService\obj\Debug\ECSService.dll
+D:\NewDDrive\ECSMANDATE_2025\EasyECSMandate-ORACLE07Feb2026Latest\EasyECSMandate-ORACLE13June2025\ECSService\obj\Debug\ECSService.pdb

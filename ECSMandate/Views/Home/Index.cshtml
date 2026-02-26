@@ -1,0 +1,335 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+@*<div class="jumbotron">
+        <h1>ECS Mandate</h1>
+
+        <p>
+            <small>
+                Mandate Management System (MMS) is a solution which helps in creation, amendment and cancellation of mandates
+                used for NACH debit transactions. The MMS should handle mandate processing and validation and forward the data
+                to relevant destination via NPCI.
+            </small>
+        </p>
+    </div>*@
+
+<article class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+    <div class="well">
+        <h5> INWARD</h5>
+        <div class="jarviswidget jarviswidget-color-blueLight" id="wid-id-0" data-widget-editbutton="false">
+            <!-- widget options:
+            usage: <div class="jarviswidget" id="wid-id-0" data-widget-editbutton="false">
+
+            data-widget-colorbutton="false"
+            data-widget-editbutton="false"
+            data-widget-togglebutton="false"
+            data-widget-deletebutton="false"
+            data-widget-fullscreenbutton="false"
+            data-widget-custombutton="false"
+            data-widget-collapsed="true"
+            data-widget-sortable="false"
+
+            -->
+            <header>
+                <span class="widget-icon"> <i class="fa fa-table"></i> </span>
+                <h2>As On Date</h2>
+
+            </header>
+
+            <div>
+
+                <!-- widget edit box -->
+                <div class="jarviswidget-editbox">
+                    <!-- This area used as dropdown edit box -->
+
+                </div>
+                <!-- end widget edit box -->
+                <!-- widget content -->
+                <div class="widget-body">
+                    <table class="table table-bordered">
+                        <tr>
+                            <td>Total Uploaded</td>
+                            <td>@Model.Rows[0]["UploadCnt"]</td>
+
+                        </tr>
+                        <tr>
+                            <td>Total Authenticated</td>
+                            <td>@Model.Rows[0]["AuthCnt"]</td>
+                        </tr>
+                        <tr>
+                            <td>Total Return</td>
+                            <td>@Model.Rows[0]["RetCnt"]</td>
+                        </tr>
+                        <tr style="color:red">
+                            <td>Total Pending</td>
+                            <td>@Model.Rows[0]["PenCnt"]</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="jarviswidget jarviswidget-color-blueLight" id="wid-id-0" data-widget-editbutton="false">
+            <!-- widget options:
+            usage: <div class="jarviswidget" id="wid-id-0" data-widget-editbutton="false">
+
+            data-widget-colorbutton="false"
+            data-widget-editbutton="false"
+            data-widget-togglebutton="false"
+            data-widget-deletebutton="false"
+            data-widget-fullscreenbutton="false"
+            data-widget-custombutton="false"
+            data-widget-collapsed="true"
+            data-widget-sortable="false"
+
+            -->
+            <header>
+                <span class="widget-icon"> <i class="fa fa-table"></i> </span>
+                <h2>Till Date</h2>
+
+            </header>
+
+            <div>
+
+                <!-- widget edit box -->
+                <div class="jarviswidget-editbox">
+                    <!-- This area used as dropdown edit box -->
+
+                </div>
+                <!-- end widget edit box -->
+                <!-- widget content -->
+                <div class="widget-body">
+
+                    <table class="table table-bordered">
+                        <tr>
+                            <td>Total Uploaded</td>
+                            <td>@Model.Rows[0]["TotUploadCnt"]</td>
+
+                        </tr>
+                        <tr>
+                            <td>Total Authenticated</td>
+                            <td>@Model.Rows[0]["TotAuthCnt"]</td>
+                        </tr>
+                        <tr>
+                            <td>Total Return</td>
+                            <td>@Model.Rows[0]["TotRetCnt"]</td>
+                        </tr>
+                        <tr style="color:red">
+                            <td>Total Pending</td>
+                            <td>@Model.Rows[0]["TotPenCnt"]</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</article>
+<article class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+    <div class="well">
+        <h5> OUTWARD</h5>
+        <div class="jarviswidget jarviswidget-color-blueLight" id="wid-id-0" data-widget-editbutton="false">
+            <!-- widget options:
+            usage: <div class="jarviswidget" id="wid-id-0" data-widget-editbutton="false">
+
+            data-widget-colorbutton="false"
+            data-widget-editbutton="false"
+            data-widget-togglebutton="false"
+            data-widget-deletebutton="false"
+            data-widget-fullscreenbutton="false"
+            data-widget-custombutton="false"
+            data-widget-collapsed="true"
+            data-widget-sortable="false"
+
+            -->
+            <header>
+                <span class="widget-icon"> <i class="fa fa-table"></i> </span>
+                <h2>As On Date</h2>
+
+            </header>
+
+            <div>
+
+                <!-- widget edit box -->
+                <div class="jarviswidget-editbox">
+                    <!-- This area used as dropdown edit box -->
+
+                </div>
+                <!-- end widget edit box -->
+                <!-- widget content -->
+                <div class="widget-body">
+                    <table class="table table-bordered">
+
+                        <tr>
+                            <td>Total Uploaded</td>
+                            <td>@ViewBag.OWMandate.Rows[0]["UploadCnt"]</td>
+
+                        </tr>
+                        <tr>
+                            <td>Total Authenticated</td>
+                            <td>@ViewBag.OWMandate.Rows[0]["AuthCnt"]</td>
+                        </tr>
+                        <tr>
+                            <td>Total Cancel</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>Total Amend</td>
+                            <td>0</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="jarviswidget jarviswidget-color-blueLight" id="wid-id-0" data-widget-editbutton="false">
+            <!-- widget options:
+            usage: <div class="jarviswidget" id="wid-id-0" data-widget-editbutton="false">
+
+            data-widget-colorbutton="false"
+            data-widget-editbutton="false"
+            data-widget-togglebutton="false"
+            data-widget-deletebutton="false"
+            data-widget-fullscreenbutton="false"
+            data-widget-custombutton="false"
+            data-widget-collapsed="true"
+            data-widget-sortable="false"
+
+            -->
+            <header>
+                <span class="widget-icon"> <i class="fa fa-table"></i> </span>
+                <h2>Till Date</h2>
+
+            </header>
+
+            <div>
+
+                <!-- widget edit box -->
+                <div class="jarviswidget-editbox">
+                    <!-- This area used as dropdown edit box -->
+
+                </div>
+                <!-- end widget edit box -->
+                <!-- widget content -->
+                <div class="widget-body">
+
+                    <table class="table table-bordered">
+                        <tr>
+                            <td>Total Uploaded</td>
+                            <td>@ViewBag.OWMandate.Rows[0]["TotUploadCnt"]</td>
+
+                        </tr>
+                        <tr>
+                            <td>Total Authenticated</td>
+                            <td>@ViewBag.OWMandate.Rows[0]["TotAuthCnt"]</td>
+                        </tr>
+                        <tr>
+                            <td>Total Cancel</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>Total Amend</td>
+                            <td>0</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</article>
+@*<div class="widget-body no-padding">
+         <div class="widget-body-toolbar">
+
+         </div>
+
+         <div>
+
+
+     </div>
+    </div>*@
+
+<script type="text/javascript">
+
+    $(function () {
+        console.log("sddfs" + $("#bar-chart-h").length);
+
+
+        /* bar-chart-h */
+        // if ($("#bar-chart-h").length) {
+        //Display horizontal graph
+        var d1_h = [];
+        for (var i = 0; i <= 3; i += 1)
+            d1_h.push([parseInt(Math.random() * 30), i]);
+
+        var d2_h = [];
+        for (var i = 0; i <= 3; i += 1)
+            d2_h.push([parseInt(Math.random() * 30), i]);
+
+        var d3_h = [];
+        for (var i = 0; i <= 3; i += 1)
+            d3_h.push([parseInt(Math.random() * 30), i]);
+
+        var ds_h = new Array();
+        ds_h.push({
+            data: d1_h,
+            bars: {
+                horizontal: true,
+                show: true,
+                barWidth: 0.2,
+                order: 1,
+            }
+        });
+        ds_h.push({
+            data: d2_h,
+            bars: {
+                horizontal: true,
+                show: true,
+                barWidth: 0.2,
+                order: 2
+            }
+        });
+        ds_h.push({
+            data: d3_h,
+            bars: {
+                horizontal: true,
+                show: true,
+                barWidth: 0.2,
+                order: 3
+            }
+        });
+
+        // display graph
+        $.plot($("#bar-chart-h"), ds_h, {
+            colors: [$chrt_second, $chrt_fourth, "#666", "#BBB"],
+            grid: {
+                show: true,
+                hoverable: true,
+                clickable: true,
+                tickColor: $chrt_border_color,
+                borderWidth: 0,
+                borderColor: $chrt_border_color,
+            },
+            legend: true,
+            tooltip: true,
+            tooltipOpts: {
+                content: "<b>%x</b> = <span>%y</span>",
+                defaultTheme: false
+            }
+        });
+
+        //}
+    });
+
+    /* end bar-chart-h
+
+</script>

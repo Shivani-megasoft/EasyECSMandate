@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<div class="row">
+    <div class="col-md-1">
+        Select Status
+    </div>
+    <div class="col-md-1">
+        @Html.TextBox("For Date", "", new { @class = "input-sm date" })<i></i>
+    </div>
+</div>
+<br />
+<br />
+
+<div class="well">
+    <div id="dvMandtList"></div>
+</div>

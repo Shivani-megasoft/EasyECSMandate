@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.009.001.01">
+	<MndtInitnReq>
+		<GrpHdr>
+			<MsgId>8991984</MsgId>
+			<CreDtTm>2018-10-23T14:12:26</CreDtTm>
+			<InstgAgt>
+				<FinInstnId>
+					<ClrSysMmbId>
+						<MmbId>CITI000PIGW</MmbId>
+					</ClrSysMmbId>
+					<Nm>CITIBANK N A</Nm>
+				</FinInstnId>
+			</InstgAgt>
+			<InstdAgt>
+				<FinInstnId>
+					<ClrSysMmbId>
+						<MmbId>TDCB0000101</MmbId>
+					</ClrSysMmbId>
+					<Nm>THE THANE DISTCENCOOP BANK LTD</Nm>
+				</FinInstnId>
+			</InstdAgt>
+		</GrpHdr>
+		<Mndt>
+			<MndtId>TDCB0000000000097486</MndtId>
+			<MndtReqId>8991984</MndtReqId>
+			<Tp>
+				<SvcLvl>
+					<Prtry>M001</Prtry>
+				</SvcLvl>
+				<LclInstrm>
+					<Prtry>DEBIT</Prtry>
+				</LclInstrm>
+			</Tp>
+			<Ocrncs>
+				<SeqTp>RCUR</SeqTp>
+				<Frqcy>ADHO</Frqcy>
+				<FrstColltnDt>2018-10-11</FrstColltnDt>
+				<FnlColltnDt>2099-12-31</FnlColltnDt>
+			</Ocrncs>
+			<MaxAmt Ccy="INR">100000</MaxAmt>
+			<Cdtr>
+				<Nm>BSE Limited</Nm>
+			</Cdtr>
+			<CdtrAcct>
+				<Id>
+					<Othr>
+						<Id>CITI00002000000037</Id>
+					</Othr>
+				</Id>
+			</CdtrAcct>
+			<CdtrAgt>
+				<FinInstnId>
+					<ClrSysMmbId>
+						<MmbId>CITI000PIGW</MmbId>
+					</ClrSysMmbId>
+					<Nm>CITIBANK N A</Nm>
+				</FinInstnId>
+			</CdtrAgt>
+			<Dbtr>
+				<Nm>LONE SNEHAL SUNIL</Nm>
+				<Id>
+					<PrvtId>
+						<Othr>
+							<Id>1860077</Id>
+							<SchmeNm>
+								<Prtry>660438</Prtry>
+							</SchmeNm>
+						</Othr>
+					</PrvtId>
+				</Id>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>010100300001800</Id>
+					</Othr>
+				</Id>
+				<Tp>
+					<Prtry>SAVINGS</Prtry>
+				</Tp>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<ClrSysMmbId>
+						<MmbId>TDCB0000101</MmbId>
+					</ClrSysMmbId>
+					<Nm>THE THANE DISTCENCOOP BANK LTD</Nm>
+				</FinInstnId>
+			</DbtrAgt>
+		</Mndt>
+	</MndtInitnReq>
+</Document>

@@ -1,0 +1,41 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<form action="" method="post" id="frmChkReturnMandate">
+    <div class="well">
+        <div class="row">
+            <div class="col-md-1" style="width:100px">
+                <input class="btn btn-success btn-sm" type="button" value="Get Return List" id="btnGet" />
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <div id="dvReturnList">
+
+    </div>
+</form>
+
+<script type="text/javascript">
+    $dvReturnList = $("#dvReturnList");
+
+    $("#btnGet").click(function () {
+        GetListByStatus();
+    });
+
+    function GetListByStatus() {
+        console.log();
+
+        $.ajax({
+            url: "/CheckReturnMandate/CheckMandate",
+            type: "GET",
+            data: { },
+            dataType: 'json',
+            contentType: 'application/json',
+            success: function (result) {
+                $dvReturnList.html(result.partialView);
+            }
+        });
+    }
+</script>

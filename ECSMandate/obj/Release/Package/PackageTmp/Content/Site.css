@@ -1,0 +1,215 @@
+﻿body
+{
+    font-size: 12px;
+    font-family: "Segoe UI" , Verdana, Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: #fff;
+}
+
+header, footer, nav, section
+{
+    display: block;
+}
+
+.maincontainer
+{
+    width: 1024px;
+    margin: auto;
+}
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset
+{
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+legend
+{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea
+{
+    min-height: 60px;
+}
+
+.editor-label
+{
+    margin: 0 0 0 0;
+}
+
+.editor-field
+{
+    margin: 0 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error
+{
+    color: #f00;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+
+/* my css*/
+.inline-li
+{
+    list-style: none;
+}
+.inline-li li
+{
+    display: inline-block;
+    padding: 5px 8px;
+}
+
+.inline-li li a
+{
+    text-decoration: none;
+    line-height: 2;
+}
+
+.left
+{
+    float: left;
+}
+.right
+{
+    float: right;
+}
+
+.menus
+{
+    border:1px solid #eee;
+    
+    }
+.Login-panel
+{
+    width: 500px;
+    margin: auto;
+    border: 1px solid #eee;
+    padding: 0px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.Login-panel header
+{
+    border-bottom: 1px solid #eee;
+    margin-bottom: 15px;
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+    background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+}
+
+.Login-panel footer
+{
+    border-top: 1px solid #eee;
+    padding: 8px;
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+    background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+}
+
+.welcome-class
+{
+    display:inline-block;
+    margin-left:20px;
+    color:#a7a3a7;
+       font-size:40px;
+    }
+
+
+/*poup css*/
+
+.newpopup{
+background-color:#E6E9F2;
+position:absolute;
+min-height:320px;
+border: solid 2px #B9EAF0;
+width:850px;
+top:8%;
+left:20%;
+z-index: 1002;
+
+/*for rounded corner works with chrome and mozila*/
+-moz-border-radius: 15px;
+border-bottom-right-radius:10px;
+border-bottom-left-radius:10px;
+
+}
+
+.middleLayer {
+background-color:#111;
+opacity: 0.65;
+position:absolute;
+z-index: 1000; /*ooveeerrrr nine thoussaaaannnd*/
+top:0px;
+left:0px;
+width:100%;
+min-height:100%;
+overflow:auto;
+}
+
+.popupTitleBox{
+
+background-color:#0089BF;   
+height:30px; 
+text-valign:center;
+border: solid 1px #0089BF;
+padding-left:5px;
+
+}
+.popupTitleText
+{
+    color:White;
+    font-weight:bolder;
+                
+    }
+.closeimg
+{
+height:25px;
+width:25px;
+background-size:100% 100%;
+}
+.closeimg img
+{
+    position:relative;
+    bottom:10px;
+
+    }
+/*end poupcss*/
+

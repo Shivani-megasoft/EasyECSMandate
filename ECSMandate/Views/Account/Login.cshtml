@@ -1,0 +1,284 @@
+﻿@model EasyECS.Models.LoginModel
+@{
+    ViewBag.Title = "Login";
+    Layout = null;
+}
+<link href="~/Content/Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+@*<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>*@
+<script src="~/Scripts/jquery-1.8.0.min.js"></script>
+@*<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>*@
+<link href="@Url.Content("~/Content/Bootstrap/css/smartadmin-production.css")" rel="stylesheet" type="text/css" media="screen" />
+<link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" media="screen" />
+<script src="@Url.Content("~/Scripts/jquery-1.8.0.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery-ui.min.js")" type="text/javascript"></script>
+
+<!------ Include the above in your HEAD tag ---------->
+<style>
+    /*{
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        outline: none;
+    }*/
+
+    .form-control {
+        position: relative;
+        font-size: 16px;
+        height: auto;
+    }
+
+
+    /*{
+        z-index: 2;
+    }*/
+
+
+
+    body {
+        background: url('../../Content/Images/SecurityImg_1.jpg') no-repeat center center fixed;
+        /*background: url('../../Content/Images/GHr12sH.jpg') no-repeat center center fixed;*/
+        /*background: url(http://i.imgur.com/GHr12sH.jpg) no-repeat center center fixed;*/
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .login-form {
+        margin-top: 80px;
+    }
+
+    form[role=login] {
+        color: #5d5d5d;
+        /*background: #f2f2f2;*/
+        background-color: transparent;
+        padding: 12px;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+    }
+
+        form[role=login] img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 35px;
+        }
+
+        form[role=login] input,
+        form[role=login] button {
+            font-size: 18px;
+            margin: 16px 0;
+        }
+
+        form[role=login] > div {
+            text-align: center;
+        }
+
+    .form-links {
+        text-align: center;
+        margin-top: 1em;
+        margin-bottom: 50px;
+    }
+
+        .form-links a {
+            color: #fff;
+        }
+
+    #imag {
+        margin-left: 1%;
+        margin-top: 5%;
+    }
+</style>
+@*shyamal01012025*@
+<script src="~/Scripts/crypto.js"></script>
+
+@*<div class="container">*@
+
+<div class="row" id="pwd-container">
+    <div class="col-md-1"></div>
+
+    <div class="col-md-3">
+        <section class="login-form" style="outline:3px solid #a6cef8;">
+            @*<form method="post" action="#" role="login">
+                form method="post" action="#" role="login">*@
+            @*@using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "login" }))
+                {*@
+            @using (Html.BeginForm("Login", "Account", FormMethod.Post, new { @class = "form-horizontal", @id = "frmLogin", role = "login" }))
+            {
+                <h2 style="text-align:center;"><span><font style="color: white; font-family: Britannic Bold" size="4">@Session["BnkName"]</font></span></h2>
+                @*@ViewBag.Error*@
+                <h2 style="text-align:center; background-color:#709fb7ba"><b><font style="color: white; font-family: Britannic Bold"> Easy</font><font style="color: #3ee1f1; font-family: Britannic Bold">MMS </font></b></h2>
+                @*<img src="http://i.imgur.com/RcmcLv4.png" class="img-responsive" alt="" />*@
+
+                @*@Html.TextBoxFor(m => m.BrnCd, new { @class = "form-username form-control input-sm", @type = "text", @id = "txtBrnCd", @placeholder = "Branch Code", @autofocus = "autofocus", @autocomplete="off" })
+                    @Html.ValidationMessageFor(m => m.BrnCd, "", new { @class = "text-danger" })*@
+
+                @Html.TextBoxFor(m => m.LoginId, new { @class = "form-username form-control", @type = "text", @id = "txtLoginId", @placeholder = "Login Id", @autofocus = "autofocus", @autocomplete = "off" })
+                @Html.ValidationMessageFor(m => m.LoginId, "", new { @class = "text-danger" })
+
+                @*<input type="email" name="email" placeholder="UserName" required class="form-control input-lg"  />*@
+                //shyamal01012025
+                <input type="hidden" id="EncryptedPassword" name="EncryptedPassword" />
+                @Html.TextBoxFor(m => m.Pass, new { @class = "form-password form-control", @type = "password", @id = "txtpassword", @placeholder = "Password", @autocomplete = "off" })
+                @Html.ValidationMessageFor(m => m.Pass, "", new { @class = "text-danger" })
+
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <label class="label" style="color: white; margin-left: -60%; margin-bottom: 10px !important; font-size: 13px; font-style: initial;">Enter Captcha Code</label>
+                    </div>
+                    <div class="col-md-12">
+                        <img id="imag" src="@ViewBag.Base64String" border="0" />
+                        &nbsp;<a onclick="ReloadCaptchaCode();" style="cursor: pointer;"><img src="/Images/refresh.png" style="margin-left: 46%; margin-top: -23%; filter: invert(100%) brightness(200%);" /></a>
+                        @Html.TextBoxFor(m => m.Captcha, new { style = "margin-top: -18%; margin-left: 50%; width:142px; height:34px; color: black;font-style: italic; font-size: 20px;", @value = "" })
+                        <p style="font-weight:bold;color:red;">@ViewBag.CaptchaError</p>
+                        <span class="red"> @Html.ValidationMessageFor(m => m.Captcha)</span>
+                    </div>
+                </div>
+
+                <div class="pwstrength_viewport_progress"></div>
+
+                <button type="submit" class="btn btn-lg btn-primary btn-block" id="btnLogin">Sign in</button>
+                @*<div>
+                        <a href="~/Account/register">Create account</a> or <a href="#">reset password</a>
+                    </div>*@
+            }
+        </section>
+    </div>
+    <div class="col-md-4"></div>
+
+</div>
+@*</div>*@
+}
+
+@*<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>*@
+<script type="text/javascript">
+
+    //shyamal01012025
+    $("#txtpassword").on("change", function () {
+        debugger
+        // FailurePopup("asd");
+        debugger;
+        var key = CryptoJS.enc.Utf8.parse('8080808080808080');
+        var iv = CryptoJS.enc.Utf8.parse('8080808080808080');
+
+        var encryptedpassword = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse($(this).val()), key,
+            {
+                keySize: 128 / 8,
+                iv: iv,
+                mode: CryptoJS.mode.CBC,
+                padding: CryptoJS.pad.Pkcs7
+            });
+        $("#txtpassword").val(encryptedpassword);
+    });
+
+    $("#txtBrnCd").on("change", function () {
+        console.log("sdsfsdf");
+        $(this).val(pad($(this).val(), 4));
+
+    });
+
+    function pad(str, max) {
+        str = str.toString();
+        return str.length < max ? pad("0" + str, max) : str;
+
+    }
+
+    $("#btnLogin").click(function () {
+        window.location.href = '@Url.Action("LoginUser", "Account")';
+    });
+
+    $(function () {
+        $("input[type=password]").attr("autocomplete", "off");
+        $("form").attr("autocomplete", "off");
+        EnterKey();
+
+        $('input[type=password]').keypress(function (e) {
+            var s = String.fromCharCode(e.which);
+
+            if ((s.toUpperCase() === s && s.toLowerCase() !== s && !e.shiftKey) ||
+                  (s.toUpperCase() !== s && s.toLowerCase() === s && e.shiftKey)) {
+                if ($('#capsalert').length < 1) $(this).after('<b id="capsalert" class="error"></br>CapsLock is on!</b>');
+                // $("#error").html("CapsLock is on!");
+            } else {
+                if ($('#capsalert').length > 0) $('#capsalert').remove();
+                // $("#error").html("");
+            }
+        });
+    });
+
+</script>
+
+<script type="text/javascript">
+    window.addEventListener('popstate', function (e) {
+        //console.log(e.state.url);
+        if (null != e.state && null != e.state.url) {
+            var url = e.state.url.replace(/^.*\/\/[^\/]+\//, '');
+            //console.log(url);
+            var n = url.lastIndexOf("/");
+            url = url.substr(n + 1);
+            //console.log(url);
+            $(".data-entry").enter2tab();
+            eval(url + '.Initialize()');
+        }
+    });
+
+    function ReloadCaptchaCode() {
+
+        var url = "/Account/ReloadCaptcha/";
+        //  $('#divCaptcha').html("Loading Captcha....");
+        $.ajax({
+            type: "POST",
+            url: url,
+            dataType: "json",
+            success: function (data) {
+                $("#imag").attr('src', data.Item);
+                $('#Captcha').val("");
+            },
+            error: function (reponse) {
+                FailurePopup("There was an error while generating captcha. Please refresh the page and try again..!");
+            }
+
+        });
+    }
+
+
+    //for key press Enter
+    $(function () {
+        EnterKey();
+    });
+
+    function EnterKey() {
+        $("input,select,textarea,password").keydown(function (event) {
+            if (event.keyCode == 13) {
+                textboxes = $("input,select,textarea,password");
+                currentBoxNumber = textboxes.index(this);
+                if (textboxes[currentBoxNumber + 1] != null) {
+                    if (textboxes[currentBoxNumber + 1].disabled) {
+                        nextBox = textboxes[currentBoxNumber + 2];
+                    }
+                    else {
+                        nextBox = textboxes[currentBoxNumber + 1];
+                    }
+                    nextBox.focus();
+                    nextBox.select();
+                    event.preventDefault();
+                    return true;
+                }
+
+                else if ($("#txtBrnCd").val().length == 0) {
+                    $("#txtBrnCd").focus(); return false;
+                }
+                else if ($("#txtLoginId").val().length == 0) {
+                    $("#txtLoginId").focus(); return false;
+                }
+                else if ($("#txtpassword").val().length == 0) {
+                    $("#txtpassword").focus(); return false;
+                }
+                else {
+                    return true;
+                }
+
+            }
+        });
+    }
+</script>

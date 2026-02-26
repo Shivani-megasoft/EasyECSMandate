@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.009.001.01">
+	<MndtInitnReq>
+		<GrpHdr>
+			<MsgId>HDFC00000106114426</MsgId>
+			<CreDtTm>2018-10-11T00:00:00+05:30</CreDtTm>
+			<InstgAgt>
+				<FinInstnId>
+					<ClrSysMmbId>
+						<MmbId>HDFC0000060</MmbId>
+					</ClrSysMmbId>
+				</FinInstnId>
+			</InstgAgt>
+			<InstdAgt>
+				<FinInstnId>
+					<ClrSysMmbId>
+						<MmbId>TDCB0000015</MmbId>
+					</ClrSysMmbId>
+				</FinInstnId>
+			</InstdAgt>
+		</GrpHdr>
+		<Mndt>
+			<MndtId>TDCB0000000000097498</MndtId>
+			<MndtReqId>HDFC00000106114426</MndtReqId>
+			<Tp>
+				<SvcLvl>
+					<Prtry>L001</Prtry>
+				</SvcLvl>
+				<LclInstrm>
+					<Prtry>DEBIT</Prtry>
+				</LclInstrm>
+			</Tp>
+			<Ocrncs>
+				<SeqTp>RCUR</SeqTp>
+				<Frqcy>MNTH</Frqcy>
+				<FrstColltnDt>2018-10-15</FrstColltnDt>
+			</Ocrncs>
+			<MaxAmt Ccy="INR">35550.00</MaxAmt>
+			<Cdtr>
+				<Nm>HDB FINANCIAL SERVICES LTD</Nm>
+			</Cdtr>
+			<CdtrAcct>
+				<Id>
+					<Othr>
+						<Id>HDFC00915000009916</Id>
+					</Othr>
+				</Id>
+			</CdtrAcct>
+			<CdtrAgt>
+				<FinInstnId>
+					<ClrSysMmbId>
+						<MmbId>HDFC0000060</MmbId>
+					</ClrSysMmbId>
+				</FinInstnId>
+			</CdtrAgt>
+			<Dbtr>
+				<Nm>PAWAR SHASHIKALA MANIK</Nm>
+				<Id>
+					<PrvtId>
+						<Othr>
+							<Id>5374577</Id>
+						</Othr>
+					</PrvtId>
+				</Id>
+				<CtctDtls>
+					
+					
+					
+					
+				</CtctDtls>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>001500300012358</Id>
+					</Othr>
+				</Id>
+				<Tp>
+					<Prtry>SAVINGS</Prtry>
+				</Tp>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<ClrSysMmbId>
+						<MmbId>TDCB0000015</MmbId>
+					</ClrSysMmbId>
+				</FinInstnId>
+			</DbtrAgt>
+		</Mndt>
+	</MndtInitnReq>
+</Document>
