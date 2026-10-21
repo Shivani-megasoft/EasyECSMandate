@@ -512,8 +512,8 @@
     <CommandText>uspUpdateMandateInstruction</CommandText>
     <CommandType>StoredProcedure</CommandType>
   </Query>
-
     <Query Id="GetAllMandteResponse">
+	<CommandText>uspGetAllMandteResponse</CommandText>
     <CommandType>StoredProcedure</CommandType>
   </Query>
   <Query Id="InsertECSMandateHistory">

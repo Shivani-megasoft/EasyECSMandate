@@ -7,8 +7,8 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApDi6qngU6UWA1Cs6REuO2gAAAAACAAAAAAAQZgAAAAEAACAAAAAJP2rOtIjLr0QKi/sgODO3yGY5eTQC5B6ZfbWLExPq5wAAAAAOgAAAAAIAACAAAAAgRXfyy2joRIwQBeUlJ6SyaPeitakunn0biwU06kJ/gIAAAAD2Ebc6sbNB8baVB7jgQNh/wQYKfA/qcFyL0TfrhrlyJBDpACjfRPFeydPpmzLkIgWFNFV+/6U1AJPTeB6DhVL6os3JONEOxcIFdfVqzRC3FvHSk5reBrVV1Ow4HozcVIL434VRroOZjwfLtljQcvIpf3zq8xoMsSlE9GbgcbzaPUAAAACY/uQ8B4uJpVOdYtZhFU3LOs++CMm25jYGHIztn2ipXpwXSbs38DpUSuuYeZrqEme8/YZDJ8TjTaGB/5FIN9Rv</EncryptedPassword>
-    <_PublishTargetUrl>D:\NewDDrive\ECSMANDATE_2025\ECSMandateRelease\ECSMandate31Jan2026Release</_PublishTargetUrl>
-    <History>True|2026-01-31T07:00:40.4571205Z;True|2025-02-06T12:18:09.3115299+05:30;True|2025-01-02T15:59:35.3715460+05:30;True|2024-09-27T10:08:33.7194253+05:30;False|2024-09-26T18:30:11.9752458+05:30;False|2024-09-26T18:27:51.3397681+05:30;False|2024-09-26T18:26:26.2123984+05:30;True|2024-09-19T15:24:33.3389010+05:30;True|2024-09-19T13:13:30.7138081+05:30;True|2024-09-18T17:24:35.0415748+05:30;True|2024-08-16T15:00:21.8292160+05:30;True|2024-08-09T15:10:54.9929888+05:30;True|2024-07-04T17:07:14.4651697+05:30;True|2024-07-02T17:53:56.0755876+05:30;True|2024-06-15T11:40:44.7865127+05:30;True|2024-05-03T15:04:23.0167007+05:30;True|2024-04-05T10:39:20.3404788+05:30;True|2024-03-15T17:12:35.3985518+05:30;False|2023-02-27T14:41:22.5974695+05:30;True|2022-12-16T16:10:38.0907804+05:30;True|2022-12-02T18:50:14.3610828+05:30;True|2022-12-02T18:24:52.2027020+05:30;True|2022-12-01T15:44:04.6420987+05:30;True|2022-11-21T19:02:22.7327442+05:30;True|2022-11-16T19:17:06.3607880+05:30;True|2022-11-15T15:25:27.0025250+05:30;True|2022-11-05T16:20:04.9041238+05:30;True|2022-10-31T11:27:11.7302379+05:30;True|2022-10-21T15:42:31.4923221+05:30;True|2022-10-20T17:51:53.0204784+05:30;False|2022-07-07T17:14:42.7720348+05:30;</History>
+    <_PublishTargetUrl>D:\NewDDrive\ECSMANDATE_2026\ECSMandateRelease\ECSMandate24Aug2026Release</_PublishTargetUrl>
+    <History>True|2026-08-24T12:20:58.1431071Z;True|2026-04-22T14:54:24.1818237+05:30;True|2026-04-18T10:55:31.0805666+05:30;True|2026-04-16T16:32:05.9193770+05:30;True|2026-03-06T17:41:31.0545935+05:30;True|2026-01-31T12:30:40.4571205+05:30;True|2025-02-06T12:18:09.3115299+05:30;True|2025-01-02T15:59:35.3715460+05:30;True|2024-09-27T10:08:33.7194253+05:30;False|2024-09-26T18:30:11.9752458+05:30;False|2024-09-26T18:27:51.3397681+05:30;False|2024-09-26T18:26:26.2123984+05:30;True|2024-09-19T15:24:33.3389010+05:30;True|2024-09-19T13:13:30.7138081+05:30;True|2024-09-18T17:24:35.0415748+05:30;True|2024-08-16T15:00:21.8292160+05:30;True|2024-08-09T15:10:54.9929888+05:30;True|2024-07-04T17:07:14.4651697+05:30;True|2024-07-02T17:53:56.0755876+05:30;True|2024-06-15T11:40:44.7865127+05:30;True|2024-05-03T15:04:23.0167007+05:30;True|2024-04-05T10:39:20.3404788+05:30;True|2024-03-15T17:12:35.3985518+05:30;False|2023-02-27T14:41:22.5974695+05:30;True|2022-12-16T16:10:38.0907804+05:30;True|2022-12-02T18:50:14.3610828+05:30;True|2022-12-02T18:24:52.2027020+05:30;True|2022-12-01T15:44:04.6420987+05:30;True|2022-11-21T19:02:22.7327442+05:30;True|2022-11-16T19:17:06.3607880+05:30;True|2022-11-15T15:25:27.0025250+05:30;True|2022-11-05T16:20:04.9041238+05:30;True|2022-10-31T11:27:11.7302379+05:30;True|2022-10-21T15:42:31.4923221+05:30;True|2022-10-20T17:51:53.0204784+05:30;False|2022-07-07T17:14:42.7720348+05:30;</History>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Antlr3.Runtime.dll">
@@ -72,10 +72,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/27/2021 16:08:38</publishTime>
     </File>
     <File Include="bin/EasyBank.DataLayer.DataObjects.dll">
-      <publishTime>05/06/2025 11:53:19</publishTime>
+      <publishTime>11/28/2025 14:56:46</publishTime>
     </File>
     <File Include="bin/EasyBank.DataLayer.DataObjects.pdb">
-      <publishTime>05/06/2025 11:53:19</publishTime>
+      <publishTime>11/28/2025 14:56:46</publishTime>
     </File>
     <File Include="bin/EasyBank.Framework.EasyAttributes.dll">
       <publishTime>01/02/2023 13:33:50</publishTime>
@@ -132,16 +132,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/10/2023 16:52:50</publishTime>
     </File>
     <File Include="bin/ECSMandate.dll">
-      <publishTime>01/31/2026 12:30:29</publishTime>
+      <publishTime>08/24/2026 17:50:51</publishTime>
     </File>
     <File Include="bin/ECSMandate.pdb">
-      <publishTime>01/31/2026 12:30:29</publishTime>
+      <publishTime>08/24/2026 17:50:51</publishTime>
     </File>
     <File Include="bin/ECSService.dll">
-      <publishTime>01/31/2026 12:30:24</publishTime>
+      <publishTime>08/24/2026 17:50:45</publishTime>
     </File>
     <File Include="bin/ECSService.pdb">
-      <publishTime>01/31/2026 12:30:24</publishTime>
+      <publishTime>08/24/2026 17:50:45</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>07/01/2019 14:47:20</publishTime>
@@ -1062,7 +1062,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/04/2019 11:45:26</publishTime>
     </File>
     <File Include="Queries/SqlQuery.xml">
-      <publishTime>06/20/2025 10:45:26</publishTime>
+      <publishTime>04/22/2026 12:18:38</publishTime>
     </File>
     <File Include="Scripts/angularjs/angular.min.js">
       <publishTime>07/15/2019 13:32:52</publishTime>
@@ -1748,6 +1748,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/CheckReturnMandate/_returnList.cshtml">
       <publishTime>12/06/2022 14:42:08</publishTime>
     </File>
+    <File Include="Views/Error/NotFound.cshtml">
+      <publishTime>08/24/2026 12:58:43</publishTime>
+    </File>
     <File Include="Views/FileSummary/Index.cshtml">
       <publishTime>06/14/2024 18:23:08</publishTime>
     </File>
@@ -1821,7 +1824,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/01/2019 14:47:20</publishTime>
     </File>
     <File Include="Views/UploadCancelMandate/Index.cshtml">
-      <publishTime>06/18/2024 17:51:16</publishTime>
+      <publishTime>03/06/2026 17:24:30</publishTime>
     </File>
     <File Include="Views/UploadCancelMandate/_ECSCancelMandateList.cshtml">
       <publishTime>11/24/2023 15:29:04</publishTime>
@@ -1842,7 +1845,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/01/2019 14:47:12</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>01/31/2026 12:30:30</publishTime>
+      <publishTime>08/24/2026 17:50:52</publishTime>
     </File>
   </ItemGroup>
 </Project>

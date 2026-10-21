@@ -308,6 +308,7 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ACHFilePostingController.cs" />
     <Compile Include="Controllers\ACHAutoInputFileController.cs" />
@@ -888,6 +889,7 @@
     <Content Include="Views\AmendMandate\Index.cshtml" />
     <Content Include="Views\RejectMandate\Index.cshtml" />
     <Content Include="Views\RejectMandate\_ECSRejectList.cshtml" />
+    <Content Include="Views\Error\NotFound.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
